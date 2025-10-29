@@ -1,1842 +1,386 @@
-<div data-animation="over-right" class="navbar w-nav" data-easing2="ease" fs-scrolldisable-element="smart-nav" data-easing="ease" data-collapse="medium" data-w-id="1171fcbf-5149-a415-23f1-5c51ac0603f4" role="banner" data-no-scroll="1" data-duration="400">
-          <div class="menugrid">
-            <div class="navigation-bar">
-              <div class="navigation-split">
-                <div class="navigation-side align-left">
-                  <nav role="navigation" class="nav-menu-beyond w-nav-menu">
-                    <div data-delay="0" data-hover="false" data-w-id="1171fcbf-5149-a415-23f1-5c51ac060418" class="navigation-dropdown is-static w-dropdown">
-                      <div class="navigation-toggle w-dropdown-toggle">
-                        <div href="#" class="nav-link-4">
-                          <div class="nav-text-wrap-2">
-                            <div class="link-text-2">Sectors<br></div>
-                            <div class="link-text-hov-2">Sectors</div>
-                          </div>
-                        </div>
-                        <div bind="e9b2fdd6-cf18-4a0d-7901-56eee20a515a" class="dropdown-icon-2 w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M7.5 10.5L12 15L16.5 10.5" stroke="currentColor" stroke-width="1.5"></path>
-                          </svg></div>
-                      </div>
-                      <nav class="dropdown-list-wide-2 w-dropdown-list">
-                        <div class="dropdowncard">
-                          <section class="promo-section">
-                            <div li-content-for-blocks="" class="promo-container">
-{% for block in section.blocks %}
-{% case block.type %}
-{% when '@app' %}
-{% render block %}
-
-                              {% when 'sector-menu-card' %}
-            <div li-block="Sector - Menu Card" class="promo-wrapper">
-                    
-                                
-                    <a href="{{ block.settings.url_link }}" class="promo-wrapper w-inline-block"> <div href="#" class="link-block"> <div class="text-color-white-2 text-align-center z-index-2">{{ block.settings.text_text }}</div> <div class="promo-overlay z-index-1"></div>{% if block.settings.image_image %} {{ block.settings.image_image | image_url: width: 1000 | image_tag: class: 'promo-image-wrapper', sizes: '100vw', loading: 'lazy' }} {% else %} <img class="promo-image-wrapper" src="{{ 'aviation.webp' | asset_url }}" alt="" sizes="100vw" loading="lazy" srcset="{{ 'aviation-p-500.webp' | asset_url }} 500w, {{ 'aviation-p-800.webp' | asset_url }} 800w, {{ 'aviation-p-1080.webp' | asset_url }} 1080w, {{ 'aviation.webp' | asset_url }} 1520w"> {% endif %} </div> </a>
-                    
-                              
-                </div>
-                            {% endcase %}
-{% endfor %}
-
-    </div>
-                          </section>
-                        </div>
-                      </nav>
-                    </div>
-                    <div data-delay="0" data-hover="false" bind="c06ae72a-7862-cb4d-7791-0e83716c2bee" data-w-id="1171fcbf-5149-a415-23f1-5c51ac060435" class="navigation-dropdown is-static w-dropdown">
-                      <div class="navigation-toggle w-dropdown-toggle">
-                        <div href="#" class="nav-link-4">
-                          <div class="nav-text-wrap-2">
-                            <div class="link-text-2">About</div>
-                            <div class="link-text-hov-2">About</div>
-                          </div>
-                        </div>
-                        <div bind="c06ae72a-7862-cb4d-7791-0e83716c2bf8" class="dropdown-icon-2 w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M7.5 10.5L12 15L16.5 10.5" stroke="currentColor" stroke-width="1.5"></path>
-                          </svg></div>
-                      </div>
-                      <nav class="dropdown-list-wide-2 w-dropdown-list">
-                        <div class="dropdowncard">
-                          <div class="w-layout-grid nav-menu-card">
-                            <div id="w-node-_1171fcbf-5149-a415-23f1-5c51ac060441-d5a86df8" class="nav-menu-image">
-                              <a href="#" class="places-card w-inline-block">
-                                <div class="places-card_image-wrap"><img sizes="100vw" srcset="{{ 'muirhead_our_story_low_carbon_04-p-500.webp' | asset_url }} 500w, {{ 'muirhead_our_story_low_carbon_04-p-800.webp' | asset_url }} 800w, {{ 'muirhead_our_story_low_carbon_04-p-1080.webp' | asset_url }} 1080w, {{ 'muirhead_our_story_low_carbon_04.webp' | asset_url }} 1084w" alt="" loading="lazy" src="{{ 'muirhead_our_story_low_carbon_04.webp' | asset_url }}" class="image-56"></div>
-                                <div class="places-card_image-overlay"></div>
-                                <div class="places-card_content">
-                                  <h3 class="places-card_heading-text">Low Carbon Leather</h3>
-                                  <div class="places-card_desc-wrap">
-                                    <p class="places-card_desc-text">We make the lowest carbon<br>leather in the world.</p>
-                                  </div>
-                                </div>
-                              </a>
-                            </div>
-                            <div class="div-block-517">
-                              <div class="nav-links-featured">
-                                <a href="#" class="nav-link-featured w-inline-block">
-                                  <div data-delay="0" data-hover="true" class="nav-dropdown-link w-dropdown">
-                                    <div class="nav-dropdown-trigger w-dropdown-toggle">
-                                      <div class="h6-heading text-weight-medium">Our Heritage</div>
-                                      <div class="nav-dropdown-icon">
-                                        <div class="icon-small-4 w-embed"><svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M13.4764 9.16658L9.00637 4.69657L10.1849 3.51807L16.6667 9.99992L10.1849 16.4817L9.00637 15.3032L13.4764 10.8332H3.33337V9.16658H13.4764Z" fill="#48816B"></path>
-                                          </svg></div>
-                                      </div>
-                                    </div>
-                                    <nav class="nav-dropdown-list w-dropdown-list">
-                                      <div class="nav-dropdown-content">
-                                        <div class="paragraph-small-5 text-color-tertiary">Fine Scottish Leather since 1840</div>
-                                      </div>
-                                    </nav>
-                                  </div>
-                                </a>
-                                <a href="#" class="nav-link-featured w-inline-block">
-                                  <div data-delay="0" data-hover="true" class="nav-dropdown-link w-dropdown">
-                                    <div class="nav-dropdown-trigger w-dropdown-toggle">
-                                      <div class="h6-heading text-weight-medium">Our Future</div>
-                                      <div class="nav-dropdown-icon">
-                                        <div class="icon-small-4 w-embed"><svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M13.4764 9.16658L9.00637 4.69657L10.1849 3.51807L16.6667 9.99992L10.1849 16.4817L9.00637 15.3032L13.4764 10.8332H3.33337V9.16658H13.4764Z" fill="#48816B"></path>
-                                          </svg></div>
-                                      </div>
-                                    </div>
-                                    <nav class="nav-dropdown-list w-dropdown-list">
-                                      <div class="nav-dropdown-content">
-                                        <div class="paragraph-small-5 text-color-tertiary">Driving cutting-edge solutions</div>
-                                      </div>
-                                    </nav>
-                                  </div>
-                                </a>
-                                <a href="#" class="nav-link-featured w-inline-block">
-                                  <div data-delay="0" data-hover="true" class="nav-dropdown-link w-dropdown">
-                                    <div class="nav-dropdown-trigger w-dropdown-toggle">
-                                      <div class="h6-heading text-weight-medium">Journal</div>
-                                      <div class="nav-dropdown-icon">
-                                        <div class="icon-small-4 w-embed"><svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M13.4764 9.16658L9.00637 4.69657L10.1849 3.51807L16.6667 9.99992L10.1849 16.4817L9.00637 15.3032L13.4764 10.8332H3.33337V9.16658H13.4764Z" fill="#48816B"></path>
-                                          </svg></div>
-                                      </div>
-                                    </div>
-                                    <nav class="nav-dropdown-list w-dropdown-list">
-                                      <div class="nav-dropdown-content">
-                                        <div class="paragraph-small-5 text-color-tertiary">Exciting news from the leather industry</div>
-                                      </div>
-                                    </nav>
-                                  </div>
-                                </a>
-                              </div>
-                              <a href="#" class="slg-logo-menu w-inline-block"><img loading="lazy" src="{{ 'slg-logo.svg' | asset_url }}" alt=""></a>
-                            </div>
-                            <div id="w-node-_1171fcbf-5149-a415-23f1-5c51ac060473-d5a86df8" class="nav-menu-block">
-                              <div class="w-layout-grid nav-menu-links">
-                                <div class="column-x-small-2">
-                                  <div class="subheading-large dark">Our Expertise</div>
-                                  <a href="#" class="nav-text-link">Complete Control</a>
-                                  <a href="#" class="nav-text-link">Local Sourcing</a>
-                                  <a href="#" class="nav-text-link">Modern Tanning</a>
-                                  <a href="#" class="nav-text-link">Seat Cover Service</a>
-                                  <a href="#" class="nav-text-link">Product Design</a>
-                                  <a href="#" class="nav-text-link">Performance Testing</a>
-                                </div>
-                              </div>
-                              <div class="column-2x-small column-left">
-                                <a href="#" bind="14f24e57-65b0-d756-3869-f8d259cb601e" sym-bind="{"link":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"abd48bfb-d708-6bdf-d8a5-842d29e77fd1"}}}" class="menu-button white-28 link-dark-60 w-inline-block">
-                                  <div class="icon-link-3 link-dark-61">
-                                    <div class="clip-2 white-10 link-dark-83">
-                                      <div class="hover-text white-31 link-dark-48">
-                                        <div sym-bind="{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"37cd13bf-30f2-b752-cae8-a49c792c8044"}}}" class="text-size-small-9 white-34 link-dark-66">Order Samples</div>
-                                      </div>
-                                      <div class="hover-text white-31 link-dark-48 bottom white-20 link-dark-65">
-                                        <div sym-bind="{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"37cd13bf-30f2-b752-cae8-a49c792c8044"}}}" class="text-size-small-9 white-34 link-dark-66">Order Samples</div>
-                                      </div>
-                                    </div>
-                                    <div sym-bind="{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"96595133-de64-782c-bc2b-1a27b5d57cf2"}}}}}" class="icon-link_circle-2 white-22 link-dark-52">
-                                      <div class="clip-2 white-10 link-dark-83">
-                                        <div class="hover-arrow-3 link-dark-39"><img sym-bind="{"img":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"65b07040-501f-bf3a-2cb4-717461e9b2dd"}}}" src="" alt="" loading="lazy" class="icon-1x1-small-7 white-12 link-dark-44"></div>
-                                        <div class="hover-arrow-3 link-dark-39 left-arrow link-dark-42"><img sym-bind="{"img":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"65b07040-501f-bf3a-2cb4-717461e9b2dd"}}}" loading="lazy" alt="" src="https://cdn.prod.website-files.com/68e2301d72211f0b080d09d7/68e2301d72211f0b080d0b80_arrow-right-long-line.svg" class="icon-1x1-small-7 white-12 link-dark-44"></div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </a>
-                                <div class="_0-5rem-spacer"></div>
-                                <a href="#" class="nav-text-link-small">sales@muirhead.co.uk</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </nav>
-                    </div>
-                    <div class="div-block-503">
-                      <div data-delay="0" data-hover="false" bind="e9b2fdd6-cf18-4a0d-7901-56eee20a51ec" data-w-id="1171fcbf-5149-a415-23f1-5c51ac06049a" class="navigation-dropdown centre w-dropdown">
-                        <div class="navigation-toggle w-dropdown-toggle">
-                          <div href="#" class="nav-link-4">
-                            <div class="nav-text-wrap-2">
-                              <div class="link-text-2">Products<br></div>
-                              <div class="link-text-hov-2">Products</div>
-                            </div>
-                          </div>
-                          <div bind="e9b2fdd6-cf18-4a0d-7901-56eee20a51f5" class="dropdown-icon-2 w-embed"><svg viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M7.5 10.5L12 15L16.5 10.5" stroke="currentColor" stroke-width="1.5"></path>
-                            </svg></div>
-                        </div>
-                        <nav class="list-grove w-dropdown-list">
-                          <div class="div-block-502">
-                            <div class="w-layout-grid nav-2-menu-card">
-                              <div class="nav-2-menu-links">
-                                <div class="column-x-small-2">
-                                  <a href="#" class="footer-link-2 dark-138 w-inline-block">
-                                    <div>Our Innovations</div>
-                                    <div class="icon-small-3 dark-151 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 20 20" fill="none">
-                                        <path d="M10.9761 10.0006L6.85132 5.87577L8.02983 4.69727L13.3332 10.0006L8.02983 15.3038L6.85132 14.1253L10.9761 10.0006Z" fill="currentColor"></path>
-                                      </svg></div>
-                                  </a>
-                                  <a href="#" class="footer-link-2 dark-138 w-inline-block">
-                                    <div>BioPro® Foam</div>
-                                    <div class="icon-small-3 dark-151 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 20 20" fill="none">
-                                        <path d="M10.9761 10.0006L6.85132 5.87577L8.02983 4.69727L13.3332 10.0006L8.02983 15.3038L6.85132 14.1253L10.9761 10.0006Z" fill="currentColor"></path>
-                                      </svg></div>
-                                  </a>
-                                  <a href="#" class="footer-link-2 dark-138 w-inline-block">
-                                    <div>Custom Products</div>
-                                    <div class="icon-small-3 dark-151 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 20 20" fill="none">
-                                        <path d="M10.9761 10.0006L6.85132 5.87577L8.02983 4.69727L13.3332 10.0006L8.02983 15.3038L6.85132 14.1253L10.9761 10.0006Z" fill="currentColor"></path>
-                                      </svg></div>
-                                  </a>
-                                  <a href="#" class="footer-link-2 dark-138 w-inline-block">
-                                    <div>Leather Care</div>
-                                    <div class="icon-small-3 dark-151 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 20 20" fill="none">
-                                        <path d="M10.9761 10.0006L6.85132 5.87577L8.02983 4.69727L13.3332 10.0006L8.02983 15.3038L6.85132 14.1253L10.9761 10.0006Z" fill="currentColor"></path>
-                                      </svg></div>
-                                  </a>
-                                </div>
-                                <a href="{{ section.settings.url_button_link }}" data-wf--button-main--variant="dark" data-w-id="62fe5b66-eb79-581e-644e-970322077823" class="button-main w-variant-40d42f51-beaf-80a4-8697-83623596810b w-inline-block"> <div class="icon-link-3"> <div class="clip-2 white-10"> <div class="hover-text white-31"> <div class="text-size-small-11 white-34">{{ section.settings.text_button_text }}</div> </div> <div class="hover-text white-31 bottom white-20"> <div class="text-size-small-11 white-34">{{ section.settings.text_button_text }}</div> </div> </div> <div sym-bind="{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"96595133-de64-782c-bc2b-1a27b5d57cf2"}}}}}" class="icon-link_circle-2 white-22"> <div class="clip-2 white-10"> <div class="hover-arrow-3"><img sym-bind="{"img":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"65b07040-501f-bf3a-2cb4-717461e9b2dd"}}}" src="{{ 'arrow-right-long-line_1.svg' | asset_url }}" alt="" loading="lazy" class="icon-1x1-small-7 white-12"></div> <div class="hover-arrow-3 left-arrow"><img sym-bind="{"img":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"65b07040-501f-bf3a-2cb4-717461e9b2dd"}}}" loading="lazy" alt="" src="{{ 'arrow-right-long-line_1.svg' | asset_url }}" class="icon-1x1-small-7 white-12"></div> </div> </div> </div> </a>
-                              </div>
-                              <a href="#" class="places-card xs-9 w-inline-block">
-                                <div class="places-card_image-wrap xs-10"><img sizes="100vw" srcset="{{ 'interiors-and-luxury-p-500.webp' | asset_url }} 500w, {{ 'interiors-and-luxury-p-800.webp' | asset_url }} 800w, {{ 'interiors-and-luxury-p-1080.webp' | asset_url }} 1080w, {{ 'interiors-and-luxury.webp' | asset_url }} 1520w" alt="" loading="lazy" src="{{ 'interiors-and-luxury.webp' | asset_url }}" class="image-56 xs-11"></div>
-                                <div class="places-card_image-overlay xs-4"></div>
-                                <div class="places-card_content xs-13">
-                                  <h3 class="places-card_heading-text xs-14">Why Leather?</h3>
-                                  <div class="places-card_desc-wrap xs-7">
-                                    <p class="places-card_desc-text xs-8">Leather means luxury</p>
-                                  </div>
-                                </div>
-                              </a>
-                            </div>
-                          </div>
-                        </nav>
+<div data-collapse="medium" data-animation="over-right" data-duration="400" data-easing="ease" data-easing2="ease" data-no-scroll="1" role="banner" class="navbar w-nav">
+          <div class="navigation-wrap">
+            <div class="navigation-side align-left">
+              <nav role="navigation" class="nav-menu-beyond-2 w-nav-menu">
+                <div data-delay="0" data-hover="true" bind="e9b2fdd6-cf18-4a0d-7901-56eee20a5151" data-w-id="d154b648-44c2-f1da-0c23-bc03a74c940e" class="navigation-dropdown-2 is-static w-dropdown">
+                  <div class="navigation-toggle w-dropdown-toggle">
+                    <div href="#" class="nav-link-4">
+                      <div class="nav-text-wrap-2">
+                        <div class="link-text-2">Courses<br></div>
+                        <div class="link-text-hov-2">Courses</div>
                       </div>
                     </div>
-                    <div class="div-block-503">
-                      <div data-delay="0" data-hover="false" bind="e9b2fdd6-cf18-4a0d-7901-56eee20a51ec" data-w-id="1171fcbf-5149-a415-23f1-5c51ac0604d5" class="navigation-dropdown centre w-dropdown">
-                        <div class="navigation-toggle w-dropdown-toggle">
-                          <div href="#" class="nav-link-4">
-                            <div class="nav-text-wrap-2">
-                              <div class="link-text-2">Sustainability<br></div>
-                              <div class="link-text-hov-2">Sustainability</div>
-                            </div>
-                          </div>
-                          <div bind="e9b2fdd6-cf18-4a0d-7901-56eee20a51f5" class="dropdown-icon-2 w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M7.5 10.5L12 15L16.5 10.5" stroke="currentColor" stroke-width="1.5"></path>
-                            </svg></div>
-                        </div>
-                        <nav class="list-grove w-dropdown-list">
-                          <div class="div-block-502">
-                            <div class="list-wrap-grove">
-                              <div class="content-grove">
-                                {% for link in linklists['sustainability'].links %}    <div li-for="link in linklists['sustainability'].links" class="div-block-508">
-                                    
-                                  
-                            <a li-object:href="link.url" href="{{ link.url }}" class="navigation-feature-link w-inline-block">
-                                    <div class="column">
-                                      <div li-object="link.title" class="subheading-small-2">{{ link.title }}</div>
-                                    </div>
-                                  </a>
-                            
-                                
-                        </div>
-{% endfor %}
+                    <div bind="e9b2fdd6-cf18-4a0d-7901-56eee20a515a" class="dropdown-icon-2 w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.5 10.5L12 15L16.5 10.5" stroke="currentColor" stroke-width="1.5"></path>
+                      </svg></div>
+                  </div>
+                  <nav class="dropdown-list-wide-2 w-dropdown-list">
+                    <div class="dropdowncard-2">
+                      <section class="promo-section">
+                        <div class="promo-container-2">
+                          <a href="#" class="card-rollover w-inline-block">
+                            <div class="places-card_image-wrap"><img sizes="100vw" srcset="{{ 'lashnation.au_1758169646_3724119376317747766_13575537128_1lashnation.au_1758169646_3724119376317747766_13575537128.avif' | asset_url }} 500w, {{ 'lashnation.au_1758169646_3724119376317747766_13575537128_1lashnation.au_1758169646_3724119376317747766_13575537128.avif' | asset_url }} 800w, {{ 'lashnation.au_1758169646_3724119376317747766_13575537128_1lashnation.au_1758169646_3724119376317747766_13575537128.avif' | asset_url }} 1440w" alt="" loading="lazy" src="{{ 'lashnation.au_1758169646_3724119376317747766_13575537128_1lashnation.au_1758169646_3724119376317747766_13575537128.avif' | asset_url }}" class="image-56"></div>
+                            <div class="places-card_image-overlay-2"></div>
+                            <div class="places-card_content">
+                              <div class="places-card_heading-text-2">Group Courses</div>
+                              <div class="places-card_desc-wrap">
+                                <p class="places-card_desc-text">Hands-On Training with Live Models in a Supportive Group Setting.</p>
                               </div>
                             </div>
-                          </div>
-                        </nav>
-                      </div>
+                          </a>
+                          <a href="#" class="card-rollover w-inline-block">
+                            <div class="places-card_image-wrap"><img sizes="100vw" srcset="{{ 'Private-Lash-Course_1Private-Lash-Course.avif' | asset_url }} 500w, {{ 'Private-Lash-Course_1Private-Lash-Course.avif' | asset_url }} 1080w" alt="" loading="lazy" src="{{ 'Private-Lash-Course_1Private-Lash-Course.avif' | asset_url }}" class="image-56"></div>
+                            <div class="places-card_image-overlay-2"></div>
+                            <div class="places-card_content">
+                              <div class="places-card_heading-text-2">Private Courses</div>
+                              <div class="places-card_desc-wrap">
+                                <p class="places-card_desc-text">Hands on training with live models in a one-on-one setting</p>
+                              </div>
+                            </div>
+                          </a>
+                          <a href="#" class="card-rollover w-inline-block">
+                            <div class="places-card_image-wrap"><img sizes="100vw" srcset="{{ 'Group-Lash-Course_1Group-Lash-Course.avif' | asset_url }} 500w, {{ 'Group-Lash-Course_1Group-Lash-Course.avif' | asset_url }} 1080w" alt="" loading="lazy" src="{{ 'Group-Lash-Course_1Group-Lash-Course.avif' | asset_url }}" class="image-56"></div>
+                            <div class="places-card_image-overlay-2"></div>
+                            <div class="places-card_content">
+                              <div class="places-card_heading-text-2">Online Courses</div>
+                              <div class="places-card_desc-wrap">
+                                <p class="places-card_desc-text">Learn anytime, anywhere — with full support.</p>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </section>
                     </div>
                   </nav>
                 </div>
-                <div class="navigation-side left show-tablet">
-                  <a href="tel:1300599402" class="m-navigation-button-wrapper red is-phone w-inline-block">
-                    <div bind="e9b2fdd6-cf18-4a0d-7901-56eee20a5224" class="icon-1x1-medium-2 w-embed"><svg width="25" height="25" viewbox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g id="mage:phone">
-                          <path id="Vector" d="M13.235 20.5051C12.9233 20.3666 12.6165 20.2175 12.315 20.0581C10.813 19.2091 9.43366 18.1595 8.215 16.9381C6.6331 15.4491 5.33381 13.686 4.38 11.7341C3.86976 10.6852 3.52501 9.56357 3.358 8.40913C3.13153 7.24314 3.26043 6.03601 3.728 4.94413C4.017 4.47413 4.365 4.04413 4.763 3.66513C4.9245 3.48397 5.12097 3.33734 5.34059 3.23406C5.56022 3.13078 5.79846 3.07298 6.041 3.06413C6.546 3.14013 7.003 3.40413 7.319 3.80613C8.009 4.57313 8.749 5.26313 9.478 5.99213C9.765 6.23813 9.944 6.58713 9.976 6.96413C9.964 7.28113 9.842 7.58413 9.631 7.82113C9.389 8.12813 9.095 8.40913 8.814 8.70313C8.64458 8.86692 8.51501 9.0674 8.43526 9.28914C8.35551 9.51088 8.32771 9.74796 8.354 9.98213C8.5304 10.5297 8.83206 11.0286 9.235 11.4391C9.721 12.1041 10.206 12.7191 10.755 13.3701C11.7424 14.5106 12.9128 15.4788 14.218 16.2351C14.3985 16.3712 14.6119 16.4571 14.8364 16.484C15.0608 16.5108 15.2884 16.4778 15.496 16.3881C15.9305 16.1462 16.3161 15.8254 16.633 15.4421C16.908 15.1071 17.302 14.8921 17.732 14.8411C18.115 14.8611 18.476 15.0251 18.742 15.3011C19.086 15.5951 19.38 15.9411 19.7 16.2601C20.019 16.5801 20.275 16.8101 20.543 17.1041C20.8643 17.3875 21.1667 17.6901 21.45 18.0121C21.67 18.2961 21.774 18.6521 21.744 19.0091C21.63 19.4365 21.3839 19.8169 21.041 20.0961C20.5588 20.5979 19.9729 20.9884 19.3241 21.2402C18.6754 21.492 17.9795 21.5992 17.285 21.5541C15.8791 21.4744 14.5028 21.1179 13.235 20.5051Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"></path>
-                        </g>
-                      </svg></div>
-                  </a>
-                </div>
-                <div class="navigation-side mobileonly">
-                  <div class="div-block-503">
-                    <div data-delay="0" data-hover="true" bind="54a89536-2300-7d67-b7a9-0f179a69d49e" data-w-id="1171fcbf-5149-a415-23f1-5c51ac060525" class="navigation-dropdown centre w-dropdown">
-                      <div class="navigation-toggle w-dropdown-toggle">
-                        <div href="#" class="nav-link-4">
-                          <div class="nav-text-wrap-2">
-                            <div class="link-text-2">Maintenance<br></div>
-                            <div class="link-text-hov-2">Maintenance</div>
-                          </div>
-                        </div>
-                        <div bind="54a89536-2300-7d67-b7a9-0f179a69d4a7" class="dropdown-icon-2 w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M7.5 10.5L12 15L16.5 10.5" stroke="currentColor" stroke-width="1.5"></path>
-                          </svg></div>
-                      </div>
-                      <nav class="list-grove w-dropdown-list">
-                        <div class="div-block-502">
-                          <div class="list-wrap-grove maintenance">
-                            <div class="content-grove">
-                              <a href="#" class="link-3-grove w-inline-block"><img loading="lazy" src="{{ 'tools-fill.svg' | asset_url }}" alt="" class="icon-1x1-medium-2">
-                                <div class="menu-link-2">Maintenance Services</div>
-                              </a>
-                              <a href="#" class="link-3-grove w-inline-block"><img loading="lazy" src="{{ 'settings-5-line.svg' | asset_url }}" alt="" class="icon-1x1-medium-2">
-                                <div class="menu-link-2">Third Party Maintenance</div>
-                              </a>
-                              <a href="#" class="link-3-grove w-inline-block"><img loading="lazy" src="{{ 'map-pin-2-line-1.svg' | asset_url }}" alt="" class="icon-1x1-medium-2">
-                                <div class="menu-link-2">Location Details</div>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </nav>
+                <a href="#" data-w-id="d154b648-44c2-f1da-0c23-bc03a74c943a" class="navigation-toggle link w-inline-block">
+                  <div href="#" class="nav-link-4">
+                    <div class="nav-text-wrap-2">
+                      <div class="link-text-2">Reviews</div>
+                      <div class="link-text-hov-2">Reviews</div>
                     </div>
                   </div>
-                  <div class="div-block-503">
-                    <div data-delay="0" data-hover="true" bind="3bbbf4b9-81ad-7622-d517-4c396ab65f24" data-w-id="1171fcbf-5149-a415-23f1-5c51ac060540" class="navigation-dropdown centre w-dropdown">
-                      <div class="navigation-toggle w-dropdown-toggle">
-                        <div href="#" class="nav-link-4">
-                          <div class="nav-text-wrap-2">
-                            <div class="link-text-2">Surfaces<br></div>
-                            <div class="link-text-hov-2">Surfaces</div>
-                          </div>
-                        </div>
-                        <div bind="3bbbf4b9-81ad-7622-d517-4c396ab65f2d" class="dropdown-icon-2 w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M7.5 10.5L12 15L16.5 10.5" stroke="currentColor" stroke-width="1.5"></path>
-                          </svg></div>
-                      </div>
-                      <nav class="list-grove w-dropdown-list">
-                        <div class="div-block-502">
-                          <div class="list-wrap-grove surfaces">
-                            <div class="content-grove">
-                              <a href="#" class="link-3-grove w-inline-block"><img loading="lazy" src="{{ 'football.svg' | asset_url }}" alt="" class="icon-1x1-medium-2">
-                                <div class="menu-link-2">Sports Surfaces</div>
-                              </a>
-                              <a href="#" class="link-3-grove w-inline-block"><img loading="lazy" src="{{ 'hammer-line.svg' | asset_url }}" alt="" class="icon-1x1-medium-2">
-                                <div class="menu-link-2">Woodholme Construction</div>
-                              </a>
-                              <a href="#" class="link-3-grove w-inline-block"><img loading="lazy" src="{{ 'map-pin-2-line-1.svg' | asset_url }}" alt="" class="icon-1x1-medium-2">
-                                <div class="menu-link-2">Location Details</div>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </nav>
-                    </div>
-                  </div>
-                  <div class="hide-tablet">
-                    <a href="#" bind="14f24e57-65b0-d756-3869-f8d259cb601e" sym-bind="{"link":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"abd48bfb-d708-6bdf-d8a5-842d29e77fd1"}}}" class="menu-button white-28 w-inline-block">
-                      <div class="icon-link-3 white-3">
-                        <div class="clip-2 white-10">
-                          <div class="hover-text white-31">
-                            <div sym-bind="{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"37cd13bf-30f2-b752-cae8-a49c792c8044"}}}" class="text-size-small-9 white-34">Contact</div>
-                          </div>
-                          <div class="hover-text white-31 bottom white-20">
-                            <div sym-bind="{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"37cd13bf-30f2-b752-cae8-a49c792c8044"}}}" class="text-size-small-9 white-34">Contact</div>
-                          </div>
-                        </div>
-                        <div sym-bind="{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"96595133-de64-782c-bc2b-1a27b5d57cf2"}}}}}" class="icon-link_circle-2 white-22">
-                          <div class="clip-2 white-10">
-                            <div class="hover-arrow-3 white-37"><img sym-bind="{"img":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"65b07040-501f-bf3a-2cb4-717461e9b2dd"}}}" loading="lazy" alt="" src="{{ 'arrow-right-s-line.svg' | asset_url }}" class="icon-1x1-small-7 white-12"></div>
-                            <div class="hover-arrow-3 white-37 left-arrow white-13"><img sym-bind="{"img":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"65b07040-501f-bf3a-2cb4-717461e9b2dd"}}}" loading="lazy" alt="" src="{{ 'arrow-right-s-line.svg' | asset_url }}" class="icon-1x1-small-7 white-12"></div>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div class="centre-logo">
-                  <a href="{{ routes.root_url }}" li-object:href="routes.root_url" class="brand w-nav-brand">{% if section.settings.image_white_logo %}
-{{ section.settings.image_white_logo | image_url: width: 160 | image_tag: loading: 'lazy', class: 'white-logo' }}
-{% else %}
-<img src="{{ 'logo--white.svg' | asset_url }}" loading="lazy" alt="" class="white-logo">
-{% endif %}{% if section.settings.image_dark_logo %}
-{{ section.settings.image_dark_logo | image_url: width: 160 | image_tag: loading: 'lazy', class: 'dark-logo' }}
-{% else %}
-<img src="{{ 'logo--dark.svg' | asset_url }}" loading="lazy" alt="" class="dark-logo">
-{% endif %}</a>
-                </div>
-                <div class="navigation-side right">
-                  <div data-delay="0" data-hover="false" bind="3bdadafd-4b7a-0674-9271-a489ec9ec398" data-w-id="1171fcbf-5149-a415-23f1-5c51ac06058c" class="navigation-dropdown is-static w-dropdown">
+                </a>
+                <div class="div-block-764">
+                  <div data-delay="0" data-hover="true" bind="e9b2fdd6-cf18-4a0d-7901-56eee20a51ec" data-w-id="d154b648-44c2-f1da-0c23-bc03a74c9442" class="navigation-dropdown-2 centre w-dropdown">
                     <div class="navigation-toggle w-dropdown-toggle">
                       <div href="#" class="nav-link-4">
                         <div class="nav-text-wrap-2">
-                          <div class="link-text-2">Shop</div>
-                          <div class="link-text-hov-2">Shop</div>
+                          <div class="link-text-2">About<br></div>
+                          <div class="link-text-hov-2">About</div>
                         </div>
                       </div>
-                      <div bind="3bdadafd-4b7a-0674-9271-a489ec9ec3a0" class="dropdown-icon-2 w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <div bind="e9b2fdd6-cf18-4a0d-7901-56eee20a51f5" class="dropdown-icon-2 w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M7.5 10.5L12 15L16.5 10.5" stroke="currentColor" stroke-width="1.5"></path>
                         </svg></div>
                     </div>
-                    <nav class="dropdown-list-wide-2 w-dropdown-list">
-                      <div class="dropdowncard">
-                        <div class="navigation-dropdown-card">
-                          <div li-content-for-blocks="" class="navigation-grid-large">
-{% for block in section.blocks %}
-{% case block.type %}
-{% when '@app' %}
-{% render block %}
-
-                            {% when 'shop-menu-card' %}
-            <div li-block="Shop - Menu Card" class="menu-card">
-                    
-                              
-                    <a href="{{ block.settings.url_link }}" data-w-id="1171fcbf-5149-a415-23f1-5c51ac060599" class="navigation-card w-inline-block"> <div class="navigation-image-small">{% if block.settings.image_image %} {{ block.settings.image_image | image_url: width: 1000 | image_tag: class: 'image-cover-3', sizes: '100vw', loading: 'lazy' }} {% else %} <img class="image-cover-3" src="{{ 'muirhead_home_04.webp' | asset_url }}" alt="" sizes="100vw" loading="lazy" srcset="{{ 'muirhead_home_04-p-500.webp' | asset_url }} 500w, {{ 'muirhead_home_04-p-800.webp' | asset_url }} 800w, {{ 'muirhead_home_04-p-1080.webp' | asset_url }} 1080w, {{ 'muirhead_home_04.webp' | asset_url }} 1084w"> {% endif %}</div> <div class="column"> <div class="subheading-small-2">{{ block.settings.text_title }}</div> <p class="paragraph-small-6 text-color-tertiary">{{ block.settings.text_paragraph }}</p> </div> </a>
-                    
-                            
-                </div>
-                          {% endcase %}
-{% endfor %}
-
-    </div>
-                          <div class="_0-5rem-spacer">
-                            <div class="navigation-line"></div>
-                          </div>
-                          <div href="#" class="banner black">
-                            <div class="banner-wrap">
-                              <div>Build Your Own Leather</div>
-                              <div class="badge-banner brown">
-                                <div>Create Now</div>
-                              </div>
+                    <nav class="list-grove w-dropdown-list">
+                      <div class="div-block-762">
+                        <div class="list-wrap-grove">
+                          <div class="content-grove">
+                            <div class="div-block-763">
+                              <a href="#" class="navigation-feature-link w-inline-block">
+                                <div class="column">
+                                  <div class="subheading-small-2">About Us</div>
+                                </div>
+                              </a>
+                              <a href="#" class="navigation-feature-link w-inline-block">
+                                <div class="column">
+                                  <div class="subheading-small-2">Success Stories</div>
+                                </div>
+                              </a>
+                              <a href="#" class="navigation-feature-link w-inline-block">
+                                <div class="column">
+                                  <div class="subheading-small-2">Meet The Team</div>
+                                </div>
+                              </a>
+                              <a href="#" class="navigation-feature-link w-inline-block">
+                                <div class="column">
+                                  <div class="subheading-small-2">Qualification</div>
+                                </div>
+                              </a>
+                              <a href="#" class="navigation-feature-link w-inline-block">
+                                <div class="column">
+                                  <div class="subheading-small-2">Refer A Friend</div>
+                                </div>
+                              </a>
                             </div>
                           </div>
                         </div>
                       </div>
                     </nav>
                   </div>
-                  <div data-delay="0" data-hover="false" data-w-id="1171fcbf-5149-a415-23f1-5c51ac0605c2" class="country-dropdown hide-mobile-landscape w-dropdown">
-                    <div class="currency-toggle w-dropdown-toggle">
-                      <div class="icon-6 w-icon-dropdown-toggle"></div>
-                      <div sf-show-currency-selection="1" class="country-row-selection">
-                        <div class="country-flag uk"></div>
-                        <div href="#" class="nav-link-4">
-                          <div class="nav-text-wrap-2">
-                            <div class="link-text-2">GBP</div>
-                            <div class="link-text-hov-2">GBP</div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <nav sf-change-currency="1" class="country-list-2 w-dropdown-list">
-                      <div sf-currency-value="GB" class="country-row">
-                        <div class="country-flag uk"></div>
-                        <div>GBP</div>
-                      </div>
-                      <div sf-currency-value="US" class="country-row">
-                        <div class="country-flag usa"></div>
-                        <div>USD</div>
-                      </div>
-                      <div sf-currency-value="CA" class="country-row">
-                        <div class="country-flag ca"></div>
-                        <div>CAD</div>
-                      </div>
-                      <div sf-currency-value="AU" class="country-row">
-                        <div class="country-flag au"></div>
-                        <div>AUD</div>
-                      </div>
-                      <div sf-currency-value="DE" class="country-row">
-                        <div class="country-flag eur"></div>
-                        <div>EUR</div>
-                      </div>
-                    </nav>
-                  </div>
-                  <div class="div-block-503">
-                    {% if shop.customer_accounts_optional %}    <div li-if="shop.customer_accounts_optional" class="nav_account">
-    
-                      <a href="{% if customer %}{{ routes.account_url }}{% else %}{{ routes.account_login_url }}{% endif %}" class="nav_shop-icon w-inline-block">
-                        <div class="naviconwrap"><img src="{{ 'Profile-white.svg' | asset_url }}" loading="lazy" alt="" class="menu-icon-white"><img src="{{ 'Profile.svg' | asset_url }}" loading="lazy" alt="" class="menu-icon-dark"></div>
-                      </a>
-                        </div>
-{% endif %}
-                    <div class="_0-25rem-spacer"></div>
-                    <div class="nav_search">
-                      <div data-hover="false" data-delay="0" class="nav_dropdown w-dropdown">
-                        <div class="nav_shop-icon w-dropdown-toggle">
-                          <div class="naviconwrap"><img src="{{ 'Search-White.svg' | asset_url }}" loading="lazy" alt="" class="menu-icon-white"><img src="{{ 'Search.svg' | asset_url }}" loading="lazy" alt="" class="menu-icon-dark"></div>
-                        </div>
-                        <nav class="nav_predictive-search-holder w-dropdown-list">
-                          <div li-element="dropdown-toggle" class="nav_predictive-search-close" data-dropdowntoggle="" @click="LiquifyHelper.triggerClick($event.target.closest('.w-dropdown').querySelector('.w-dropdown-toggle.w--open'))"></div>
-                          <div class="predictive-search_component">
-                            <div data-cart-bg="1" class="cart_heading">
-                              <div class="div-block-752"><button id="" li-element="dropdown-toggle" aria-label="Close Search" href="#" class="banner-back-button" data-dropdowntoggle="" @click="LiquifyHelper.triggerClick($event.target.closest('.w-dropdown').querySelector('.w-dropdown-toggle.w--open'))">
-                                  <div class="cart2_back-icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 m-4" fill="none" viewbox="0 0 24 24" stroke="currentColor">
-                                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
-                                    </svg></div>
-                                  <div>Back</div>
-                                </button>
-                                <div class="cart_title-text">Search</div><button id="" li-element="dropdown-toggle" aria-label="Close Search" class="banner-close-button" data-dropdowntoggle="" @click="LiquifyHelper.triggerClick($event.target.closest('.w-dropdown').querySelector('.w-dropdown-toggle.w--open'))">
-                                  <div class="banner_icon large w-embed"><svg width="100%" height="100%" viewbox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                      <path d="M22.8354 22.864L22.3639 23.3354C22.1036 23.5957 21.6815 23.5957 21.4211 23.3354L16 17.9142L10.5788 23.3353C10.3185 23.5957 9.89638 23.5957 9.63603 23.3353L9.16462 22.8639C8.90427 22.6036 8.90427 22.1815 9.16462 21.9211L14.5858 16.5L9.16462 11.0788C8.90427 10.8185 8.90427 10.3964 9.16462 10.136L9.63602 9.66463C9.89637 9.40428 10.3185 9.40428 10.5788 9.66463L16 15.0858L21.4211 9.66462C21.6815 9.40427 22.1036 9.40427 22.3639 9.66462L22.8354 10.136C23.0957 10.3964 23.0957 10.8185 22.8354 11.0788L17.4142 16.5L22.8354 21.9211C23.0957 22.1815 23.0957 22.6036 22.8354 22.864Z" fill="currentColor"></path>
-                                    </svg></div>
-                                </button>
-                              </div>
-                            </div><predictive-search class="predictive-search">
-                              <div class="predictive-search_holder">
-                                <div class="predictive-search_form w-form">
-                                  <form id="wf-form-produkt-suche" name="wf-form-produkt-suche" data-name="produkt-suche" action="/search" method="get" class="predictive-search_form-component" data-wf-page-id="690261f614bf7d1f6d43a8d0" data-wf-element-id="ace72904-ccb0-6b8e-3d5e-d5f5ca33919d">
-                                    <div class="predictive-search_input-holder"><label for="search-input" class="form_hidden-label">Search</label><input type="search" id="search-input" placeholder="Search now" name="q" class="predictive-search_input">
-                                      <a href="#" class="predictive-search_search-button w-inline-block">
-                                        <div class="icon-embed-xsmall w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 25 25" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
-                                            <mask id="mask0_2941_121300" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="25" height="25">
-                                              <rect x="0.123535" y="0.987549" width="24" height="24" fill="#D9D9D9"></rect>
-                                            </mask>
-                                            <g mask="url(#mask0_2941_121300)">
-                                              <path d="M19.7235 21.9875L13.4235 15.6875C12.9235 16.0875 12.3485 16.4042 11.6985 16.6375C11.0485 16.8709 10.3569 16.9875 9.62354 16.9875C7.80687 16.9875 6.26937 16.3584 5.01104 15.1C3.7527 13.8417 3.12354 12.3042 3.12354 10.4875C3.12354 8.67088 3.7527 7.13338 5.01104 5.87505C6.26937 4.61672 7.80687 3.98755 9.62354 3.98755C11.4402 3.98755 12.9777 4.61672 14.236 5.87505C15.4944 7.13338 16.1235 8.67088 16.1235 10.4875C16.1235 11.2209 16.0069 11.9125 15.7735 12.5625C15.5402 13.2125 15.2235 13.7875 14.8235 14.2875L21.1235 20.5875L19.7235 21.9875ZM9.62354 14.9875C10.8735 14.9875 11.936 14.55 12.811 13.675C13.686 12.8 14.1235 11.7375 14.1235 10.4875C14.1235 9.23755 13.686 8.17505 12.811 7.30005C11.936 6.42505 10.8735 5.98755 9.62354 5.98755C8.37354 5.98755 7.31104 6.42505 6.43604 7.30005C5.56104 8.17505 5.12354 9.23755 5.12354 10.4875C5.12354 11.7375 5.56104 12.8 6.43604 13.675C7.31104 14.55 8.37354 14.9875 9.62354 14.9875Z" fill="currentColor"></path>
-                                            </g>
-                                          </svg></div>
-                                      </a><input type="submit" data-wait="Please wait..." id="submit-search" class="hide w-button" value="Submit">
-                                    </div>
-                                    <div id="predictive-search" class="predictive-search_overflow no-scrollbar">
-                                      <div li-section="predictive_search" class="predictive-search_section">
-                                        {% if predictive_search.performed %}    <div li-if="predictive_search.performed" class="predictive-search_conditional">
-    
-                                          {% assign first_column_results_size = predictive_search.resources.queries.size | plus: predictive_search.resources.collections.size | plus: predictive_search.resources.pages.size | plus: predictive_search.resources.articles.size | plus: predictive_search.resources.products.size %}
-                                          {% if first_column_results_size > 0 %}    <div li-if="first_column_results_size > 0" class="predictive-search_conditional">
-    
-                                            {% if predictive_search.resources.queries.size > 0 or predictive_search.resources.collections.size > 0 %}    <div li-if="predictive_search.resources.queries.size > 0 or predictive_search.resources.collections.size > 0" class="predictive-search_topic">
-    
-                                              <div class="predictive-search_headline">
-                                                <div class="text-style-muted">Suggestions</div>
-                                              </div>
-                                              <ul role="list" class="predictive-search_list w-list-unstyled">
-                                                {% for query in predictive_search.resources.queries %}    <li li-for="query in predictive_search.resources.queries" class="predictive-search_item">
-                                    
-                                                  
-                            <a li-object:href="query.url" href="{{ query.url }}" class="predictive-search_link w-inline-block">
-                                                    <div li-object="query.styled_text">{{ query.styled_text }}</div>
-                                                  </a>
-                            
-                                                
-                        </li>
-{% endfor %}
-                                                {% for collection in predictive_search.resources.collections %}    <li li-for="collection in predictive_search.resources.collections" class="predictive-search_item">
-                                    
-                                                  
-                            <a li-object:href="collection.url" href="{{ collection.url }}" class="predictive-search_link w-inline-block">
-                                                    <div li-object="collection.title">{{ collection.title }}</div>
-                                                  </a>
-                            
-                                                
-                        </li>
-{% endfor %}
-                                              </ul>
-                                                </div>
-{% endif %}
-                                            {% if predictive_search.resources.products.size > 0 or predictive_search.resources.articles.size > 0 or predictive_search.resources.pages.size > 0 %}    <div li-if="predictive_search.resources.products.size > 0 or predictive_search.resources.articles.size > 0 or predictive_search.resources.pages.size > 0" class="predictive-search_topic">
-    
-                                              <div class="predictive-search_headline">
-                                                <div class="text-style-muted">Products</div>
-                                              </div>
-                                              <ul role="list" class="predictive-search_product-list w-list-unstyled">
-                                                {% for product in predictive_search.resources.products %}    <li li-for="product in predictive_search.resources.products" class="predictive-search_produt-item">
-                                    
-                                                  
-                            <a li-object:href="product.url" href="{{ product.url }}" class="predictive-search_line-item w-inline-block">
-                                                    <div class="predictive-search_image-wrapper"><img li-object:src="product.featured_media | image_url: width: 150" li-object:alt="product.featured_image.alt" alt="{{ product.featured_image.alt }}" src="{{ product.featured_media | image_url: width: 150 }}" loading="lazy" class="predictive-search_image"></div>
-                                                    <div class="predictive-search_product-info">
-                                                      <div class="text-size-regular text-weight-bold"><span li-object="product.title">{{ product.title }}</span></div>
-                                                      <div class="text-size-small"><span li-object="product.price | money">{{ product.price | money }}</span></div>
-                                                    </div>
-                                                  </a>
-                            
-                                                
-                        </li>
-{% endfor %}
-                                              </ul>
-                                                </div>
-{% endif %}
-                                            {% if predictive_search.resources.articles.size > 0 or predictive_search.resources.pages.size > 0 %}    <div li-if="predictive_search.resources.articles.size > 0 or predictive_search.resources.pages.size > 0" class="predictive-search_topic">
-    
-                                              <div class="predictive-search_headline">
-                                                <div class="text-style-muted">Pages</div>
-                                              </div>
-                                              <ul role="list" class="predictive-search_list w-list-unstyled">
-                                                {% for page in predictive_search.resources.pages %}    <li li-for="page in predictive_search.resources.pages" class="predictive-search_item">
-                                    
-                                                  
-                            <a li-object:href="page.url" href="{{ page.url }}" class="predictive-search_link w-inline-block">
-                                                    <div li-object="page.title">{{ page.title }}</div>
-                                                  </a>
-                            
-                                                
-                        </li>
-{% endfor %}
-                                              </ul>
-                                                </div>
-{% endif %}
-                                              </div>
-{% endif %}
-                                          {% if first_column_results_size == 0 %}    <div li-if="first_column_results_size == 0" class="predictive-search_conditional">
-    
-                                            <div class="predictive-search_topic">
-                                              <div class="text-style-muted">Nothing found in "<span li-object="predictive_search.terms">{{ predictive_search.terms }}</span>"</div>
-                                            </div>
-                                              </div>
-{% endif %}
-                                            </div>
-{% endif %}
-                                        {% unless predictive_search.performed %}    <div li-unless="predictive_search.performed" class="predictive-search_conditional">
-    
-                                          <div class="predictive-search_overflow">
-                                            <div class="predictive-search_topic">
-                                              <div class="predictive-search_headline">
-                                                <div class="text-style-muted">Suggestions</div>
-                                              </div>
-                                              <ul role="list" class="predictive-search_list w-list-unstyled">
-                                                {% for block in section.blocks %}
-    {% if block.type == "search-suggestion" %}
-                    <li li-block="Search - Suggestion" class="predictive-search_item">
-                                    
-                                                  
-                                    <a href="{{ block.settings.url_link }}" class="predictive-search_link w-inline-block"> <div>{{ block.settings.text_text }}</div> </a>
-                                    
-                                                
-                            </li>
-            {% endif %}
-{% endfor %}
-                                              </ul>
-                                            </div>
-                                            <div class="predictive-search_topic">
-                                              <div class="predictive-search_headline">
-                                                <div class="text-style-muted">Bestseller</div>
-                                              </div>
-                                              <ul role="list" class="predictive-search_product-list w-list-unstyled">
-                                                {% for product in section.settings.collection_search_bestseller.products limit: section.settings.collection_search_bestseller_limit %}
-<li class="predictive-search_produt-item">
-    
-                                                  
-    <a li-object:href="product.url" href="{{ product.url }}" class="predictive-search_line-item w-inline-block">
-                                                    <div class="predictive-search_image-wrapper"><img li-object:src="product.featured_image | img_url: 'master'" li-object:alt="product.featured_image.alt" alt="{{ product.featured_image.alt }}" src="{{ product.featured_image | img_url: 'master' }}" loading="lazy" class="predictive-search_image"></div>
-                                                    <div class="predictive-search_product-info">
-                                                      <div class="text-size-regular text-weight-bold"><span li-object="product.title">{{ product.title }}</span></div>
-                                                      <div class="text-size-small"><span li-object="product.price | money">{{ product.price | money }}</span></div>
-                                                    </div>
-                                                  </a>
-    
-                                                
-</li>
-{% endfor %}
-                                              </ul>
-                                            </div>
-                                          </div>
-                                            </div>
-{% endunless %}
-                                      </div>
-                                    </div>
-                                  </form>
-                                  <div class="hide w-form-done">
-                                    <div>Thank you! Your submission has been received!</div>
-                                  </div>
-                                  <div class="hide w-form-fail">
-                                    <div>Oops! Something went wrong while submitting the form.</div>
-                                  </div>
-                                </div>
-                              </div>
-                            </predictive-search>
-                          </div>
-                        </nav>
-                      </div>
-                    </div>
-                    <div class="_0-5rem-spacer"></div>
-                    <div class="nav_mini-cart">
-                      <script>
-    document.addEventListener('alpine:init', () => {
-
-    Alpine.data('handleMinicart', () => ({
-        init() {
-            console.log('handleMinicart init')
-        },
-        cart: {
-            note: null,
-            attributes: {},
-            items: [],
-            currency: window.Shopify.currency.active,
-            cart_level_discount_applications: [],
-            response: {
-                result : {},
-                show : false,
-                timeout : 5000,
-            },
-            item_count: 0,
-            total_price:0,
-            total_weight: 0,
-            total_discount: 0,
-            original_total_price: 0,
-            items_subtotal_price: 0
-        },
-        _abortController : null,
-        initAbortController() {
-            if(this._abortController) {
-                this._abortController.abort('abort previous request');
-            }
-            this._abortController = new AbortController()
-        },
-        getAbortControllerSignal() {
-            return this._abortController.signal
-        },
-        resetAbortController() {
-            this._abortController = null;
-        },
-        toggleMiniCart() {
-            console.log('(minicart.js) toggleMiniCart called');
-
-            LiquifyHelper.handleTriggerClick();
-
-            this.getCart();
-        },
-
-        /**
-         * Get the cart data.
-         */
-        async getCart() {
-            this.initAbortController()
-            await fetch(window.Shopify.routes.root + 'cart.js', {
-                method: 'GET',
-                signal: this.getAbortControllerSignal(),
-                headers: {'Content-Type': 'application/json'},
-            })
-                .then(response => response.json())
-                .then(data => {
-                    this.resetAbortController();
-
-                    this.cart.item_count = data.item_count;
-
-                    this.cart.items = data.items.map((item) => {
-                        item.title = this.htmlspecialchars_decode(item.title)
-                        return item
-                    })
-
-
-                    this.cart.total_price = data.total_price;
-                    this.cart.total_weight = data.total_weight;
-                    this.cart.total_discount = data.total_discount;
-                    this.cart.original_total_price = data.original_total_price;
-
-                    this.$dispatch('carttotalitems', data.item_count);
-                })
-                .catch((error) => {
-                    console.error('Error:', error);
-                });
-        },
-
-        /**
-         * @param key
-         * @param quantity
-         */
-        increaseCartItemQuantity(key, quantity) {
-            this.updateCartItemQuantity(key, parseInt(quantity) + 1);
-        },
-
-        /**
-         * @param key
-         * @param quantity
-         */
-        decreaseCartItemQuantity(key, quantity) {
-            this.updateCartItemQuantity(key, parseInt(quantity) - 1);
-        },
-
-        /**
-         * Update the cart item.
-         *
-         * @param key
-         * @param quantity
-         */
-        updateCartItemQuantity(key, quantity) {
-            this.initAbortController();
-            console.log('updateCartItemQuantity(): key, quantity: ', key, quantity);
-            this.cart.items.filter((product)  => {
-                if(product.key === key) {
-                    product.quantity = quantity
-                }
-            })
-            let updates = {};
-            updates[key] = quantity;
-            fetch(window.Shopify.routes.root + 'cart/update.js', {
-                method: 'POST',
-                signal: this.getAbortControllerSignal(),
-                headers: {'Content-Type': 'application/json'},
-                body: JSON.stringify({ updates }),
-            })
-                .then(response => response.json())
-                .then(data => {
-                    this.resetAbortController();
-                    console.log('updateCartItemQuantity(): ', data);
-
-                    this.$dispatch('cartupdated');
-                    this.$dispatch('showcartmessage', { status: data.status, message: data.message, description: data.description });
-                })
-                .catch((error) => {
-                    console.error('Error:', error);
-                    this.$dispatch('showcartmessage', { status: error?.status, message: error, description: error });
-                });
-        },
-
-        /**
-         * Format monetary values.
-         */
-        moneyFormat(value, minor = true) {
-            return LiquifyHelper.moneyFormat(value, minor)
-        },
-
-        htmlspecialchars_decode(string) {
-            return LiquifyHelper.htmlspecialchars_decode(string)
-        },
-
-        /**
-         * Shows the minicart api message
-         * @param event
-         */
-        showCartMessage(event) {
-            //console.log("dispatched showCartMessage", event)
-            if(event?.detail?.status) {
-                this.cart.response.result = event.detail ?? {}
-                this.cart.response.show = true
-                setTimeout(() => {
-                    this.cart.response.result = {};
-                    this.cart.response.show = false
-                }, this.cart.response.timeout ?? 5000)
-            }
-        },
-
-        async returnCartItems() {
-            await this.getCart();
-
-            this.$dispatch('currentcartitems', this.cart.items);
-        },
-
-        /**
-         * @deprecated
-         */
-        set open(open) { // deprecated use  LiquifyHelper instead
-            //console.warn('Deprecated "set open" in mini_cart')
-        },
-        /**
-         * @deprecated
-         */
-        get open() { // deprecated use  LiquifyHelper instead
-            //console.warn('Deprecated "get open" in mini_cart')
-            return false;
-        },
-        /**
-         * @deprecated
-         */
-        set note(note) { // deprecated
-            //console.warn('Deprecated "set note" in mini_cart')
-            this.cart.note = note;
-        },
-        /**
-         * @deprecated
-         */
-        get note() { // deprecated
-            //console.warn('Deprecated "get note" in mini_cart')
-            return this.cart.note;
-        },
-        /**
-         * @deprecated
-         */
-        set attributes(attributes) { // deprecated
-            //console.warn('Deprecated "set attributes" in mini_cart')
-            this.cart.attributes = attributes;
-        },
-        /**
-         * @deprecated
-         */
-        get attributes() { // deprecated
-            //console.warn('Deprecated "get attributes" in mini_cart')
-            return this.cart.attributes;
-        },
-        /**
-         * @deprecated
-         */
-        set original_total_price(original_total_price) { //deprecated
-            //console.warn('Deprecated "set original_total_price" in mini_cart')
-            this.cart.original_total_price = original_total_price;
-        },
-        /**
-         * @deprecated
-         */
-        get original_total_price() { //deprecated
-            //console.warn('Deprecated "get original_total_price" in mini_cart')
-            return this.cart.original_total_price;
-        },
-        /**
-         * @deprecated
-         */
-        set total_price(total_price) { //deprecated
-            //console.warn('Deprecated "set total_price" in mini_cart')
-            this.cart.total_price = total_price;
-        },
-        /**
-         * @deprecated
-         */
-        get total_price() { //deprecated
-            //console.warn('Deprecated "get total_price" in mini_cart')
-            return this.cart.total_price;
-        },
-        /**
-         * @deprecated
-         */
-        set total_discount(total_discount) { //deprecated
-            //console.warn('Deprecated "set total_discount" in mini_cart')
-            this.cart.total_discount = total_discount;
-        },
-        /**
-         * @deprecated
-         */
-        get total_discount() { //deprecated
-            //console.warn('Deprecated "get total_discount" in mini_cart')
-            return this.cart.total_discount;
-        },
-        /**
-         * @deprecated
-         */
-        set total_weight(total_weight) { //deprecated
-            //console.warn('Deprecated "set total_weight" in mini_cart')
-            this.cart.total_discount = total_weight;
-        },
-        /**
-         * @deprecated
-         */
-        get total_weight() { //deprecated
-            //console.warn('Deprecated "get total_weight" in mini_cart')
-            return this.cart.total_weight;
-        },
-        /**
-         * @deprecated
-         */
-        set item_count(item_count) { //deprecated
-            //console.warn('Deprecated "set item_count" in mini_cart')
-            this.cart.total_discount = item_count;
-        },
-        /**
-         * @deprecated
-         */
-        get item_count() { //deprecated
-            //console.warn('Deprecated "get item_count" in mini_cart')
-            return this.cart.item_count;
-        },
-        /**
-         * @deprecated
-         */
-        set items_subtotal_price(items_subtotal_price) { //deprecated
-            //console.warn('Deprecated "set items_subtotal_price" in mini_cart')
-            this.cart.items_subtotal_price = items_subtotal_price;
-        },
-        /**
-         * @deprecated
-         */
-        get items_subtotal_price() { //deprecated
-            //console.warn('Deprecated "get items_subtotal_price" in mini_cart')
-            return this.cart.items_subtotal_price;
-        },
-        /**
-         * @deprecated
-         */
-        set products(products) {
-            //console.warn('Deprecated "set products" in mini_cart')
-            this.cart.items = products;
-        },
-        /**
-         * @deprecated
-         */
-        get products() {
-            //console.warn('Deprecated "get products" in mini_cart')
-            return this.cart.items;
-        },
-        /**
-         * @deprecated
-         */
-        set requires_shipping(requires_shipping) {
-            //console.warn('Deprecated "set requires_shipping" in mini_cart')
-        },
-        /**
-         * @deprecated
-         */
-        get requires_shipping() {
-            //console.warn('Deprecated "get requires_shipping" in mini_cart')
-            return false;
-        },
-        /**
-         * @deprecated
-         */
-        set currency(currency) { //deprecated
-            //console.warn('Deprecated "set currency" in mini_cart')
-            this.cart.currency = currency;
-        },
-        /**
-         * @deprecated
-         */
-        get currency() { //deprecated
-            //console.warn('Deprecated "get currency" in mini_cart')
-            return this.cart.currency;
-        },
-        /**
-         * @deprecated
-         */
-        set cart_level_discount_applications(cart_level_discount_applications) { //deprecated
-            //console.warn('Deprecated "set cart_level_discount_applications" in mini_cart')
-            this.cart.cart_level_discount_applications = cart_level_discount_applications;
-        },
-        /**
-         * @deprecated
-         */
-        get cart_level_discount_applications() { //deprecated
-            //console.warn('Deprecated "get cart_level_discount_applications" in mini_cart')
-            return this.cart.cart_level_discount_applications;
-        },
-        /**
-         * @deprecated
-         */
-        set cartApiResponse(cartApiResponse) { //deprecated
-            //console.warn('Deprecated "set cartApiResponse" in mini_cart')
-            this.cart.cartApiResponse = cartApiResponse;
-        },
-        /**
-         * @deprecated
-         */
-        get cartApiResponse() { //deprecated
-            //console.warn('Deprecated "get cartApiResponse" in mini_cart')
-            return this.cart.response;
-        },
-        /**
-         * @deprecated
-         */
-        set total(total) { //deprecated
-            //console.warn('Deprecated "set total" in mini_cart')
-            this.cart.item_count = total.items;
-            this.cart.total_price = total.price;
-            this.cart.total_weight = total.weight;
-            this.cart.total_discount = total.discount;
-        },
-        /**
-         * @deprecated
-         */
-        get total() { //deprecated
-            //console.warn('Deprecated "get total" in mini_cart')
-            return {
-                items: this.cart.item_count,
-                price: this.cart.total_price,
-                weight: this.cart.total_weight,
-                discount: this.cart.total_discount,
-            };
-        }
-    }))
-
-
-});
-
-</script>
-<div data-hover="false" data-delay="0" li-element="mini-cart" class="nav_dropdown w-dropdown" x-data="handleMinicart()" x-init="getCart()" @cartupdated.window="getCart()" @setcartitem.window="updateCartItemQuantity($event.detail.product, $event.detail.quantity)" @increasecartitem.window="increaseCartItemQuantity($event.detail.product, $event.detail.quantity)" @decreasecartitem.window="decreaseCartItemQuantity($event.detail.product, $event.detail.quantity)" @toggleminicart.window="toggleMiniCart()" @showcartmessage.window="showCartMessage" @getcartitems.window="returnCartItems">
-                        <div li-element="mini-cart-toggle" class="nav_shop-icon w-dropdown-toggle" @click="$dispatch('cartupdated.window')">
-                          <div class="naviconwrap"><img src="{{ 'Cart-White.svg' | asset_url }}" loading="lazy" alt="" class="menu-icon-white"><img src="{{ 'Cart.svg' | asset_url }}" loading="lazy" alt="" class="menu-icon-dark"></div>
-                          <div li-element="mini-cart-item-count" class="nav_shop-quantity" x-data="{ items: 0 }" x-text="items" @carttotalitems.window="items = event.detail">1</div>
-                        </div>
-                        <nav li-element="mini-cart-container" class="nav_mini-cart-holder w-dropdown-list" :class="open || 'mini-cart-closed'">
-                          <div li-element="dropdown-toggle" class="nav_mini-cart-close" data-dropdowntoggle="" @click="LiquifyHelper.triggerClick($event.target.closest('.w-dropdown').querySelector('.w-dropdown-toggle.w--open'))"></div>
-                          <div class="mini-cart_component">
-                            <div li-element="mini-cart-full" class="mini-cart_full" :style="total.items < 1 && { display: 'none' }">
-                              <div data-cart-bg="1" class="cart_heading">
-                                <div class="div-block-752"><button id="" li-element="dropdown-toggle" aria-label="Close Cart" href="#" class="banner-back-button" data-dropdowntoggle="" @click="LiquifyHelper.triggerClick($event.target.closest('.w-dropdown').querySelector('.w-dropdown-toggle.w--open'))">
-                                    <div class="cart2_back-icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 m-4" fill="none" viewbox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
-                                      </svg></div>
-                                    <div>Back</div>
-                                  </button>
-                                  <div class="cart_title-text">Your Cart</div><button li-element="dropdown-toggle" aria-label="Close Cart" id="" class="banner-close-button" data-dropdowntoggle="" @click="LiquifyHelper.triggerClick($event.target.closest('.w-dropdown').querySelector('.w-dropdown-toggle.w--open'))">
-                                    <div class="banner_icon large w-embed"><svg width="100%" height="100%" viewbox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M22.8354 22.864L22.3639 23.3354C22.1036 23.5957 21.6815 23.5957 21.4211 23.3354L16 17.9142L10.5788 23.3353C10.3185 23.5957 9.89638 23.5957 9.63603 23.3353L9.16462 22.8639C8.90427 22.6036 8.90427 22.1815 9.16462 21.9211L14.5858 16.5L9.16462 11.0788C8.90427 10.8185 8.90427 10.3964 9.16462 10.136L9.63602 9.66463C9.89637 9.40428 10.3185 9.40428 10.5788 9.66463L16 15.0858L21.4211 9.66462C21.6815 9.40427 22.1036 9.40427 22.3639 9.66462L22.8354 10.136C23.0957 10.3964 23.0957 10.8185 22.8354 11.0788L17.4142 16.5L22.8354 21.9211C23.0957 22.1815 23.0957 22.6036 22.8354 22.864Z" fill="currentColor"></path>
-                                      </svg></div>
-                                  </button>
-                                </div>
-                              </div>
-                              <div class="li-component_wrapper">
-                                <div x-data="{ freeShipping: {{ section.settings.free_shipping }} }" class="mini-cart_footer-2">
-                                  <div x-bind:style="'display: ' + (((freeShipping - total.price) / 100) < 0 ? 'none' : 'block')" class="mini-cart_footer_progress-component">
-                                    <div class="mini-cart_footer_progress-bar">
-                                      <div x-bind:style="'width: ' + (total_price/freeShipping) *100 + '%'" class="mini-cart_footer_progress-bar-innner"></div>
-                                    </div>
-                                    <div class="text-size-small-13">Only <span li-js-price="freeShipping - total_price" x-text="LiquifyHelper.moneyFormat(freeShipping - total_price, true, '{{ shop.money_with_currency_format }}')">$52.75</span> more and then your shipping is free!</div>
-                                  </div>
-                                  <div x-bind:style="'display: ' + (((freeShipping - total_price) / 100) < 0 ? 'block' : 'none')" class="mini-cart_footer_progress-component">
-                                    <div class="spacer-tiny-2"></div>
-                                    <div class="text-size-small-13">
-{{ section.settings.text_success_text }}
-</div>
-                                  </div>
-                                  
-                                </div>
-                              </div>
-                              <div class="div-block-756">
-                                <div class="mini-cart_line-item">
-                                  <ul role="list" class="mini-cart_line-item_list w-list-unstyled">
-                                    <template x-for="product in products" :key="product.key">
-    <li li-element="mini-cart-item" class="mini-cart_line-item_item"><img src="../images/product-apparel-2.svg" loading="lazy" alt="" class="mini-cart_line-item_img" x-bind:src="product.image">
-                                      <div class="div-block-757">
-                                        <div class="mini-cart_line-item_product-info">
-                                          <div li-js-object="product.title" class="text-size-regular text-weight-bold" x-text="product.title">Product Title</div>
-                                          <div class="mini-cart_line-item_price">
-                                            <div li-js-price="product.price" class="text-size-small" x-text="LiquifyHelper.moneyFormat(product.price, true, '{{ shop.money_with_currency_format }}')">14,99 $</div>
-                                            <template x-if="product.price < product.original_price">
-            <div li-js-if="product.price < product.original_price">
-        
-                                              <div li-js-price="product.original_price" class="text-size-small text-style-strikethrough text-style-muted" x-text="LiquifyHelper.moneyFormat(product.original_price, true, '{{ shop.money_with_currency_format }}')">14,99 $</div>
-                                                    </div>
-    </template>
-                                          </div>
-                                          <div li-element="mini-cart-item-remove" class="div-block-755" :productprop="product" @click="$dispatch('setcartitem', { product: product.key, quantity: 0 })"><svg viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" sf-cart-item-remove="1" class="cart-item-remover">
-                                              <path d="M14.7404 9L14.3942 18M9.60577 18L9.25962 9M19.2276 5.79057C19.5696 5.84221 19.9104 5.89747 20.25 5.95629M19.2276 5.79057L18.1598 19.6726C18.0696 20.8448 17.0921 21.75 15.9164 21.75H8.08357C6.90786 21.75 5.93037 20.8448 5.8402 19.6726L4.77235 5.79057M19.2276 5.79057C18.0812 5.61744 16.9215 5.48485 15.75 5.39432M3.75 5.95629C4.08957 5.89747 4.43037 5.84221 4.77235 5.79057M4.77235 5.79057C5.91878 5.61744 7.07849 5.48485 8.25 5.39432M15.75 5.39432V4.47819C15.75 3.29882 14.8393 2.31423 13.6606 2.27652C13.1092 2.25889 12.5556 2.25 12 2.25C11.4444 2.25 10.8908 2.25889 10.3394 2.27652C9.16065 2.31423 8.25 3.29882 8.25 4.47819V5.39432M15.75 5.39432C14.5126 5.2987 13.262 5.25 12 5.25C10.738 5.25 9.48744 5.2987 8.25 5.39432" stroke="#0F172A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                            </svg>
-                                            <div class="text-size-tiny text-color-grey text-style-link">Remove</div>
-                                          </div>
-                                        </div>
-                                        <div class="mini-cart_line-item_product-info right">
-                                          <div class="product-container_quantity-changers-2">
-                                            <a li-element="mini-cart-item-decrease" href="#" class="quantity-decreaser-4" :productprop="product" @click="$dispatch('decreasecartitem', { product: product.key, quantity: product.quantity, action: 'decrease' })">-</a><input li-element="mini-cart-item-quantity" class="quantity-changer-3 is-hidden-arrows" value="1" :productprop="product" @input="$dispatch('setcartitem', { product: product.key, quantity: product.quantity })" x-model="product.quantity">
-                                            <a li-element="mini-cart-item-increase" href="#" class="quantity-increaser-4" :productprop="product" @click="$dispatch('increasecartitem', { product: product.key, quantity: product.quantity, action: 'increase' })">+</a>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </li></template>
-                                  </ul>
-                                </div>
-                              </div>
-                              <div class="mini-cart_footer">
-                                <div class="cta1_wrapper">
-                                  <div id="button_holder" class="cta1_inner">
-                                    <a id="proceed_checkout" href="#" x-bind:href="'/checkout'" class="button-22 is-full w-inline-block">
-                                      <div class="loading-spinner w-embed"><svg viewbox="0 0 50 50" class="spinner">
-                                          <circle class="ring" cx="25" cy="25" r="22.5"></circle>
-                                          <circle class="line" cx="25" cy="25" r="22.5"></circle>
-                                        </svg>
-                                        <style>
-.spinner {
-  --spinner-size: 2;
-  --line-color: #ffffff;
-  --line-alpha: 1;
-  --ring-color: #ffffff;
-  --ring-alpha: 0.05;
-  --ring-size: 6;
-  font-size: calc(var(--spinner-size) * 1em);
-  width: 1em;
-  height: 1em;
-  border-radius: 50%;
-}
-.spinner .line {
-  fill: none;
-  stroke: var(--line-color);
-  stroke-width: var(--ring-size);
-  opacity: var(--line-alpha);
-  stroke-linecap: round;
-  transform-origin: 50% 50%;
-  transform: rotate3d(0, 0, 1, 0deg);
-  animation: 
-    2156ms spinner-arc ease-in-out infinite,
-    1829ms spinner-rotate linear infinite;
-}
-.spinner .ring {
-  fill: none;
-  stroke: var(--ring-color);
-  stroke-width: var(--ring-size);
-  opacity: var(--ring-alpha);
-}
-@keyframes spinner-rotate {
-  to { transform: rotate3d(0, 0, 1, 360deg); }
-}
-@keyframes spinner-arc {
-  from { stroke-dasharray: 0 150; stroke-dashoffset: 0; }
-  to { stroke-dasharray: 100 150; stroke-dashoffset: -140; }
-}
---spinner-size: 2em
---ring-size: 6
---line-color: #ffffff
---line-alpha: 1
---ring-color: #ffffff
---ring-alpha: 0.05
-</style>
-                                      </div>
-                                      <div id="cta_text" class="checkout-btns">
-                                        <div class="html-embed-10 w-embed"><svg width="100%" height="100%" viewbox="0 0 47 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                            <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                              <g id="Ecommerce-Icons" transform="translate(-68.000000, -2394.000000)" fill="#fff">
-                                                <g id="Primary-Lock-Black-Copy" transform="translate(68.000000, 2394.000000)">
-                                                  <path d="M2.894495,44.10574 L44.10574,44.10574 L44.10574,19.434265 L2.894495,19.434265 L2.894495,44.10574 Z M13.920695,12.473565 C13.920695,7.191705 18.217905,2.89426 23.5,2.89426 C28.782095,2.89426 33.079305,7.191705 33.079305,12.473565 L33.079305,16.539535 L13.920695,16.539535 L13.920695,12.473565 Z M45.55287,16.539535 L35.973565,16.539535 L35.973565,12.473565 C35.973565,5.595585 30.378215,0 23.5,0 C16.621785,0 11.026435,5.595585 11.026435,12.473565 L11.026435,16.539535 L1.44713,16.539535 C0.647895,16.539535 0,17.187665 0,17.9869 L0,45.55287 C0,46.352105 0.647895,47 1.44713,47 L45.55287,47 C46.352105,47 47,46.352105 47,45.55287 L47,17.9869 C47,17.187665 46.352105,16.539535 45.55287,16.539535 L45.55287,16.539535 Z" id="Fill-1"></path>
-                                                  <path d="M26.911401,28.2895115 C26.911401,26.3864815 25.368626,24.8439415 23.465596,24.8439415 C21.562331,24.8439415 20.019791,26.3864815 20.019791,28.2895115 C20.019791,29.4074065 20.554416,30.3979315 21.379266,31.0274965 L21.374331,31.0274965 L20.019791,38.6266915 L26.911401,38.6266915 L25.556861,31.0274965 L25.551691,31.0274965 C26.376776,30.3979315 26.911401,29.4074065 26.911401,28.2895115" id="Fill-3"></path>
-                                                </g>
-                                              </g>
-                                            </g>
-                                          </svg></div>
-                                        <div id="cta_text" class="button-text">Checkout</div>
-                                        <div id="cta_text" li-js-price="total.price" class="button-text" x-text="LiquifyHelper.moneyFormat(total.price, true, '{{ shop.money_with_currency_format }}')">{Price}</div>
-                                      </div>
-                                    </a>
-                                    <ul role="list" class="footer_payment-list centre w-list-unstyled">
-                                      {% for type in shop.enabled_payment_types %}    <li li-for="type in shop.enabled_payment_types" class="footer_payment-item">
-                                    
-                                        
-                            <div li-object="type | payment_type_svg_tag: class: 'footer_payment-img icon--full-color'" class="footer_payment-svg">{{ type | payment_type_svg_tag: class: 'footer_payment-img icon--full-color' }}</div>
-                            
-                                      
-                        </li>
-{% endfor %}
-                                    </ul>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="_4rem-spacer"></div>
-                              <div class="_4rem-spacer"></div>
-                            </div>
-                            <div li-cloak="hide" li-element="mini-cart-empty" class="mini-cart_empty" :style="total.items && { display: 'none' }">
-                              <div sf-cart-empty="1" class="cart-empty-message is-popup">
-                                <div class="cart_title-text">Your cart is empty</div>
-                                <div>Here's some inspiration</div>
-                                <div class="_1rem-spacer"></div>
-                                <div class="jetboost-list-wrapper-3mq4 jetboost-list-wrapper-4nr6 w-dyn-list">
-                                  <div role="list" class="cartmenugrid w-dyn-items">
-                                    <div role="listitem" class="w-dyn-item"></div>
-                                  </div>
-                                  <div class="w-dyn-empty">
-                                    <div>No items found.</div>
-                                  </div>
-                                </div>
-                                <div class="div-block-754">
-                                  <a href="#" class="navigation-card w-inline-block">
-                                    <div class="navigation-image-small"><img sizes="100vw" srcset="{{ 'mask-group-6-2x-p-500.webp' | asset_url }} 500w, {{ 'mask-group-6-2x-p-800.webp' | asset_url }} 800w, {{ 'mask-group-6-2x-p-1080.webp' | asset_url }} 1080w, {{ 'mask-group-6-2x.webp' | asset_url }} 1520w" alt="" loading="lazy" src="{{ 'mask-group-6-2x.webp' | asset_url }}" class="image-cover-3"></div>
-                                    <div class="column">
-                                      <div class="subheading-small-2">Stock</div>
-                                      <p class="paragraph-small-8 text-color-tertiary">Buy a range of one-off hide</p>
-                                    </div>
-                                  </a>
-                                  <a href="#" class="navigation-card w-inline-block">
-                                    <div class="navigation-image-small"><img sizes="100vw" srcset="{{ 'muirhead_our_product_leather_care_5muirhead_our_product_leather_care_04.avif' | asset_url }} 500w, {{ 'muirhead_our_product_leather_care_5muirhead_our_product_leather_care_04.avif' | asset_url }} 1104w" alt="" loading="lazy" src="{{ 'muirhead_our_product_leather_care_5muirhead_our_product_leather_care_04.avif' | asset_url }}" class="image-cover-3"></div>
-                                    <div class="column">
-                                      <div class="subheading-small-2">Leather Care</div>
-                                      <p class="paragraph-small-8 text-color-tertiary">Care for premium leather</p>
-                                    </div>
-                                  </a>
-                                  <a href="#" class="navigation-card w-inline-block">
-                                    <div class="navigation-image-small"><img sizes="100vw" srcset="{{ 'seat_cover_leather_expertise-p-500.webp' | asset_url }} 500w, {{ 'seat_cover_leather_expertise-p-800.webp' | asset_url }} 800w, {{ 'seat_cover_leather_expertise.webp' | asset_url }} 1005w" alt="" loading="lazy" src="{{ 'seat_cover_leather_expertise.webp' | asset_url }}" class="image-cover-3"></div>
-                                    <div class="column">
-                                      <div class="subheading-small-2">Seat Cover Service</div>
-                                      <p class="paragraph-small-8 text-color-tertiary">Exceptional seat cover service</p>
-                                    </div>
-                                  </a>
-                                  <a href="#" class="navigation-card w-inline-block">
-                                    <div class="navigation-image-small"><img sizes="100vw" srcset="{{ 'Muirhead-Square-p-500.jpg' | asset_url }} 500w, {{ 'Muirhead-Square-p-800.jpg' | asset_url }} 800w, {{ 'Muirhead-Square.jpg' | asset_url }} 1000w" alt="" loading="lazy" src="{{ 'Muirhead-Square.jpg' | asset_url }}" class="image-cover-3"></div>
-                                    <div class="column">
-                                      <div class="subheading-small-2">Muirhead Gifts</div>
-                                      <p class="paragraph-small-8 text-color-tertiary">Bespoke Leather Gifts</p>
-                                    </div>
-                                  </a>
-                                </div>
-                              </div>
-                              <div class="mini-cart_header">
-                                <div class="heading-style-h3">Cart</div><button li-element="dropdown-toggle" aria-label="Close Cart" class="nav_dropdown-close-button" data-dropdowntoggle="" @click="LiquifyHelper.triggerClick($event.target.closest('.w-dropdown').querySelector('.w-dropdown-toggle.w--open'))">
-                                  <div class="nav_dropdown-close-icon w-embed"><svg width="15" height="15" viewbox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                      <path d="M1.84775 14.178L0.447754 12.778L6.04775 7.17798L0.447754 1.57798L1.84775 0.177979L7.44775 5.77798L13.0478 0.177979L14.4478 1.57798L8.84775 7.17798L14.4478 12.778L13.0478 14.178L7.44775 8.57798L1.84775 14.178Z" fill="currentColor"></path>
-                                    </svg></div>
-                                </button>
-                              </div>
-                              <div class="mini-cart_empty-content">
-                                <div class="text-size-regular">No Products selected</div>
-                              </div>
-                            </div>
-                          </div>
-                        </nav>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="hide-tablet">
-                    <a href="{{ section.settings.url_button_link }}" class="menu-button w-inline-block"> <div class="icon-link-3"> <div class="clip-2 white-10"> <div class="hover-text white-31"> <div class="text-size-small-9">{{ section.settings.text_button_text }}</div> </div> <div class="hover-text white-31 bottom white-20"> <div class="text-size-small-9">{{ section.settings.text_button_text }}</div> </div> </div> </div> </a>
-                  </div>
-                  <div id="menu-trigger" class="menu-trigger">
-                    <div class="m-navigation-button-wrapper">
-                      <div data-w-id="1171fcbf-5149-a415-23f1-5c51ac060613" class="hamburger_2_wrap">
-                        <div data-w-id="1171fcbf-5149-a415-23f1-5c51ac060614" data-is-ix2-target="1" class="menu-icon-3" data-animation-type="lottie" data-src="https://cdn.prod.website-files.com/678504de3123b3f794cf05f1/678504de3123b3f794cf06cc_Animation%20-%201736454996245.json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="0" data-duration="1.5015014403440954"></div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
-              </div>
+              </nav>
             </div>
-            <div id="w-node-_1171fcbf-5149-a415-23f1-5c51ac060615-d5a86df8" class="nav-cover"></div>
-            <div id="mobile-menu" class="menu-mob-container">
-              <div bind="9e9206c3-e206-98f8-7315-36b7f24316b1" class="div-block-173">
-                <div class="_8rem-spacer"></div>
-                <div data-delay="0" data-hover="true" class="countrydropdownmobile w-dropdown">
-                  <div class="mobiledropdowncountry w-dropdown-toggle">
-                    <div class="dropdown w-icon-dropdown-toggle"></div>
-                    <div sf-show-currency-selection="1" class="countryro">
-                      <div class="country-flag uk"></div>
-                      <div href="#" class="nav-link-4">
-                        <div class="nav-text-wrap-2">
-                          <div class="link-text-2">GBP</div>
-                          <div class="link-text-hov-2">UK</div>
-                        </div>
+            <div class="navigation-side-2 left show-tablet">
+              <a href="tel:1300599402" class="m-navigation-button-wrapper red is-phone w-inline-block">
+                <div bind="e9b2fdd6-cf18-4a0d-7901-56eee20a5224" class="icon-1x1-medium-2 w-embed"><svg width="25" height="25" viewbox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="mage:phone">
+                      <path id="Vector" d="M13.235 20.5051C12.9233 20.3666 12.6165 20.2175 12.315 20.0581C10.813 19.2091 9.43366 18.1595 8.215 16.9381C6.6331 15.4491 5.33381 13.686 4.38 11.7341C3.86976 10.6852 3.52501 9.56357 3.358 8.40913C3.13153 7.24314 3.26043 6.03601 3.728 4.94413C4.017 4.47413 4.365 4.04413 4.763 3.66513C4.9245 3.48397 5.12097 3.33734 5.34059 3.23406C5.56022 3.13078 5.79846 3.07298 6.041 3.06413C6.546 3.14013 7.003 3.40413 7.319 3.80613C8.009 4.57313 8.749 5.26313 9.478 5.99213C9.765 6.23813 9.944 6.58713 9.976 6.96413C9.964 7.28113 9.842 7.58413 9.631 7.82113C9.389 8.12813 9.095 8.40913 8.814 8.70313C8.64458 8.86692 8.51501 9.0674 8.43526 9.28914C8.35551 9.51088 8.32771 9.74796 8.354 9.98213C8.5304 10.5297 8.83206 11.0286 9.235 11.4391C9.721 12.1041 10.206 12.7191 10.755 13.3701C11.7424 14.5106 12.9128 15.4788 14.218 16.2351C14.3985 16.3712 14.6119 16.4571 14.8364 16.484C15.0608 16.5108 15.2884 16.4778 15.496 16.3881C15.9305 16.1462 16.3161 15.8254 16.633 15.4421C16.908 15.1071 17.302 14.8921 17.732 14.8411C18.115 14.8611 18.476 15.0251 18.742 15.3011C19.086 15.5951 19.38 15.9411 19.7 16.2601C20.019 16.5801 20.275 16.8101 20.543 17.1041C20.8643 17.3875 21.1667 17.6901 21.45 18.0121C21.67 18.2961 21.774 18.6521 21.744 19.0091C21.63 19.4365 21.3839 19.8169 21.041 20.0961C20.5588 20.5979 19.9729 20.9884 19.3241 21.2402C18.6754 21.492 17.9795 21.5992 17.285 21.5541C15.8791 21.4744 14.5028 21.1179 13.235 20.5051Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"></path>
+                    </g>
+                  </svg></div>
+              </a>
+            </div>
+            <div class="navigation-side-2 mobileonly">
+              <div class="div-block-764">
+                <div data-delay="0" data-hover="true" bind="54a89536-2300-7d67-b7a9-0f179a69d49e" data-w-id="d154b648-44c2-f1da-0c23-bc03a74c94a8" class="navigation-dropdown-2 centre w-dropdown">
+                  <div class="navigation-toggle-2 w-dropdown-toggle">
+                    <div href="#" class="nav-link-4">
+                      <div class="nav-text-wrap-2">
+                        <div class="link-text-2">Maintenance<br></div>
+                        <div class="link-text-hov-2">Maintenance</div>
                       </div>
                     </div>
+                    <div bind="54a89536-2300-7d67-b7a9-0f179a69d4a7" class="dropdown-icon-2 w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.5 10.5L12 15L16.5 10.5" stroke="currentColor" stroke-width="1.5"></path>
+                      </svg></div>
                   </div>
-                  <nav sf-change-currency="1" class="country-list-2 w-dropdown-list">
-                    <div sf-currency-value="GB" class="country-row">
-                      <div class="country-flag uk"></div>
-                      <div>GBP</div>
-                    </div>
-                    <div sf-currency-value="US" class="country-row">
-                      <div class="country-flag usa"></div>
-                      <div>USD</div>
-                    </div>
-                    <div sf-currency-value="CA" class="country-row">
-                      <div class="country-flag ca"></div>
-                      <div>CAD</div>
-                    </div>
-                    <div sf-currency-value="AU" class="country-row">
-                      <div class="country-flag au"></div>
-                      <div>AUD</div>
-                    </div>
-                    <div sf-currency-value="DE" class="country-row">
-                      <div class="country-flag eur"></div>
-                      <div>EUR</div>
+                  <nav class="list-grove w-dropdown-list">
+                    <div class="div-block-762">
+                      <div class="list-wrap-grove maintenance">
+                        <div class="content-grove">
+                          <a href="#" class="link-3-grove w-inline-block"><img loading="lazy" src="https://cdn.prod.website-files.com/68dbcf0fffbc57bf461d2689/68dbd387397174a96084d417_tools-fill.svg" alt="" class="icon-1x1-medium-2">
+                            <div class="menu-link-2">Maintenance Services</div>
+                          </a>
+                          <a href="#" class="link-3-grove w-inline-block"><img loading="lazy" src="https://cdn.prod.website-files.com/68dbcf0fffbc57bf461d2689/68dbd387397174a96084d3f9_settings-5-line.svg" alt="" class="icon-1x1-medium-2">
+                            <div class="menu-link-2">Third Party Maintenance</div>
+                          </a>
+                          <a href="#" class="link-3-grove w-inline-block"><img loading="lazy" src="https://cdn.prod.website-files.com/68dbcf0fffbc57bf461d2689/68dbd387397174a96084d3f4_map-pin-2-line%20(1).svg" alt="" class="icon-1x1-medium-2">
+                            <div class="menu-link-2">Location Details</div>
+                          </a>
+                        </div>
+                      </div>
                     </div>
                   </nav>
                 </div>
-                <div class="_2rem-spacer"></div>
-                <div bind="deb1dfed-a6e9-c3ec-e777-5f3ffe8536b0" class="div-block-533">
-                  <a href="#" aria-expanded="false" role="button" class="accordion_title-wrapper w-inline-block">
-                    <div class="accordion_title">Home</div><img loading="lazy" src="{{ 'arrow-right-s-line_1.svg' | asset_url }}" alt="" class="accordion_arrow">
-                  </a>
-                  <div class="navigation-divider">
-                    <div class="navigation-line dark-120"></div>
+              </div>
+              <div class="div-block-764">
+                <div data-delay="0" data-hover="true" bind="3bbbf4b9-81ad-7622-d517-4c396ab65f24" data-w-id="d154b648-44c2-f1da-0c23-bc03a74c94c3" class="navigation-dropdown-2 centre w-dropdown">
+                  <div class="navigation-toggle-2 w-dropdown-toggle">
+                    <div href="#" class="nav-link-4">
+                      <div class="nav-text-wrap-2">
+                        <div class="link-text-2">Surfaces<br></div>
+                        <div class="link-text-hov-2">Surfaces</div>
+                      </div>
+                    </div>
+                    <div bind="3bbbf4b9-81ad-7622-d517-4c396ab65f2d" class="dropdown-icon-2 w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.5 10.5L12 15L16.5 10.5" stroke="currentColor" stroke-width="1.5"></path>
+                      </svg></div>
                   </div>
-                  <ul role="list" class="accordion_list-wrapper w-list-unstyled">
-                    <li class="accordion_item-wrapper">
-                      <div data-click="accordion" role="region" data-w-id="1171fcbf-5149-a415-23f1-5c51ac060643" class="accordion_item-2">
-                        <a aria-expanded="false" role="button" href="#" class="accordion_title-wrapper-2 w-inline-block">
-                          <div class="accordion_title">Sectors</div><img loading="lazy" src="{{ 'arrow-down-s-line.svg' | asset_url }}" alt="" class="accordion_arrow">
-                        </a>
-                        <div aria-hidden="true" class="accordion_description-wrapper-2">
-                          <div class="_1rem-spacer"></div>
-                          <div class="promo-container">
-                            <a href="#" class="promo-wrapper w-inline-block">
-                              <h3 class="text-color-white-2 text-align-center z-index-2">Aviation</h3>
-                              <div class="promo-overlay z-index-1"></div>
-                              <div class="promo-image-wrapper"></div>
-                            </a>
-                            <a href="#" class="promo-wrapper w-inline-block">
-                              <h3 class="text-color-white-2 text-align-center z-index-2">Passenger Transport</h3>
-                              <div class="promo-overlay z-index-1"></div>
-                              <div class="promo-image-wrapper two"></div>
-                            </a>
-                            <a href="#" class="promo-wrapper w-inline-block">
-                              <h3 class="text-color-white-2 text-align-center z-index-2">Interiors & Luxury</h3>
-                              <div class="promo-overlay z-index-1"></div>
-                              <div class="promo-image-wrapper three"></div>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                  <div class="navigation-divider dark-119">
-                    <div class="navigation-line dark-120"></div>
-                  </div>
-                  <ul role="list" class="accordion_list-wrapper w-list-unstyled">
-                    <li class="accordion_item-wrapper">
-                      <div data-click="accordion" role="region" data-w-id="1171fcbf-5149-a415-23f1-5c51ac06065e" class="accordion_item-2">
-                        <a aria-expanded="false" role="button" href="#" class="accordion_title-wrapper-2 w-inline-block">
-                          <div class="accordion_title">About</div><img loading="lazy" src="{{ 'arrow-down-s-line.svg' | asset_url }}" alt="" class="accordion_arrow">
-                        </a>
-                        <div aria-hidden="true" class="accordion_description-wrapper-2">
-                          <div class="_1rem-spacer"></div>
-                          <div class="w-layout-grid nav-menu-card">
-                            <div id="w-node-_1171fcbf-5149-a415-23f1-5c51ac060666-d5a86df8" class="nav-menu-image">
-                              <a href="#" class="places-card w-inline-block">
-                                <div class="places-card_image-wrap"><img sizes="(max-width: 1084px) 100vw, 1084px" srcset="{{ 'muirhead_our_story_low_carbon_04-p-500.webp' | asset_url }} 500w, {{ 'muirhead_our_story_low_carbon_04-p-800.webp' | asset_url }} 800w, {{ 'muirhead_our_story_low_carbon_04-p-1080.webp' | asset_url }} 1080w, {{ 'muirhead_our_story_low_carbon_04.webp' | asset_url }} 1084w" alt="" loading="lazy" src="{{ 'muirhead_our_story_low_carbon_04.webp' | asset_url }}" class="image-56"></div>
-                                <div class="places-card_image-overlay"></div>
-                                <div class="places-card_content">
-                                  <h3 class="places-card_heading-text">Low Carbon Leather</h3>
-                                  <div class="places-card_desc-wrap">
-                                    <p class="places-card_desc-text">We make the lowest carbon<br>leather in the world.</p>
-                                  </div>
-                                </div>
-                              </a>
-                            </div>
-                            <div class="div-block-517">
-                              <div class="nav-links-featured">
-                                <a href="#" class="nav-link-featured w-inline-block">
-                                  <div data-delay="0" data-hover="true" class="nav-dropdown-link w-dropdown">
-                                    <div class="nav-dropdown-trigger w-dropdown-toggle">
-                                      <div class="h6-heading text-weight-medium">Our Heritage</div>
-                                      <div class="nav-dropdown-icon">
-                                        <div class="icon-small-4 w-embed"><svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M13.4764 9.16658L9.00637 4.69657L10.1849 3.51807L16.6667 9.99992L10.1849 16.4817L9.00637 15.3032L13.4764 10.8332H3.33337V9.16658H13.4764Z" fill="#48816B"></path>
-                                          </svg></div>
-                                      </div>
-                                    </div>
-                                    <nav class="nav-dropdown-list w-dropdown-list">
-                                      <div class="nav-dropdown-content">
-                                        <div class="paragraph-small-5 text-color-tertiary">Fine Scottish Leather since 1840</div>
-                                      </div>
-                                    </nav>
-                                  </div>
-                                </a>
-                                <a href="#" class="nav-link-featured w-inline-block">
-                                  <div data-delay="0" data-hover="true" class="nav-dropdown-link w-dropdown">
-                                    <div class="nav-dropdown-trigger w-dropdown-toggle">
-                                      <div class="h6-heading text-weight-medium">Our Future</div>
-                                      <div class="nav-dropdown-icon">
-                                        <div class="icon-small-4 w-embed"><svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M13.4764 9.16658L9.00637 4.69657L10.1849 3.51807L16.6667 9.99992L10.1849 16.4817L9.00637 15.3032L13.4764 10.8332H3.33337V9.16658H13.4764Z" fill="#48816B"></path>
-                                          </svg></div>
-                                      </div>
-                                    </div>
-                                    <nav class="nav-dropdown-list w-dropdown-list">
-                                      <div class="nav-dropdown-content">
-                                        <div class="paragraph-small-5 text-color-tertiary">Driving cutting-edge solutions</div>
-                                      </div>
-                                    </nav>
-                                  </div>
-                                </a>
-                                <a href="#" class="nav-link-featured w-inline-block">
-                                  <div data-delay="0" data-hover="true" class="nav-dropdown-link w-dropdown">
-                                    <div class="nav-dropdown-trigger w-dropdown-toggle">
-                                      <div class="h6-heading text-weight-medium">Journal</div>
-                                      <div class="nav-dropdown-icon">
-                                        <div class="icon-small-4 w-embed"><svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M13.4764 9.16658L9.00637 4.69657L10.1849 3.51807L16.6667 9.99992L10.1849 16.4817L9.00637 15.3032L13.4764 10.8332H3.33337V9.16658H13.4764Z" fill="#48816B"></path>
-                                          </svg></div>
-                                      </div>
-                                    </div>
-                                    <nav class="nav-dropdown-list w-dropdown-list">
-                                      <div class="nav-dropdown-content">
-                                        <div class="paragraph-small-5 text-color-tertiary">Exciting news from the leather industry</div>
-                                      </div>
-                                    </nav>
-                                  </div>
-                                </a>
-                              </div>
-                              <a href="#" class="slg-logo-menu w-inline-block"><img loading="lazy" src="{{ 'slg-logo.svg' | asset_url }}" alt=""></a>
-                            </div>
-                            <div id="w-node-_1171fcbf-5149-a415-23f1-5c51ac060698-d5a86df8" class="nav-menu-block">
-                              <div class="w-layout-grid nav-menu-links">
-                                <div class="column-x-small-2">
-                                  <div class="subheading-large dark">Our Expertise</div>
-                                  <a href="#" class="nav-text-link">Complete Control</a>
-                                  <a href="#" class="nav-text-link">Local Sourcing</a>
-                                  <a href="#" class="nav-text-link">Modern Tanning</a>
-                                  <a href="#" class="nav-text-link">Seat Cover Service</a>
-                                  <a href="#" class="nav-text-link">Product Design</a>
-                                  <a href="#" class="nav-text-link">Performance Testing</a>
-                                </div>
-                              </div>
-                              <div class="column-2x-small column-left">
-                                <a href="#" bind="14f24e57-65b0-d756-3869-f8d259cb601e" sym-bind="{"link":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"abd48bfb-d708-6bdf-d8a5-842d29e77fd1"}}}" class="menu-button white-28 link-dark-60 w-inline-block">
-                                  <div class="icon-link-3 link-dark-61">
-                                    <div class="clip-2 white-10 link-dark-83">
-                                      <div class="hover-text white-31 link-dark-48">
-                                        <div sym-bind="{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"37cd13bf-30f2-b752-cae8-a49c792c8044"}}}" class="text-size-small-9 white-34 link-dark-66">Order Samples</div>
-                                      </div>
-                                      <div class="hover-text white-31 link-dark-48 bottom white-20 link-dark-65">
-                                        <div sym-bind="{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"37cd13bf-30f2-b752-cae8-a49c792c8044"}}}" class="text-size-small-9 white-34 link-dark-66">Order Samples</div>
-                                      </div>
-                                    </div>
-                                    <div sym-bind="{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"96595133-de64-782c-bc2b-1a27b5d57cf2"}}}}}" class="icon-link_circle-2 white-22 link-dark-52">
-                                      <div class="clip-2 white-10 link-dark-83">
-                                        <div class="hover-arrow-3 link-dark-39"><img sym-bind="{"img":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"65b07040-501f-bf3a-2cb4-717461e9b2dd"}}}" src="" alt="" loading="lazy" class="icon-1x1-small-7 white-12 link-dark-44"></div>
-                                        <div class="hover-arrow-3 link-dark-39 left-arrow link-dark-42"><img sym-bind="{"img":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"65b07040-501f-bf3a-2cb4-717461e9b2dd"}}}" loading="lazy" alt="" src="https://cdn.prod.website-files.com/68e2301d72211f0b080d09d7/68e2301d72211f0b080d0b80_arrow-right-long-line.svg" class="icon-1x1-small-7 white-12 link-dark-44"></div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </a>
-                                <div class="_0-5rem-spacer"></div>
-                                <a href="#" class="nav-text-link-small">sales@muirhead.co.uk</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                  <div class="navigation-divider dark-119">
-                    <div class="navigation-line dark-120"></div>
-                  </div>
-                  <ul role="list" class="accordion_list-wrapper w-list-unstyled">
-                    <li class="accordion_item-wrapper">
-                      <div data-click="accordion" role="region" data-w-id="1171fcbf-5149-a415-23f1-5c51ac0606c2" class="accordion_item-2">
-                        <a aria-expanded="false" role="button" href="#" class="accordion_title-wrapper-2 w-inline-block">
-                          <div class="accordion_title">Products</div><img loading="lazy" src="{{ 'arrow-down-s-line.svg' | asset_url }}" alt="" class="accordion_arrow">
-                        </a>
-                        <div aria-hidden="true" class="accordion_description-wrapper-2">
-                          <div class="_1rem-spacer"></div>
-                          <div class="w-layout-grid nav-2-menu-card">
-                            <div class="nav-2-menu-links">
-                              <div class="column-x-small-2">
-                                <a href="#" class="footer-link-2 dark-138 w-inline-block">
-                                  <div>Our Innovations</div>
-                                  <div class="icon-small-3 dark-151 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 20 20" fill="none">
-                                      <path d="M10.9761 10.0006L6.85132 5.87577L8.02983 4.69727L13.3332 10.0006L8.02983 15.3038L6.85132 14.1253L10.9761 10.0006Z" fill="currentColor"></path>
-                                    </svg></div>
-                                </a>
-                                <a href="#" class="footer-link-2 dark-138 w-inline-block">
-                                  <div>BioPro® Foam</div>
-                                  <div class="icon-small-3 dark-151 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 20 20" fill="none">
-                                      <path d="M10.9761 10.0006L6.85132 5.87577L8.02983 4.69727L13.3332 10.0006L8.02983 15.3038L6.85132 14.1253L10.9761 10.0006Z" fill="currentColor"></path>
-                                    </svg></div>
-                                </a>
-                                <a href="#" class="footer-link-2 dark-138 w-inline-block">
-                                  <div>Custom Products</div>
-                                  <div class="icon-small-3 dark-151 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 20 20" fill="none">
-                                      <path d="M10.9761 10.0006L6.85132 5.87577L8.02983 4.69727L13.3332 10.0006L8.02983 15.3038L6.85132 14.1253L10.9761 10.0006Z" fill="currentColor"></path>
-                                    </svg></div>
-                                </a>
-                                <a href="#" class="footer-link-2 dark-138 w-inline-block">
-                                  <div>Leather Care</div>
-                                  <div class="icon-small-3 dark-151 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 20 20" fill="none">
-                                      <path d="M10.9761 10.0006L6.85132 5.87577L8.02983 4.69727L13.3332 10.0006L8.02983 15.3038L6.85132 14.1253L10.9761 10.0006Z" fill="currentColor"></path>
-                                    </svg></div>
-                                </a>
-                              </div>
-                              <a href="#" bind="14f24e57-65b0-d756-3869-f8d259cb601e" sym-bind="{"link":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"abd48bfb-d708-6bdf-d8a5-842d29e77fd1"}}}" class="menu-button white-28 link-dark-60 w-inline-block">
-                                <div class="icon-link-3 link-dark-61">
-                                  <div class="clip-2 white-10 link-dark-83">
-                                    <div class="hover-text white-31 link-dark-48">
-                                      <div sym-bind="{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"37cd13bf-30f2-b752-cae8-a49c792c8044"}}}" class="text-size-small-9 white-34 link-dark-66">Order Samples</div>
-                                    </div>
-                                    <div class="hover-text white-31 link-dark-48 bottom white-20 link-dark-65">
-                                      <div sym-bind="{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"37cd13bf-30f2-b752-cae8-a49c792c8044"}}}" class="text-size-small-9 white-34 link-dark-66">Order Samples</div>
-                                    </div>
-                                  </div>
-                                  <div sym-bind="{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"96595133-de64-782c-bc2b-1a27b5d57cf2"}}}}}" class="icon-link_circle-2 white-22 link-dark-52">
-                                    <div class="clip-2 white-10 link-dark-83">
-                                      <div class="hover-arrow-3 link-dark-39"><img sym-bind="{"img":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"65b07040-501f-bf3a-2cb4-717461e9b2dd"}}}" src="" alt="" loading="lazy" class="icon-1x1-small-7 white-12 link-dark-44"></div>
-                                      <div class="hover-arrow-3 link-dark-39 left-arrow link-dark-42"><img sym-bind="{"img":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"65b07040-501f-bf3a-2cb4-717461e9b2dd"}}}" loading="lazy" alt="" src="https://cdn.prod.website-files.com/68e2301d72211f0b080d09d7/68e2301d72211f0b080d0b80_arrow-right-long-line.svg" class="icon-1x1-small-7 white-12 link-dark-44"></div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </a>
-                            </div>
-                            <a href="#" class="places-card xs-9 w-inline-block">
-                              <div class="places-card_image-wrap xs-10"><img sizes="(max-width: 1520px) 100vw, 1520px" srcset="{{ 'interiors-and-luxury-p-500.webp' | asset_url }} 500w, {{ 'interiors-and-luxury-p-800.webp' | asset_url }} 800w, {{ 'interiors-and-luxury-p-1080.webp' | asset_url }} 1080w, {{ 'interiors-and-luxury.webp' | asset_url }} 1520w" alt="" loading="lazy" src="{{ 'interiors-and-luxury.webp' | asset_url }}" class="image-56 xs-11"></div>
-                              <div class="places-card_image-overlay xs-4"></div>
-                              <div class="places-card_content xs-13">
-                                <h3 class="places-card_heading-text xs-14">Why Leather?</h3>
-                                <div class="places-card_desc-wrap xs-7">
-                                  <p class="places-card_desc-text xs-8">Leather means luxury</p>
-                                </div>
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                  <div class="navigation-divider dark-119">
-                    <div class="navigation-line dark-120"></div>
-                  </div>
-                  <ul role="list" class="accordion_list-wrapper w-list-unstyled">
-                    <li class="accordion_item-wrapper">
-                      <div data-click="accordion" role="region" data-w-id="1171fcbf-5149-a415-23f1-5c51ac0606fb" class="accordion_item-2">
-                        <a aria-expanded="false" role="button" href="#" class="accordion_title-wrapper-2 w-inline-block">
-                          <div class="accordion_title">Sustainability</div><img loading="lazy" src="{{ 'arrow-down-s-line.svg' | asset_url }}" alt="" class="accordion_arrow">
-                        </a>
-                        <div aria-hidden="true" class="accordion_description-wrapper-2">
-                          <div class="_1rem-spacer"></div>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                  <div class="navigation-divider dark-119">
-                    <div class="navigation-line dark-120"></div>
-                  </div>
-                  <ul role="list" class="accordion_list-wrapper w-list-unstyled">
-                    <li class="accordion_item-wrapper">
-                      <div data-click="accordion" role="region" data-w-id="1171fcbf-5149-a415-23f1-5c51ac060706" class="accordion_item-2">
-                        <a aria-expanded="false" role="button" href="#" class="accordion_title-wrapper-2 w-inline-block">
-                          <div class="accordion_title">Shop</div><img loading="lazy" src="{{ 'arrow-down-s-line.svg' | asset_url }}" alt="" class="accordion_arrow">
-                        </a>
-                        <div aria-hidden="true" class="accordion_description-wrapper-2">
-                          <div class="_1rem-spacer"></div>
-                          <div class="navigation-dropdown-card">
-                            <div class="w-layout-grid navigation-grid-large">
-                              <a href="#" class="navigation-card w-inline-block">
-                                <div class="navigation-image-small"><img sizes="(max-width: 1084px) 100vw, 1084px" srcset="{{ 'muirhead_home_04-p-500.webp' | asset_url }} 500w, {{ 'muirhead_home_04-p-800.webp' | asset_url }} 800w, {{ 'muirhead_home_04-p-1080.webp' | asset_url }} 1080w, {{ 'muirhead_home_04.webp' | asset_url }} 1084w" alt="" loading="lazy" src="{{ 'muirhead_home_04.webp' | asset_url }}" class="image-cover-3"></div>
-                                <div class="column">
-                                  <div class="subheading-small-2">Stock</div>
-                                  <p class="paragraph-small-6 text-color-tertiary">Buy a range of one-off hide</p>
-                                </div>
-                              </a>
-                              <a href="#" class="navigation-card w-inline-block">
-                                <div class="navigation-image-small"><img sizes="(max-width: 800px) 100vw, 800px" srcset="{{ 'sustainability-p-500.webp' | asset_url }} 500w, {{ 'sustainability.webp' | asset_url }} 800w" alt="" loading="lazy" src="{{ 'sustainability.webp' | asset_url }}" class="image-cover-3"></div>
-                                <div class="column">
-                                  <div class="subheading-small-2">Order Samples</div>
-                                  <p class="paragraph-small-6 text-color-tertiary">Find the perfect leather today</p>
-                                </div>
-                              </a>
-                              <a href="#" class="navigation-card w-inline-block">
-                                <div class="navigation-image-small"><img sizes="(max-width: 1104px) 100vw, 1104px" srcset="{{ 'muirhead_our_product_leather_care_5muirhead_our_product_leather_care_04.avif' | asset_url }} 500w, {{ 'muirhead_our_product_leather_care_5muirhead_our_product_leather_care_04.avif' | asset_url }} 1104w" alt="" loading="lazy" src="{{ 'muirhead_our_product_leather_care_5muirhead_our_product_leather_care_04.avif' | asset_url }}" class="image-cover-3"></div>
-                                <div class="column">
-                                  <div class="subheading-small-2">Leather Care</div>
-                                  <p class="paragraph-small-6 text-color-tertiary">Care for premium leather</p>
-                                </div>
-                              </a>
-                              <a href="#" class="navigation-card w-inline-block">
-                                <div class="navigation-image-small"><img sizes="(max-width: 1000px) 100vw, 1000px" srcset="{{ 'Muirhead-Square-p-500.jpg' | asset_url }} 500w, {{ 'Muirhead-Square-p-800.jpg' | asset_url }} 800w, {{ 'Muirhead-Square.jpg' | asset_url }} 1000w" alt="" loading="lazy" src="{{ 'Muirhead-Square.jpg' | asset_url }}" class="image-cover-3"></div>
-                                <div class="column">
-                                  <div class="subheading-small-2">Muirhead Gifts</div>
-                                  <p class="paragraph-small-6 text-color-tertiary">Bespoke Leather Gifts</p>
-                                </div>
-                              </a>
-                            </div>
-                            <div class="_0-5rem-spacer">
-                              <div class="navigation-line"></div>
-                            </div>
-                            <a href="#" class="banner black w-inline-block">
-                              <div class="banner-wrap">
-                                <div>Build Your Own Leather</div>
-                                <div class="badge-banner brown">
-                                  <div>Create Now</div>
-                                </div>
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                  <div class="_1rem-spacer"></div>
-                  <a href="#" bind="14f24e57-65b0-d756-3869-f8d259cb601e" sym-bind="{"link":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"abd48bfb-d708-6bdf-d8a5-842d29e77fd1"}}}" class="button-13 w-inline-block">
-                    <div class="icon-link">
-                      <div class="clip-2">
-                        <div class="hover-text">
-                          <div sym-bind="{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"37cd13bf-30f2-b752-cae8-a49c792c8044"}}}" class="text-size-small-9">Contact</div>
-                        </div>
-                        <div class="hover-text bottom">
-                          <div sym-bind="{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"37cd13bf-30f2-b752-cae8-a49c792c8044"}}}" class="text-size-small-9">Contact</div>
-                        </div>
-                      </div>
-                      <div sym-bind="{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"96595133-de64-782c-bc2b-1a27b5d57cf2"}}}}}" class="icon-link_circle-2">
-                        <div class="clip-2">
-                          <div class="hover-arrow-3"><img sym-bind="{"img":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"65b07040-501f-bf3a-2cb4-717461e9b2dd"}}}" loading="lazy" alt="" src="https://cdn.prod.website-files.com/68323bc95b8a3c54fe42da38/6845f15c153a9f3137a2424a_arrow-right-s-line.svg" class="icon-1x1-small-7"></div>
-                          <div class="hover-arrow-3 left-arrow"><img sym-bind="{"img":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"65b07040-501f-bf3a-2cb4-717461e9b2dd"}}}" loading="lazy" alt="" src="https://cdn.prod.website-files.com/68323bc95b8a3c54fe42da38/6845f15c153a9f3137a2424a_arrow-right-s-line.svg" class="icon-1x1-small-7"></div>
+                  <nav class="list-grove w-dropdown-list">
+                    <div class="div-block-762">
+                      <div class="list-wrap-grove surfaces">
+                        <div class="content-grove">
+                          <a href="#" class="link-3-grove w-inline-block"><img loading="lazy" src="https://cdn.prod.website-files.com/68dbcf0fffbc57bf461d2689/68dbd387397174a96084d3f7_football.svg" alt="" class="icon-1x1-medium-2">
+                            <div class="menu-link-2">Sports Surfaces</div>
+                          </a>
+                          <a href="#" class="link-3-grove w-inline-block"><img loading="lazy" src="https://cdn.prod.website-files.com/68dbcf0fffbc57bf461d2689/68dbd387397174a96084d3fa_hammer-line.svg" alt="" class="icon-1x1-medium-2">
+                            <div class="menu-link-2">Woodholme Construction</div>
+                          </a>
+                          <a href="#" class="link-3-grove w-inline-block"><img loading="lazy" src="https://cdn.prod.website-files.com/68dbcf0fffbc57bf461d2689/68dbd387397174a96084d3f4_map-pin-2-line%20(1).svg" alt="" class="icon-1x1-medium-2">
+                            <div class="menu-link-2">Location Details</div>
+                          </a>
                         </div>
                       </div>
                     </div>
-                  </a>
-                  <div class="_1rem-spacer"></div>
-                  <div bind="57d39715-0bd5-69ba-83c7-0f9d7b7fcf1e" class="scoial-wrapper">
-                    <a href="https://www.facebook.com/WHMalcolm" target="_blank" class="sociallink w-inline-block">
-                      <div bind="57d39715-0bd5-69ba-83c7-0f9d7b7fcf20" class="social-link w-embed"><svg width="18" height="18" viewbox="0 0 13 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M4.23781 22.224V12.0866H0.677734V8.13584H4.23781V5.22228C4.23781 1.84111 6.39289 0 9.54053 0C11.0483 0 12.3441 0.107569 12.7218 0.155649V3.68917L10.5387 3.69012C8.82684 3.69012 8.49538 4.46961 8.49538 5.61346V8.13584H12.578L12.0464 12.0866H8.49537V22.224H4.23781Z" fill="CurrentColor"></path>
-                        </svg></div>
-                    </a>
-                    <a href="https://www.twitter.com/MalcolmGroup" target="_blank" class="sociallink w-inline-block">
-                      <div bind="57d39715-0bd5-69ba-83c7-0f9d7b7fcf22" class="social-link w-embed"><svg width="18" height="18" viewbox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M13.1776 9.50438L20.9966 0.611328H19.1444L12.3523 8.33146L6.93153 0.611328H0.677734L8.87683 12.2866L0.677734 21.6112H2.52993L9.69793 13.4568L15.4239 21.6112H21.6777M3.19843 1.97798H6.04393L19.143 20.3117H16.2968" fill="CurrentColor"></path>
-                        </svg></div>
-                    </a>
-                    <a href="https://www.instagram.com/themalcolmgroup" target="_blank" class="sociallink w-inline-block">
-                      <div bind="57d39715-0bd5-69ba-83c7-0f9d7b7fcf24" class="social-link w-embed"><svg width="18" height="18" viewbox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M10.8387 2.59611C13.7326 2.59611 14.0754 2.60649 15.2186 2.65645C15.9059 2.66451 16.5868 2.78545 17.2315 3.01403C17.699 3.18681 18.1236 3.45148 18.4779 3.79102C18.8323 4.13055 19.1085 4.53742 19.2888 4.98543C19.5273 5.60322 19.6535 6.25563 19.6619 6.9143C19.7135 8.0098 19.7249 8.3382 19.7249 11.1113C19.7249 13.8844 19.7141 14.2128 19.6619 15.3083C19.6535 15.967 19.5273 16.6194 19.2888 17.2372C19.1085 17.6852 18.8323 18.0921 18.4779 18.4316C18.1236 18.7712 17.699 19.0358 17.2315 19.2086C16.5868 19.4372 15.9059 19.5581 15.2186 19.5662C14.0759 19.6156 13.7332 19.6265 10.8387 19.6265C7.94426 19.6265 7.60155 19.6161 6.45884 19.5662C5.77147 19.5581 5.09064 19.4372 4.44594 19.2086C3.97841 19.0358 3.55381 18.7712 3.19948 18.4316C2.84516 18.0921 2.56895 17.6852 2.38864 17.2372C2.15011 16.6194 2.0239 15.967 2.01548 15.3083C1.96387 14.2128 1.95252 13.8844 1.95252 11.1113C1.95252 8.3382 1.96335 8.0098 2.01548 6.9143C2.0239 6.25563 2.15011 5.60322 2.38864 4.98543C2.56895 4.53742 2.84516 4.13055 3.19948 3.79102C3.55381 3.45148 3.97841 3.18681 4.44594 3.01403C5.09064 2.78545 5.77147 2.66451 6.45884 2.65645C7.60206 2.60699 7.94477 2.59611 10.8387 2.59611V2.59611ZM10.8387 0.724609C7.89677 0.724609 7.52619 0.736479 6.37006 0.786927C5.47048 0.804073 4.58044 0.967291 3.73781 1.26964C3.01497 1.53061 2.36025 1.93958 1.81935 2.46801C1.26741 2.98652 0.840255 3.61425 0.567742 4.30736C0.252222 5.11481 0.0818932 5.96769 0.064 6.82972C0.0123871 7.9366 0 8.29171 0 11.1108C0 13.9299 0.0123871 14.285 0.0650322 15.3929C0.0829253 16.2549 0.253255 17.1078 0.568774 17.9153C0.840985 18.6083 1.26778 19.236 1.81935 19.7546C2.36055 20.2832 3.01563 20.6922 3.73884 20.953C4.58147 21.2553 5.47151 21.4186 6.3711 21.4357C7.52723 21.4852 7.89626 21.498 10.8397 21.498C13.7832 21.498 14.1523 21.4862 15.3084 21.4357C16.208 21.4186 17.098 21.2553 17.9406 20.953C18.6604 20.6856 19.3141 20.2773 19.8597 19.754C20.4054 19.2308 20.8311 18.6042 21.1097 17.9143C21.4252 17.1068 21.5955 16.254 21.6134 15.3919C21.665 14.285 21.6774 13.9299 21.6774 11.1108C21.6774 8.29171 21.665 7.9366 21.6124 6.82874C21.5945 5.9667 21.4242 5.11382 21.1086 4.30637C20.8364 3.61335 20.4096 2.98562 19.8581 2.46702C19.3169 1.93847 18.6618 1.5295 17.9386 1.26865C17.0959 0.966302 16.2059 0.803084 15.3063 0.785938C14.1512 0.736479 13.7806 0.724609 10.8387 0.724609Z" fill="CurrentColor"></path>
-                          <path d="M10.8413 5.7793C9.74049 5.7793 8.66437 6.09211 7.74906 6.67817C6.83375 7.26423 6.12035 8.09721 5.69907 9.0718C5.2778 10.0464 5.16758 11.1188 5.38234 12.1534C5.5971 13.188 6.12721 14.1384 6.90562 14.8843C7.68403 15.6302 8.67578 16.1382 9.75547 16.344C10.8352 16.5497 11.9543 16.4441 12.9713 16.0404C13.9884 15.6368 14.8576 14.9531 15.4692 14.076C16.0808 13.1989 16.4073 12.1677 16.4073 11.1129C16.4073 9.69831 15.8209 8.3417 14.777 7.34146C13.7332 6.34123 12.3175 5.7793 10.8413 5.7793ZM10.8413 14.5749C10.1268 14.5749 9.42825 14.3719 8.83411 13.9915C8.23997 13.6111 7.77689 13.0704 7.50344 12.4377C7.22999 11.8051 7.15844 11.109 7.29785 10.4374C7.43725 9.76587 7.78135 9.14899 8.28662 8.66481C8.79189 8.18063 9.43565 7.8509 10.1365 7.71732C10.8373 7.58373 11.5638 7.65229 12.2239 7.91433C12.8841 8.17636 13.4484 8.62011 13.8453 9.18944C14.2423 9.75878 14.4542 10.4281 14.4542 11.1129C14.4542 12.0311 14.0736 12.9117 13.396 13.5609C12.7185 14.2102 11.7995 14.5749 10.8413 14.5749V14.5749Z" fill="CurrentColor"></path>
-                          <path d="M16.6249 6.813C17.3432 6.813 17.9255 6.255 17.9255 5.56666C17.9255 4.87832 17.3432 4.32031 16.6249 4.32031C15.9065 4.32031 15.3242 4.87832 15.3242 5.56666C15.3242 6.255 15.9065 6.813 16.6249 6.813Z" fill="CurrentColor"></path>
-                        </svg></div>
-                    </a>
-                    <a href="https://www.linkedin.com/company/the-malcolm-group" target="_blank" class="sociallink w-inline-block">
-                      <div bind="57d39715-0bd5-69ba-83c7-0f9d7b7fcf26" class="social-link w-embed"><svg width="18" height="18" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <g clip-path="url(#clip0_348_181)">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.8223 19.6621H16.002V12.9775C16.002 11.1437 15.193 10.1207 13.7422 10.1207C12.1635 10.1207 11.2266 11.1867 11.2266 12.9775V19.6621H7.40625V7.24609H11.2266V8.64234C11.2266 8.64234 12.4252 6.53911 15.1261 6.53911C17.8281 6.53911 19.8223 8.1879 19.8223 11.5994V19.6621ZM3.05301 5.26039C1.7646 5.26039 0.720703 4.20795 0.720703 2.91C0.720703 1.61301 1.7646 0.560547 3.05301 0.560547C4.34045 0.560547 5.38435 1.61301 5.38435 2.91C5.3853 4.20795 4.34045 5.26039 3.05301 5.26039ZM0.720703 19.6621H5.49609V7.24609H0.720703V19.6621Z" fill="CurrentColor"></path>
-                          </g>
-                          <defs>
-                            <clippath id="clip0_348_181">
-                              <rect width="19.1016" height="19.1016" fill="white" transform="translate(0.720703 0.560547)"></rect>
-                            </clippath>
-                          </defs>
-                        </svg></div>
-                    </a>
-                    <a href="https://www.youtube.com/@TheMalcolmGroup" target="_blank" class="sociallink w-inline-block">
-                      <div bind="57d39715-0bd5-69ba-83c7-0f9d7b7fcf28" class="social-link w-embed"><svg width="18" height="18" viewbox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <g clip-path="url(#clip0_348_177)">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.73506 14.1675C8.47715 14.3149 8.16027 14.3139 7.90334 14.1648C7.64641 14.0157 7.48828 13.7411 7.48828 13.444V6.77735C7.48828 6.48026 7.64641 6.20568 7.90334 6.0566C8.16027 5.90751 8.47715 5.90643 8.73506 6.05385L14.5684 9.38718C14.828 9.53551 14.9883 9.8116 14.9883 10.1107C14.9883 10.4098 14.828 10.6858 14.5684 10.8342L8.73506 14.1675ZM12.4753 10.1107L9.15495 8.21335V12.008L12.4753 10.1107Z" fill="CurrentColor"></path>
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.822266 10.1113C0.822266 13.2361 0.822266 14.7985 1.61803 15.8938C1.87502 16.2475 2.1861 16.5586 2.53982 16.8156C3.6351 17.6113 5.19749 17.6113 8.32227 17.6113H13.3223C16.447 17.6113 18.0094 17.6113 19.1047 16.8156C19.4584 16.5586 19.7695 16.2475 20.0265 15.8938C20.8223 14.7985 20.8223 13.2361 20.8223 10.1113C20.8223 6.98658 20.8223 5.42416 20.0265 4.32891C19.7695 3.97516 19.4584 3.66408 19.1047 3.40708C18.0094 2.61133 16.447 2.61133 13.3223 2.61133H8.32227C5.19749 2.61133 3.6351 2.61133 2.53982 3.40708C2.1861 3.66408 1.87502 3.97516 1.61803 4.32891C0.822266 5.42416 0.822266 6.98658 0.822266 10.1113ZM8.32227 15.9447H13.3223C14.9218 15.9447 15.9875 15.9424 16.795 15.8549C17.5713 15.7708 17.9089 15.6243 18.1251 15.4672C18.3373 15.313 18.5239 15.1264 18.6782 14.9141C18.8352 14.698 18.9817 14.3604 19.0658 13.5841C19.1533 12.7766 19.1556 11.7108 19.1556 10.1113C19.1556 8.51183 19.1533 7.44608 19.0658 6.63858C18.9817 5.86225 18.8352 5.52466 18.6782 5.3085C18.5239 5.09633 18.3373 4.90966 18.1251 4.75541C17.9089 4.59841 17.5713 4.45191 16.795 4.36775C15.9875 4.28025 14.9218 4.278 13.3223 4.278H8.32227C6.72275 4.278 5.65699 4.28025 4.84951 4.36775C4.07321 4.45191 3.73564 4.59841 3.51947 4.75541C3.30723 4.90966 3.12059 5.09633 2.96639 5.3085C2.80933 5.52466 2.66282 5.86225 2.57871 6.63858C2.49122 7.44608 2.48893 8.51183 2.48893 10.1113C2.48893 11.7108 2.49122 12.7766 2.57871 13.5841C2.66282 14.3604 2.80933 14.698 2.96639 14.9141C3.12059 15.1264 3.30723 15.313 3.51947 15.4672C3.73564 15.6243 4.07321 15.7708 4.84951 15.8549C5.65699 15.9424 6.72275 15.9447 8.32227 15.9447Z" fill="CurrentColor"></path>
-                          </g>
-                          <defs>
-                            <clippath id="clip0_348_177">
-                              <rect width="20" height="20" fill="white" transform="matrix(1 0 0 -1 0.822266 20.1113)"></rect>
-                            </clippath>
-                          </defs>
-                        </svg></div>
-                    </a>
-                    <a href="https://www.tiktok.com/@themalcolmgroup" target="_blank" class="w-inline-block">
-                      <div bind="57d39715-0bd5-69ba-83c7-0f9d7b7fcf2a" class="social-link w-embed"><svg width="18" height="18" viewbox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <g clip-path="url(#clip0_348_186)">
-                            <path d="M12.2742 0.817969C13.3997 0.800781 14.5168 0.809719 15.6333 0.800781C15.6705 2.19709 16.237 3.45384 17.1383 4.38472L17.1369 4.38334C18.107 5.25716 19.3692 5.82366 20.7607 5.91991L20.78 5.92128V9.38353C19.4655 9.35053 18.2293 9.04734 17.1149 8.52622L17.1713 8.54959C16.6323 8.29041 16.1765 8.02434 15.7433 7.72734L15.7791 7.75072C15.7708 10.2594 15.7873 12.7681 15.7619 15.2678C15.6911 16.5418 15.2676 17.7037 14.5883 18.6737L14.6021 18.6524C13.4663 20.279 11.6266 21.3467 9.53453 21.41H9.5249C9.44034 21.4141 9.34065 21.4162 9.24028 21.4162C8.0509 21.4162 6.93922 21.0848 5.99184 20.5093L6.01934 20.5252C4.29509 19.4877 3.10572 17.7126 2.88572 15.648L2.88297 15.6198C2.86578 15.1902 2.85753 14.7605 2.87472 14.3397C3.21159 11.0542 5.96434 8.51247 9.3104 8.51247C9.68647 8.51247 10.055 8.54478 10.4132 8.60597L10.3747 8.60047C10.3918 9.87166 10.3403 11.1435 10.3403 12.4147C10.0495 12.3095 9.71397 12.2483 9.36403 12.2483C8.07978 12.2483 6.98734 13.0692 6.58309 14.2153L6.5769 14.2359C6.48547 14.5295 6.43253 14.867 6.43253 15.2163C6.43253 15.3579 6.44147 15.4982 6.45797 15.6357L6.45659 15.6192C6.68484 17.0258 7.89072 18.0873 9.34478 18.0873C9.38672 18.0873 9.42797 18.0866 9.46922 18.0845H9.46303C10.4688 18.0543 11.342 17.5132 11.8356 16.7137L11.8425 16.7013C12.026 16.4455 12.1518 16.1362 12.1938 15.8L12.1945 15.7903C12.2804 14.2524 12.246 12.7234 12.2543 11.1855C12.2625 7.72322 12.246 4.26922 12.2715 0.815906L12.2742 0.817969Z" fill="CurrentColor"></path>
-                          </g>
-                          <defs>
-                            <clippath id="clip0_348_186">
-                              <rect width="22" height="22" fill="white" transform="translate(0.822266 0.111328)"></rect>
-                            </clippath>
-                          </defs>
-                        </svg></div>
-                    </a>
-                  </div>
+                  </nav>
                 </div>
-                <div class="_8rem-spacer"></div>
               </div>
+              <div class="hide-tablet">
+                <a href="#" bind="14f24e57-65b0-d756-3869-f8d259cb601e" sym-bind="{"link":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"abd48bfb-d708-6bdf-d8a5-842d29e77fd1"}}}" class="button-30 white-28 w-inline-block">
+                  <div class="icon-link-3 white-3">
+                    <div class="clip-2 white-10">
+                      <div class="hover-text white-31">
+                        <div sym-bind="{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"37cd13bf-30f2-b752-cae8-a49c792c8044"}}}" class="text-size-small-25 white-34">Contact</div>
+                      </div>
+                      <div class="hover-text white-31 bottom white-20">
+                        <div sym-bind="{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"37cd13bf-30f2-b752-cae8-a49c792c8044"}}}" class="text-size-small-25 white-34">Contact</div>
+                      </div>
+                    </div>
+                    <div sym-bind="{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"96595133-de64-782c-bc2b-1a27b5d57cf2"}}}}}" class="icon-link_circle-2 white-22">
+                      <div class="clip-2 white-10">
+                        <div class="hover-arrow-3 white-37"><img sym-bind="{"img":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"65b07040-501f-bf3a-2cb4-717461e9b2dd"}}}" loading="lazy" alt="" src="https://cdn.prod.website-files.com/68dbcf0fffbc57bf461d2689/68dbd387397174a96084d3f5_arrow-right-s-line.svg" class="icon-1x1-small-7 white-12"></div>
+                        <div class="hover-arrow-3 white-37 left-arrow white-13"><img sym-bind="{"img":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"65b07040-501f-bf3a-2cb4-717461e9b2dd"}}}" loading="lazy" alt="" src="https://cdn.prod.website-files.com/68dbcf0fffbc57bf461d2689/68dbd387397174a96084d3f5_arrow-right-s-line.svg" class="icon-1x1-small-7 white-12"></div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <a href="../index.html" class="brand-2 w-nav-brand">{% if section.settings.image_white_logo %}
+{{ section.settings.image_white_logo | image_url: width: 160 | image_tag: loading: 'lazy', class: 'logo-nav-desktop' }}
+{% else %}
+<img loading="lazy" alt="" src="https://cdn.prod.website-files.com/68dbcf0fffbc57bf461d2689/68f23c7192dd43f5c1c5874a_Lash%20Nation%20Logo%20Dark.svg" class="logo-nav-desktop">
+{% endif %}{% if section.settings.image_white_logo %}
+{{ section.settings.image_white_logo | image_url: width: 160 | image_tag: loading: 'lazy', class: 'logo-nav-mobile' }}
+{% else %}
+<img loading="lazy" alt="" src="https://cdn.prod.website-files.com/68dbcf0fffbc57bf461d2689/68f254eb82dcf8aa145a4a5c_Lash%20Nation%20Logo%20Dark%20Mobile.svg" class="logo-nav-mobile">
+{% endif %}</a>
+            <div class="navigation-side-2 right">
+              <div class="hide-tablet">
+                <div bind="63674141-9ca1-0af9-59df-f526ad09f5e4" class="button-wrapper-2">
+                  <a href="#" class="button-16 w-inline-block">
+                    <div class="btn-txt-container">
+                      <div class="btn-txt">Course Dates</div>
+                      <div class="btn-txt">Course Dates</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div data-w-id="d154b648-44c2-f1da-0c23-bc03a74c955a" class="menu-trigger-2">
+                <div data-is-ix2-target="1" class="hamburger" data-w-id="d154b648-44c2-f1da-0c23-bc03a74c955b" data-animation-type="lottie" data-src="https://uploads-ssl.webflow.com/64bf8d44ac153e5f63054667/64bf8d44ac153e5f63054700_76866-hamburger.json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="3" data-duration="0"></div>
+              </div>
+            </div>
+          </div>
+          <div id="w-node-d154b648-44c2-f1da-0c23-bc03a74c955c-d5a86df8" class="nav-cover"></div>
+          <div id="mobile-menu" class="menu-mob-container">
+            <div bind="9e9206c3-e206-98f8-7315-36b7f24316b1" class="div-block-765">
+              <div class="_12rem-spacer"></div>
+              <div bind="deb1dfed-a6e9-c3ec-e777-5f3ffe8536b0" class="div-block-766">
+                <a href="#" aria-expanded="false" role="button" class="accordion_title-wrapper w-inline-block">
+                  <div class="accordion_title-2">Home</div><img loading="lazy" src="https://cdn.prod.website-files.com/68dbcf0fffbc57bf461d2689/68dbd387397174a96084d418_arrow-right-s-line.svg" alt="" class="accordion_arrow">
+                </a>
+                <div class="navigation-divider">
+                  <div class="navigation-line dark-120"></div>
+                </div>
+                <ul role="list" class="accordion_list-wrapper w-list-unstyled">
+                  <li class="accordion_item-wrapper">
+                    <div data-click="accordion" role="region" data-w-id="d154b648-44c2-f1da-0c23-bc03a74c9569" class="accordion_item-2">
+                      <a aria-expanded="false" role="button" href="#" class="accordion_title-wrapper-3 w-inline-block">
+                        <div class="accordion_title-2">Courses</div><img loading="lazy" src="https://cdn.prod.website-files.com/68dbcf0fffbc57bf461d2689/68dbd387397174a96084d414_arrow-down-s-line.svg" alt="" class="accordion_arrow">
+                      </a>
+                      <div aria-hidden="true" class="accordion_description-wrapper-2">
+                        <div class="_1rem-spacer"></div>
+                        <div class="promo-container-2">
+                          <a href="#" class="card-rollover w-inline-block">
+                            <div class="places-card_image-wrap"><img sizes="(max-width: 1439px) 100vw, 1440px" srcset="{{ 'lashnation.au_1758169646_3724119376317747766_13575537128_1lashnation.au_1758169646_3724119376317747766_13575537128.avif' | asset_url }} 500w, {{ 'lashnation.au_1758169646_3724119376317747766_13575537128_1lashnation.au_1758169646_3724119376317747766_13575537128.avif' | asset_url }} 800w, {{ 'lashnation.au_1758169646_3724119376317747766_13575537128_1lashnation.au_1758169646_3724119376317747766_13575537128.avif' | asset_url }} 1440w" alt="" loading="lazy" src="{{ 'lashnation.au_1758169646_3724119376317747766_13575537128_1lashnation.au_1758169646_3724119376317747766_13575537128.avif' | asset_url }}" class="image-56"></div>
+                            <div class="places-card_image-overlay-2"></div>
+                            <div class="places-card_content">
+                              <div class="places-card_heading-text-2">Group Courses</div>
+                              <div class="places-card_desc-wrap">
+                                <p class="places-card_desc-text">Hands-On Training with Live Models in a Supportive Group Setting.</p>
+                              </div>
+                            </div>
+                          </a>
+                          <a href="#" class="card-rollover w-inline-block">
+                            <div class="places-card_image-wrap"><img sizes="(max-width: 1080px) 100vw, 1080px" srcset="{{ 'Private-Lash-Course_1Private-Lash-Course.avif' | asset_url }} 500w, {{ 'Private-Lash-Course_1Private-Lash-Course.avif' | asset_url }} 1080w" alt="" loading="lazy" src="{{ 'Private-Lash-Course_1Private-Lash-Course.avif' | asset_url }}" class="image-56"></div>
+                            <div class="places-card_image-overlay-2"></div>
+                            <div class="places-card_content">
+                              <div class="places-card_heading-text-2">Private Courses</div>
+                              <div class="places-card_desc-wrap">
+                                <p class="places-card_desc-text">Hands on training with live models in a one-on-one setting</p>
+                              </div>
+                            </div>
+                          </a>
+                          <a href="#" class="card-rollover w-inline-block">
+                            <div class="places-card_image-wrap"><img data-w-id="d154b648-44c2-f1da-0c23-bc03a74c9587" sizes="(max-width: 1080px) 100vw, 1080px" alt="" loading="lazy" src="{{ 'Group-Lash-Course_1Group-Lash-Course.avif' | asset_url }}" srcset="{{ 'Group-Lash-Course_1Group-Lash-Course.avif' | asset_url }} 500w, {{ 'Group-Lash-Course_1Group-Lash-Course.avif' | asset_url }} 1080w" class="image-56"></div>
+                            <div class="places-card_image-overlay-2"></div>
+                            <div class="places-card_content">
+                              <div class="places-card_heading-text-2">Online Courses</div>
+                              <div class="places-card_desc-wrap">
+                                <p class="places-card_desc-text">Learn anytime, anywhere — with full support.</p>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+                <div class="navigation-divider dark-119">
+                  <div class="navigation-line dark-120"></div>
+                </div>
+                <a href="#" aria-expanded="false" role="button" class="accordion_title-wrapper w-inline-block">
+                  <div class="accordion_title-2">Reviews</div><img loading="lazy" src="https://cdn.prod.website-files.com/68dbcf0fffbc57bf461d2689/68dbd387397174a96084d418_arrow-right-s-line.svg" alt="" class="accordion_arrow">
+                </a>
+                <div class="navigation-divider dark-119">
+                  <div class="navigation-line dark-120"></div>
+                </div>
+                <ul role="list" class="accordion_list-wrapper w-list-unstyled">
+                  <li class="accordion_item-wrapper">
+                    <div data-click="accordion" role="region" data-w-id="d154b648-44c2-f1da-0c23-bc03a74c9599" class="accordion_item-2">
+                      <a aria-expanded="false" role="button" href="#" class="accordion_title-wrapper-3 w-inline-block">
+                        <div class="accordion_title-2">About</div><img loading="lazy" src="https://cdn.prod.website-files.com/68dbcf0fffbc57bf461d2689/68dbd387397174a96084d414_arrow-down-s-line.svg" alt="" class="accordion_arrow">
+                      </a>
+                      <div aria-hidden="true" class="accordion_description-wrapper-2">
+                        <div class="_1rem-spacer"></div>
+                        <div class="_2rem-spacer"></div>
+                        <div class="div-block-588">
+                          <a href="#" class="accordion_title-wrapper w-inline-block">
+                            <div class="accordion_title-2">About Us</div><img loading="lazy" src="https://cdn.prod.website-files.com/68dbcf0fffbc57bf461d2689/68dbd387397174a96084d418_arrow-right-s-line.svg" alt="" class="accordion_arrow">
+                          </a>
+                          <a href="#" class="accordion_title-wrapper w-inline-block">
+                            <div class="accordion_title-2">Success Stories</div><img loading="lazy" src="https://cdn.prod.website-files.com/68dbcf0fffbc57bf461d2689/68dbd387397174a96084d418_arrow-right-s-line.svg" alt="" class="accordion_arrow">
+                          </a>
+                          <a href="#" class="accordion_title-wrapper w-inline-block">
+                            <div class="accordion_title-2">Meet The Team</div><img loading="lazy" src="https://cdn.prod.website-files.com/68dbcf0fffbc57bf461d2689/68dbd387397174a96084d418_arrow-right-s-line.svg" alt="" class="accordion_arrow">
+                          </a>
+                          <a href="#" aria-expanded="false" role="button" class="accordion_title-wrapper w-inline-block">
+                            <div class="accordion_title-2">Qualification</div><img loading="lazy" src="https://cdn.prod.website-files.com/68dbcf0fffbc57bf461d2689/68dbd387397174a96084d418_arrow-right-s-line.svg" alt="" class="accordion_arrow">
+                          </a>
+                          <a href="#" aria-expanded="false" role="button" class="accordion_title-wrapper w-inline-block">
+                            <div class="accordion_title-2">Refer A Friend</div><img loading="lazy" src="https://cdn.prod.website-files.com/68dbcf0fffbc57bf461d2689/68dbd387397174a96084d418_arrow-right-s-line.svg" alt="" class="accordion_arrow">
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+                <div class="navigation-divider dark-119">
+                  <div class="navigation-line dark-120"></div>
+                </div>
+                <a href="#" aria-expanded="false" role="button" class="accordion_title-wrapper w-inline-block">
+                  <div class="accordion_title-2">Contact</div><img loading="lazy" src="https://cdn.prod.website-files.com/68dbcf0fffbc57bf461d2689/68dbd387397174a96084d418_arrow-right-s-line.svg" alt="" class="accordion_arrow">
+                </a>
+                <div class="navigation-divider dark-119">
+                  <div class="navigation-line dark-120"></div>
+                </div>
+                <div bind="63674141-9ca1-0af9-59df-f526ad09f5e4" class="button-wrapper-2">
+                  <a href="#" data-w-id="d154b648-44c2-f1da-0c23-bc03a74c95bf" class="button-16 w-inline-block">
+                    <div class="btn-txt-container">
+                      <div class="btn-txt">View Courses</div>
+                      <div class="btn-txt">View Courses</div>
+                    </div>
+                  </a>
+                </div>
+                <div bind="c66b9c39-a1f4-d2fe-191e-d628d63d46c4" class="w-layout-grid social-grid-2 large">
+                  <a href="https://www.facebook.com/p/Lash-Nation-Supplies-100063464256875/" target="_blank" class="social-icons large-8 w-inline-block">
+                    <div bind="c66b9c39-a1f4-d2fe-191e-d628d63d46c6" class="social-logo large-3 w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47 14 5.5 16 5.5H17.5V2.14C17.174 2.097 15.943 2 14.643 2C11.928 2 10 3.657 10 6.7V9.5H7V13.5H10V22H14V13.5Z" fill="currentColor"></path>
+                      </svg></div>
+                  </a>
+                  <a href="https://www.instagram.com/Lashnation.au/" target="_blank" class="social-icons large-8 w-inline-block">
+                    <div bind="c66b9c39-a1f4-d2fe-191e-d628d63d46c8" class="social-logo large-3 xs-9 large-9 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewbox="0 0 24 25" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M16 3.57605H8C5.23858 3.57605 3 5.81463 3 8.57605V16.576C3 19.3375 5.23858 21.576 8 21.576H16C18.7614 21.576 21 19.3375 21 16.576V8.57605C21 5.81463 18.7614 3.57605 16 3.57605ZM19.25 16.576C19.2445 18.3686 17.7926 19.8205 16 19.826H8C6.20735 19.8205 4.75549 18.3686 4.75 16.576V8.57605C4.75549 6.7834 6.20735 5.33154 8 5.32605H16C17.7926 5.33154 19.2445 6.7834 19.25 8.57605V16.576ZM16.75 8.82605C17.3023 8.82605 17.75 8.37833 17.75 7.82605C17.75 7.27377 17.3023 6.82605 16.75 6.82605C16.1977 6.82605 15.75 7.27377 15.75 7.82605C15.75 8.37833 16.1977 8.82605 16.75 8.82605ZM12 8.07605C9.51472 8.07605 7.5 10.0908 7.5 12.576C7.5 15.0613 9.51472 17.076 12 17.076C14.4853 17.076 16.5 15.0613 16.5 12.576C16.5027 11.3817 16.0294 10.2356 15.1849 9.39113C14.3404 8.54664 13.1943 8.07339 12 8.07605ZM9.25 12.576C9.25 14.0948 10.4812 15.326 12 15.326C13.5188 15.326 14.75 14.0948 14.75 12.576C14.75 11.0573 13.5188 9.82605 12 9.82605C10.4812 9.82605 9.25 11.0573 9.25 12.576Z" fill="currentColor"></path>
+                      </svg></div>
+                  </a>
+                  <a href="https://www.tiktok.com/@lashnationsupplies" target="_blank" class="social-icons large-8 w-inline-block">
+                    <div bind="c66b9c39-a1f4-d2fe-191e-d628d63d46d2" class="social-logo large-3 xs-9 large-9 w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512" width="20" height="20"><!-- !Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc. -->
+                        <path d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z" fill="currentColor"></path>
+                      </svg></div>
+                  </a>
+                </div>
+              </div>
+              <div class="_8rem-spacer"></div>
             </div>
           </div>
         </div> {% schema %} {
     "tag": "div",
     "name": "Header",
     "class": "section_navbar",
-    "blocks": [
-        {
-            "name": "Sector - Menu Card",
-            "type": "sector-menu-card",
-            "settings": [
-                {
-                    "id": "url_link",
-                    "type": "url",
-                    "label": "Link"
-                },
-                {
-                    "id": "text_text",
-                    "type": "text",
-                    "label": "Text",
-                    "default": "Aviation"
-                },
-                {
-                    "id": "image_image",
-                    "type": "image_picker",
-                    "label": "Image"
-                }
-            ]
-        },
-        {
-            "name": "Shop - Menu Card",
-            "type": "shop-menu-card",
-            "settings": [
-                {
-                    "id": "url_link",
-                    "type": "url",
-                    "label": "Link"
-                },
-                {
-                    "id": "image_image",
-                    "type": "image_picker",
-                    "label": "Image"
-                },
-                {
-                    "id": "text_title",
-                    "type": "text",
-                    "label": "Title",
-                    "default": "Stock"
-                },
-                {
-                    "id": "text_paragraph",
-                    "type": "text",
-                    "label": "Paragraph",
-                    "default": "Buy a range of one-off hide"
-                }
-            ]
-        },
-        {
-            "name": "Search - Suggestion",
-            "type": "search-suggestion",
-            "settings": [
-                {
-                    "id": "url_link",
-                    "type": "url",
-                    "label": "Link"
-                },
-                {
-                    "id": "text_text",
-                    "type": "text",
-                    "label": "Text",
-                    "default": "Tag"
-                }
-            ]
-        },
-        {
-            "type": "@app"
-        }
-    ],
     "settings": [
-        {
-            "id": "url_button_link",
-            "type": "url",
-            "label": "Button Link"
-        },
-        {
-            "id": "text_button_text",
-            "type": "text",
-            "label": "Button Text",
-            "default": "Learn More"
-        },
         {
             "id": "image_white_logo",
             "type": "image_picker",
             "label": "White Logo"
-        },
-        {
-            "id": "image_dark_logo",
-            "type": "image_picker",
-            "label": "Dark Logo"
-        },
-        {
-            "id": "collection_search_bestseller",
-            "type": "collection",
-            "label": "Search - Bestseller"
-        },
-        {
-            "type": "range",
-            "id": "collection_search_bestseller_limit",
-            "min": 1,
-            "max": 99,
-            "step": 1,
-            "label": "Limit: Search - Bestseller",
-            "default": 6
-        },
-        {
-            "id": "text_success_text",
-            "type": "text",
-            "label": "Success - Text",
-            "default": "<strong>Congratulations! <\/strong>You\u2019ve unlocked free shipping!"
-        },
-        {
-            "type": "header",
-            "content": "free_shipping"
-        },
-        {
-            "type": "text",
-            "id": "free_shipping",
-            "label": "Free Shipping",
-            "default": "100"
         }
     ],
     "presets": [
         {
             "name": "Header",
             "category": "Liquify",
-            "blocks": [
-                {
-                    "type": "sector-menu-card"
-                },
-                {
-                    "type": "shop-menu-card"
-                },
-                {
-                    "type": "search-suggestion"
-                }
-            ]
+            "blocks": []
         }
     ],
     "enabled_on": {

@@ -1,0 +1,99 @@
+{
+    "sections": {
+        "slideshow_v2": {
+            "type": "slideshow_v2",
+            "blocks": {
+                "slide": {
+                    "name": "Slide",
+                    "type": "slide"
+                }
+            },
+            "block_order": [
+                "slide"
+            ]
+        },
+        "text_stitching_secti": {
+            "type": "text_stitching_secti",
+            "blocks": {
+                "rich-text": {
+                    "name": "Rich Text",
+                    "type": "rich-text"
+                },
+                "button": {
+                    "name": "Button",
+                    "type": "button"
+                }
+            },
+            "block_order": [
+                "rich-text",
+                "button"
+            ]
+        },
+        "image_text": {
+            "type": "image_text",
+            "blocks": {
+                "headline-small": {
+                    "name": "Headline small",
+                    "type": "headline-small"
+                },
+                "headline": {
+                    "name": "Headline",
+                    "type": "headline"
+                },
+                "text": {
+                    "name": "Text",
+                    "type": "text"
+                },
+                "buttons": {
+                    "name": "Buttons",
+                    "type": "buttons"
+                }
+            },
+            "block_order": [
+                "headline-small",
+                "headline",
+                "text",
+                "buttons"
+            ]
+        },
+        "scroll_image": {
+            "type": "scroll_image",
+            "blocks": {
+                "headline-small": {
+                    "name": "Headline small",
+                    "type": "headline-small"
+                },
+                "headline": {
+                    "name": "Headline",
+                    "type": "headline"
+                },
+                "text": {
+                    "name": "Text",
+                    "type": "text"
+                },
+                "buttons": {
+                    "name": "Buttons",
+                    "type": "buttons"
+                }
+            },
+            "block_order": [
+                "headline-small",
+                "headline",
+                "text",
+                "buttons"
+            ]
+        },
+        "video_hero": {
+            "type": "video_hero"
+        }
+    },
+    "layout": "theme",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "slideshow_v2",
+        "text_stitching_secti",
+        "image_text",
+        "scroll_image",
+        "video_hero"
+    ]
+}

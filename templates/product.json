@@ -1,0 +1,91 @@
+{
+    "sections": {
+        "navigation_spacer": {
+            "type": "navigation_spacer"
+        },
+        "product_hero": {
+            "type": "product_hero",
+            "blocks": {
+                "vendor": {
+                    "type": "vendor",
+                    "name": "Vendor"
+                },
+                "product-name": {
+                    "type": "product-name",
+                    "name": "Product Name"
+                },
+                "product-price": {
+                    "type": "product-price",
+                    "name": "Product Price"
+                },
+                "availability": {
+                    "type": "availability",
+                    "name": "Availability"
+                },
+                "add-to-cart": {
+                    "type": "add-to-cart",
+                    "name": "Add to Cart"
+                },
+                "payment-icons": {
+                    "type": "payment-icons",
+                    "name": "Payment Icons"
+                },
+                "low-carbon-leather": {
+                    "type": "low-carbon-leather",
+                    "name": "Low Carbon Leather"
+                },
+                "description": {
+                    "type": "description",
+                    "name": "Description"
+                },
+                "safety-specs": {
+                    "type": "safety-specs",
+                    "name": "Safety Specs"
+                },
+                "leather-specs": {
+                    "type": "leather-specs",
+                    "name": "Leather Specs"
+                }
+            },
+            "block_order": [
+                "vendor",
+                "product-name",
+                "product-price",
+                "availability",
+                "add-to-cart",
+                "payment-icons",
+                "low-carbon-leather",
+                "description",
+                "safety-specs",
+                "leather-specs"
+            ]
+        },
+        "ribbons": {
+            "type": "ribbons",
+            "blocks": {
+                "usp-with-icon": {
+                    "name": "USP With Icon",
+                    "type": "usp-with-icon"
+                }
+            },
+            "block_order": [
+                "usp-with-icon"
+            ]
+        },
+        "product_content": {
+            "type": "product_content"
+        },
+        "recommended_products": {
+            "type": "recommended_products"
+        }
+    },
+    "layout": "theme",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "navigation_spacer",
+        "product_hero",
+        "ribbons",
+        "product_content",
+        "recommended_products"
+    ]
+}

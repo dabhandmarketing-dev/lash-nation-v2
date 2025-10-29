@@ -1,0 +1,39 @@
+<script src="{{ 'li_custom.js' | asset_url }}" type="text/javascript"></script>
+<div li-element="product-variant-container" x-data="handleVariant({{ product | json | escape }}, {{ product.options_by_name | json | escape }}, {{ product.selected_or_first_available_variant | json | escape }})" x-init="$nextTick(() => { activateVariants() })" @setbundleitem.window="updateBundleItem($event.detail.product, $event.detail.quantity)">
+                      <div class="home_banner_item-link">
+                        <div class="product-item_image-link">
+                          <a li-object:href="product.url" href="{{ product.url }}" class="product-item_image-wrapper w-inline-block"><img li-object:alt="product.featured_image.alt" loading="lazy" li-object:src="product.featured_image | image_url: width: 450" src="{{ product.featured_image | image_url: width: 450 }}" alt="{{ product.featured_image.alt }}" class="product-item_image"></a>
+                          <div class="product-item_tag_list">
+                            {% if product.selected_or_first_available_variant.available != true %}    <div li-if="product.selected_or_first_available_variant.available != true" class="product-item_tag">
+    Not in Stock    </div>
+{% endif %}
+                            {% if product.compare_at_price_max > product.price %}    <div li-if="product.compare_at_price_max > product.price" class="product-item_tag is-red">
+    Sale    </div>
+{% endif %}
+                          </div>
+                        </div>
+                        <div class="button-wrapper absolute">
+                          {% if product.available == true %}    <div li-if="product.available == true">
+    
+                            <a li-element="add-to-cart" data-w-id="835de9a8-25fe-55c1-5ab0-cc621d88ed9d" href="#" class="c-color_copy w-inline-block" @click="addToCart($event, true)" :disabled="!addToCartButton"><img loading="lazy" src="{{ 'plus_1.svg' | asset_url }}" alt="" class="c-copy">
+                              <div data-is-ix2-target="1" class="lottie-load" data-w-id="4966777d-38a7-ee7b-eb37-5eb2ffb36bef" data-animation-type="lottie" data-src="{{ 'lottieflow-loading-08-ffffff-easey.json' | asset_url }}" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="0" data-duration="0" data-ix2-initial-state="0"></div>
+                            </a>
+                              </div>
+{% endif %}
+                        </div>
+                      </div>
+                      <a href="#" class="banner_item-title w-inline-block">
+                        <div class="home_banner_item-price-container">
+                          <div li-object="product.title" class="text-size-medium-5 text-style-1line">{{ product.title }}</div>
+                        </div>
+                        <div class="product-item_price">
+                          {% if product.compare_at_price_max > product.price %}    <div li-if="product.compare_at_price_max > product.price">
+    
+                            <div li-object="product.compare_at_price | money" class="text-size-regular text-style-strikethrough text-style-muted">{{ product.compare_at_price | money }}</div>
+                              </div>
+{% endif %}
+                          <div li-object="product.price | money" class="text-size-regular">{{ product.price | money }}</div>
+                        </div>
+                      </a>
+                      <div class="_1rem-spacer"></div>
+                    </div>

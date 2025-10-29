@@ -1,0 +1,20 @@
+{
+    "sections": {
+        "page_heading": {
+            "type": "page_heading"
+        },
+        "collection_products": {
+            "type": "collection_products"
+        },
+        "collection_test_2": {
+            "type": "collection_test_2"
+        }
+    },
+    "layout": "theme",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "page_heading",
+        "collection_products",
+        "collection_test_2"
+    ]
+}

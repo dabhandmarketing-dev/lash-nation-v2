@@ -1,0 +1,161 @@
+<div class="padding-global padding-section-small">
+          <div class="container-large">
+            <div class="product-header_component">
+              <script src="{{ 'li_custom.js' | asset_url }}" type="text/javascript"></script>
+<div li-element="product-variant-container" class="w-layout-grid product-header_layout" x-data="handleVariant({{ product | json | escape }}, {{ product.options_by_name | json | escape }}, {{ product.selected_or_first_available_variant | json | escape }})" x-init="$nextTick(() => { activateVariants() })" @setbundleitem.window="updateBundleItem($event.detail.product, $event.detail.quantity)">
+                <div>
+                  <a href="#" class="product-header5_lightbox-link w-inline-block w-lightbox">
+                    <div data-w-id="3414d37a-ab5d-9370-4c03-be3de10a9cbd" class="sp-product-image-wrapper">
+                      <div li-object:alt="media.alt" li-object:src="media | image_url: width: 1000" class="zoom-wrapper" alt="{{ media.alt }}" src="{{ media | image_url: width: 1000 }}">
+                        <div class="zoom-modal"><img data-w-id="3414d37a-ab5d-9370-4c03-be3de10a9cc0" li-object:src="media | image_url: width: 1000" alt="{{ media.alt }}" src="{{ media | image_url: width: 1000 }}" li-object:alt="media.alt" class="product-image-zoomed"></div>
+                      </div><img alt="" src="{{ '6191a88a1c0e39463c2bf022_placeholder-image.svg' | asset_url }}" class="sp-product-image">
+                    </div>
+                    <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "_id": "68e65f00128e6f635973e7f7",
+      "origFileName": "6191a88a1c0e39463c2bf022_placeholder-image.svg",
+      "fileName": "6191a88a1c0e39463c2bf022_placeholder-image.svg",
+      "fileSize": 1017,
+      "height": 1000,
+      "url": "https://cdn.prod.website-files.com/68e22fae932bc475029cc9a4/68e65f00128e6f635973e7f7_6191a88a1c0e39463c2bf022_placeholder-image.svg",
+      "width": 1000,
+      "type": "image"
+    }
+  ],
+  "group": ""
+}</script>
+                  </a>
+                  <div class="_2rem-spacer"></div>
+                  <div>
+                    <div class="w-embed-youtubevideo"></div>
+                  </div>
+                </div>
+                <div li-content-for-theme-blocks="" id="w-node-_4b0e9b61-6f53-1185-9fdd-143753136879-5313685d" class="product-header_product-details">
+{% content_for 'blocks' %}
+</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hide w-embed w-script">
+          <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+          <script>
+document.addEventListener("DOMContentLoaded", () => {
+  $(".swiper-container").each(function (index) {
+    const thumbsSwiper = new Swiper($(this).find(".swiper.is-product-thumbnail")[0], {
+      slidesPerView: "auto",
+      rewind: false,
+      loopedSlides: 8,
+      slideToClickedSlide: true,
+      spaceBetween: "4%",
+    });
+    const swiper = new Swiper($(this).find(".swiper.is-product-gallery")[0], {
+      mousewheel: {
+        forceToAxis: true
+      },
+      thumbs: {
+        swiper: thumbsSwiper,
+        slideThumbActiveClass: "is-active",
+      },
+      keyboard: {
+        enabled: true,
+        onlyInViewport: true
+      },
+      navigation: {
+        nextEl: $(this).find(".swiper-next")[0],
+        prevEl: $(this).find(".swiper-prev")[0],
+      }
+    });
+  }); 
+});
+</script>
+        </div> {% schema %} {
+    "tag": "section",
+    "name": "Product Hero",
+    "class": "section_product-header",
+    "blocks": [
+        {
+            "type": "vendor"
+        },
+        {
+            "type": "product-name"
+        },
+        {
+            "type": "product-price"
+        },
+        {
+            "type": "availability"
+        },
+        {
+            "type": "add-to-cart"
+        },
+        {
+            "type": "payment-icons"
+        },
+        {
+            "type": "low-carbon-leather"
+        },
+        {
+            "type": "description"
+        },
+        {
+            "type": "safety-specs"
+        },
+        {
+            "type": "safety-specs"
+        },
+        {
+            "type": "leather-specs"
+        },
+        {
+            "type": "@app"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Product Hero",
+            "category": "Liquify",
+            "blocks": [
+                {
+                    "type": "vendor"
+                },
+                {
+                    "type": "product-name"
+                },
+                {
+                    "type": "product-price"
+                },
+                {
+                    "type": "availability"
+                },
+                {
+                    "type": "add-to-cart"
+                },
+                {
+                    "type": "payment-icons"
+                },
+                {
+                    "type": "low-carbon-leather"
+                },
+                {
+                    "type": "description"
+                },
+                {
+                    "type": "safety-specs"
+                },
+                {
+                    "type": "safety-specs"
+                },
+                {
+                    "type": "leather-specs"
+                }
+            ]
+        }
+    ],
+    "enabled_on": {
+        "templates": [
+            "product"
+        ]
+    }
+} {% endschema %}

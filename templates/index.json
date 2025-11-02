@@ -134,6 +134,11 @@
       "name": "Large Testimonial",
       "settings": {}
     },
+    "marquee_scroll_DiY6MX": {
+      "type": "marquee_scroll",
+      "name": "Marquee Scroll",
+      "settings": {}
+    },
     "scroll_image": {
       "type": "scroll_image",
       "blocks": {
@@ -179,11 +184,6 @@
         "grid_position": "left",
         "background_colour": "#ffffff"
       }
-    },
-    "marquee_scroll_DiY6MX": {
-      "type": "marquee_scroll",
-      "name": "Marquee Scroll",
-      "settings": {}
     }
   },
   "layout": "theme",
@@ -192,7 +192,7 @@
     "video_hero_LnRR3Y",
     "image_text",
     "large_testimonial_hfkfRM",
-    "scroll_image",
-    "marquee_scroll_DiY6MX"
+    "marquee_scroll_DiY6MX",
+    "scroll_image"
   ]
 }

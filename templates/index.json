@@ -1,99 +1,136 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
-    "sections": {
-        "slideshow_v2": {
-            "type": "slideshow_v2",
-            "blocks": {
-                "slide": {
-                    "name": "Slide",
-                    "type": "slide"
-                }
-            },
-            "block_order": [
-                "slide"
-            ]
-        },
-        "text_stitching_secti": {
-            "type": "text_stitching_secti",
-            "blocks": {
-                "rich-text": {
-                    "name": "Rich Text",
-                    "type": "rich-text"
-                },
-                "button": {
-                    "name": "Button",
-                    "type": "button"
-                }
-            },
-            "block_order": [
-                "rich-text",
-                "button"
-            ]
-        },
-        "image_text": {
-            "type": "image_text",
-            "blocks": {
-                "headline-small": {
-                    "name": "Headline small",
-                    "type": "headline-small"
-                },
-                "headline": {
-                    "name": "Headline",
-                    "type": "headline"
-                },
-                "text": {
-                    "name": "Text",
-                    "type": "text"
-                },
-                "buttons": {
-                    "name": "Buttons",
-                    "type": "buttons"
-                }
-            },
-            "block_order": [
-                "headline-small",
-                "headline",
-                "text",
-                "buttons"
-            ]
-        },
-        "scroll_image": {
-            "type": "scroll_image",
-            "blocks": {
-                "headline-small": {
-                    "name": "Headline small",
-                    "type": "headline-small"
-                },
-                "headline": {
-                    "name": "Headline",
-                    "type": "headline"
-                },
-                "text": {
-                    "name": "Text",
-                    "type": "text"
-                },
-                "buttons": {
-                    "name": "Buttons",
-                    "type": "buttons"
-                }
-            },
-            "block_order": [
-                "headline-small",
-                "headline",
-                "text",
-                "buttons"
-            ]
-        },
-        "video_hero": {
-            "type": "video_hero"
+  "sections": {
+    "slideshow_v2": {
+      "type": "slideshow_v2",
+      "blocks": {
+        "slide": {
+          "type": "slide",
+          "name": "Slide",
+          "settings": {
+            "text_pre_heading": "More than",
+            "text_heading": "Leather",
+            "url_button_link": "",
+            "text_button_text": "Learn More"
+          }
         }
+      },
+      "block_order": [
+        "slide"
+      ],
+      "settings": {}
     },
-    "layout": "theme",
-    "wrapper": "main.main-wrapper",
-    "order": [
-        "slideshow_v2",
-        "text_stitching_secti",
-        "image_text",
-        "scroll_image",
-        "video_hero"
-    ]
+    "image_text": {
+      "type": "image_text",
+      "blocks": {
+        "headline-small": {
+          "type": "headline-small",
+          "name": "Headline small",
+          "settings": {
+            "text_text": "Small Headline"
+          }
+        },
+        "headline": {
+          "type": "headline",
+          "name": "Headline",
+          "settings": {
+            "text_headline": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy."
+          }
+        },
+        "text": {
+          "type": "text",
+          "name": "Text",
+          "settings": {
+            "richtext_text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>"
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "name": "Buttons",
+          "settings": {
+            "url_button_link": "shopify://collections/all",
+            "text_button_text": "Learn More",
+            "url_button_link_2": "",
+            "text_button_text_2": "Learn More"
+          }
+        }
+      },
+      "block_order": [
+        "headline-small",
+        "headline",
+        "text",
+        "buttons"
+      ],
+      "settings": {
+        "grid_position": "left",
+        "background_colour": "#ffffff"
+      }
+    },
+    "scroll_image": {
+      "type": "scroll_image",
+      "blocks": {
+        "headline-small": {
+          "type": "headline-small",
+          "name": "Headline small",
+          "settings": {
+            "text_text": "Small Headline"
+          }
+        },
+        "headline": {
+          "type": "headline",
+          "name": "Headline",
+          "settings": {
+            "text_headline": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy."
+          }
+        },
+        "text": {
+          "type": "text",
+          "name": "Text",
+          "settings": {
+            "richtext_text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>"
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "name": "Buttons",
+          "settings": {
+            "url_button_link": "",
+            "text_button_text": "Learn More",
+            "url_button_link_2": "",
+            "text_button_text_2": "Learn More"
+          }
+        }
+      },
+      "block_order": [
+        "headline-small",
+        "headline",
+        "text",
+        "buttons"
+      ],
+      "settings": {
+        "grid_position": "left",
+        "background_colour": "#ffffff"
+      }
+    },
+    "video_hero": {
+      "type": "video_hero",
+      "settings": {}
+    }
+  },
+  "layout": "theme",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "slideshow_v2",
+    "image_text",
+    "scroll_image",
+    "video_hero"
+  ]
 }

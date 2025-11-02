@@ -31,25 +31,49 @@
     "image_text": {
       "type": "image_text",
       "blocks": {
-        "headline-small": {
-          "type": "headline-small",
-          "name": "Headline small",
-          "settings": {
-            "text_text": "Small Headline"
-          }
-        },
         "headline": {
           "type": "headline",
           "name": "Headline",
           "settings": {
-            "text_headline": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy."
+            "text_headline": "Australia’s Leading Lash Academy"
+          }
+        },
+        "headline-small": {
+          "type": "headline-small",
+          "name": "Headline small",
+          "settings": {
+            "text_text": "In-Person & Online Lash Training | 7+ Years of Proven Success"
           }
         },
         "text": {
           "type": "text",
           "name": "Text",
           "settings": {
-            "richtext_text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>"
+            "richtext_text": "<p>At Lash Nation, we specialise exclusively in lash extension Training & Qualifications. With over <strong>7 years of experience</strong> and <strong>1,000+ students trained</strong>, we’ve built a reputation for creating an environment that’s <strong>Empowering, Trusted, and Life Changing</strong>.<br/><br/>Thinking about a career as a professional lash artist? <br/><strong>Our programs give you:</strong></p>"
+          }
+        },
+        "checklist_dKMQ6E": {
+          "type": "checklist",
+          "settings": {
+            "text_checklist_text": "Accredited certification recognised across the industry"
+          }
+        },
+        "checklist_QKzBwd": {
+          "type": "checklist",
+          "settings": {
+            "text_checklist_text": "Hands-on, real salon training in Blacktown, NSW"
+          }
+        },
+        "checklist_AhCA8h": {
+          "type": "checklist",
+          "settings": {
+            "text_checklist_text": "Flexible online learning with the same proven curriculum"
+          }
+        },
+        "checklist_Y8hVtX": {
+          "type": "checklist",
+          "settings": {
+            "text_checklist_text": "Ongoing business mentoring and support after graduation"
           }
         },
         "buttons": {
@@ -57,20 +81,23 @@
           "name": "Buttons",
           "settings": {
             "url_button_link": "shopify://collections/all",
-            "text_button_text": "Learn More",
-            "url_button_link_2": "",
-            "text_button_text_2": "Learn More"
+            "text_button_text": "View Courses",
+            "url_button_link_2": ""
           }
         }
       },
       "block_order": [
-        "headline-small",
         "headline",
+        "headline-small",
         "text",
+        "checklist_dKMQ6E",
+        "checklist_QKzBwd",
+        "checklist_AhCA8h",
+        "checklist_Y8hVtX",
         "buttons"
       ],
       "settings": {
-        "grid_position": "left",
+        "grid_position": "right",
         "background_colour": "#ffffff"
       }
     },
@@ -119,10 +146,6 @@
         "grid_position": "left",
         "background_colour": "#ffffff"
       }
-    },
-    "video_hero": {
-      "type": "video_hero",
-      "settings": {}
     }
   },
   "layout": "theme",
@@ -130,7 +153,6 @@
   "order": [
     "slideshow_v2",
     "image_text",
-    "scroll_image",
-    "video_hero"
+    "scroll_image"
   ]
 }

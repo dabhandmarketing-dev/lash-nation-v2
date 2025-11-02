@@ -9,10 +9,32 @@
  */
 {
   "sections": {
-    "video_hero_2_7QFzFn": {
-      "type": "video_hero_2",
-      "name": "Video Hero 2",
-      "settings": {}
+    "video_hero_LnRR3Y": {
+      "type": "video_hero",
+      "blocks": {
+        "headline_hAgCQ3": {
+          "type": "headline",
+          "settings": {
+            "text_heading": "Become a Qualified Lash Extension Artist<br>"
+          }
+        },
+        "buttons_DL6TAi": {
+          "type": "buttons",
+          "settings": {
+            "url_button_link": "",
+            "text_button_text": "View Courses",
+            "url_button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "headline_hAgCQ3",
+        "buttons_DL6TAi"
+      ],
+      "name": "Video Hero",
+      "settings": {
+        "richtext_text": "<p>Accelerate your Certification &amp; Confidence with an academy dedicated <strong>exclusively to the Lash Extension Industry.</strong></p>"
+      }
     },
     "image_text": {
       "type": "image_text",
@@ -88,6 +110,30 @@
         "background_colour": "#ffffff"
       }
     },
+    "large_testimonial_hfkfRM": {
+      "type": "large_testimonial",
+      "blocks": {
+        "badge_HKhFWx": {
+          "type": "badge",
+          "settings": {
+            "text_initial": "E",
+            "text_name": "Emily R"
+          }
+        },
+        "review_TGChm7": {
+          "type": "review",
+          "settings": {
+            "text_review": "\"I had zero lash experience before joining Lash Nation, and in just 3 days I felt confident taking my first clients. <br><br>Shanai was so patient and supportive, and the small class size made all the difference. <br><br>I'm now running my own lash business!\""
+          }
+        }
+      },
+      "block_order": [
+        "badge_HKhFWx",
+        "review_TGChm7"
+      ],
+      "name": "Large Testimonial",
+      "settings": {}
+    },
     "scroll_image": {
       "type": "scroll_image",
       "blocks": {
@@ -138,8 +184,9 @@
   "layout": "theme",
   "wrapper": "main.main-wrapper",
   "order": [
-    "video_hero_2_7QFzFn",
+    "video_hero_LnRR3Y",
     "image_text",
+    "large_testimonial_hfkfRM",
     "scroll_image"
   ]
 }

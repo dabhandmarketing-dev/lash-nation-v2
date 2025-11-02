@@ -21,7 +21,7 @@
         "buttons_DL6TAi": {
           "type": "buttons",
           "settings": {
-            "url_button_link": "",
+            "url_button_link": "shopify://collections/all",
             "text_button_text": "View Courses",
             "url_button_link_2": ""
           }
@@ -33,7 +33,7 @@
       ],
       "name": "Video Hero",
       "settings": {
-        "richtext_text": "<p>Accelerate your Certification &amp; Confidence with an academy dedicated <strong>exclusively to the Lash Extension Industry.</strong></p>"
+        "richtext_text": "<p>Accelerate your Certification & Confidence with an academy dedicated <strong>exclusively to the Lash Extension Industry.</strong></p>"
       }
     },
     "image_text": {

@@ -2,7 +2,7 @@
           <div class="padding-global-6 padding-section-small">
             <div class="container-large">
               <div class="content_grid">
-                <div li-content-for-blocks="" class="content_wrapper-2">
+                <div li-content-for-blocks="" class="content_wrapper">
 {% for block in section.blocks %}
 {% case block.type %}
 {% when '@app' %}
@@ -16,6 +16,9 @@
 {{ block.settings.text_headline }}
 </h2>
                     
+                    
+                    <div class="_0-5rem-spacer"></div>
+                    
                   
                 </div>
                   {% when 'headline-small' %}
@@ -26,6 +29,9 @@
 {{ block.settings.text_text }}
 </div>
                     
+                    
+                    <div class="_0-5rem-spacer"></div>
+                    
                   
                 </div>
                   {% when 'text' %}
@@ -33,6 +39,9 @@
                     
                     
                     <div> {{ block.settings.richtext_text }} </div>
+                    
+                    
+                    <div class="_0-5rem-spacer"></div>
                     
                   
                 </div>
@@ -47,18 +56,13 @@
 </p>
                     </div>
                     
-                    
-                    <div class="icon-text_row-small">
-                      <div class="keep-sizing"><img alt="" src="{{ 'check_circle_gray20-primary.svg' | asset_url }}" class="icon-xxsmall"></div>
-                      <p class="text-size-small-23">
-{{ block.settings.text_checklist_text }}
-</p>
-                    </div>
-                    
                   
                 </div>
                   {% when 'buttons' %}
             <div li-block="Buttons" class="content_block">
+                    
+                    
+                    <div class="_0-5rem-spacer"></div>
                     
                     
                     <div class="button-group-10">

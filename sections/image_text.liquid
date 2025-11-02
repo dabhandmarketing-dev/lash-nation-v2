@@ -8,16 +8,6 @@
 {% when '@app' %}
 {% render block %}
 
-                  {% when 'headline-small' %}
-            <div li-block="Headline small" class="content_block">
-                    
-                    
-                    <div class="text-size-small-20">
-{{ block.settings.text_text }}
-</div>
-                    
-                  
-                </div>
                   {% when 'headline' %}
             <div li-block="Headline" class="content_block">
                     
@@ -25,6 +15,16 @@
                     <h2>
 {{ block.settings.text_headline }}
 </h2>
+                    
+                  
+                </div>
+                  {% when 'headline-small' %}
+            <div li-block="Headline small" class="content_block">
+                    
+                    
+                    <div class="eyebrow">
+{{ block.settings.text_text }}
+</div>
                     
                   
                 </div>
@@ -36,6 +36,19 @@
                     
                   
                 </div>
+                  {% when 'checklist' %}
+            <div li-block="Checklist" class="grid_2-col">
+                    
+                    
+                    <div class="icon-text_row-small">
+                      <div class="keep-sizing"><img alt="" src="{{ 'check_circle_gray20-primary.svg' | asset_url }}" class="icon-xxsmall"></div>
+                      <p class="text-size-small-23">
+{{ block.settings.text_checklist_text }}
+</p>
+                    </div>
+                    
+                  
+                </div>
                   {% when 'buttons' %}
             <div li-block="Buttons" class="content_block">
                     
@@ -43,12 +56,12 @@
                     <div class="button-group-10">
                       {% if block.settings.url_button_link %}    <div li-if="block.settings.url_button_link" class="content_block">
     
-                        <a href="{{ block.settings.url_button_link }}" data-w-id="1c2acbc7-448b-5b0c-8350-cbc453daa36d" class="button-main dark-182 w-inline-block"> <div class="icon-link-3 dark-183"> <div class="clip-2 white-10 dark-190"> <div class="hover-text white-31 dark-185"> <div class="text-size-small-11 white-34 dark-188">{{ block.settings.text_button_text }}</div> </div> <div class="hover-text white-31 dark-185 bottom white-20 dark-187"> <div class="text-size-small-11 white-34 dark-188">{{ block.settings.text_button_text }}</div> </div> </div> <div sym-bind="{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"96595133-de64-782c-bc2b-1a27b5d57cf2"}}}}}" class="icon-link_circle-2 white-22 dark-189"> <div class="clip-2 white-10 dark-190"> <div class="hover-arrow-3 dark-191"><img sym-bind="{"img":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"65b07040-501f-bf3a-2cb4-717461e9b2dd"}}}" src="{{ 'arrow-right-long-line_1.svg' | asset_url }}" alt="" loading="lazy" class="icon-1x1-small-7 white-12 dark-196"></div> <div class="hover-arrow-3 dark-191 left-arrow dark-194"><img sym-bind="{"img":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"65b07040-501f-bf3a-2cb4-717461e9b2dd"}}}" src="{{ 'arrow-right-long-line_1.svg' | asset_url }}" alt="" loading="lazy" class="icon-1x1-small-7 white-12 dark-196"></div> </div> </div> </div> </a>
+                        <a href="{{ block.settings.url_button_link }}" data-wf--button--variant="base" data-w-id="47ee13e6-1a71-57c3-88e5-9d80ec55d256" class="button w-inline-block"> <div class="btn-txt-container"> <div class="btn-txt">{{ block.settings.text_button_text }}</div> <div class="btn-txt">{{ block.settings.text_button_text }}</div> </div> </a>
                           </div>
 {% endif %}
                       {% if block.settings.url_button_link_2 %}    <div li-if="block.settings.url_button_link_2" class="content_block">
     
-                        <a href="{{ block.settings.url_button_link_2 }}" data-w-id="1c2acbc7-448b-5b0c-8350-cbc453daa37f" class="button-main dark-167 outline w-inline-block"> <div class="icon-link-3 dark-168"> <div class="clip-2 white-10 dark-175"> <div class="hover-text white-31 dark-170"> <div class="text-size-small-11 white-34 dark-173">{{ block.settings.text_button_text_2 }}</div> </div> <div class="hover-text white-31 dark-170 bottom white-20 dark-172"> <div class="text-size-small-11 white-34 dark-173">{{ block.settings.text_button_text_2 }}</div> </div> </div> </div> </a>
+                        <a href="{{ block.settings.url_button_link_2 }}" data-wf--button--variant="secondary" data-w-id="47ee13e6-1a71-57c3-88e5-9d80ec55d256" class="button w-variant-554ce3f9-7bdf-5ed8-135f-467a5c40a409 w-inline-block"> <div class="btn-txt-container"> <div class="btn-txt">{{ block.settings.text_button_text }}</div> <div class="btn-txt">{{ block.settings.text_button_text }}</div> </div> </a>
                           </div>
 {% endif %}
                     </div>
@@ -73,18 +86,6 @@
     "class": "section_content",
     "blocks": [
         {
-            "name": "Headline small",
-            "type": "headline-small",
-            "settings": [
-                {
-                    "id": "text_text",
-                    "type": "text",
-                    "label": "Text",
-                    "default": "Small Headline"
-                }
-            ]
-        },
-        {
             "name": "Headline",
             "type": "headline",
             "settings": [
@@ -93,6 +94,18 @@
                     "type": "text",
                     "label": "Headline",
                     "default": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy."
+                }
+            ]
+        },
+        {
+            "name": "Headline small",
+            "type": "headline-small",
+            "settings": [
+                {
+                    "id": "text_text",
+                    "type": "text",
+                    "label": "Text",
+                    "default": "In-Person &amp; Online Lash Training | 7+ Years of Proven Success"
                 }
             ]
         },
@@ -109,6 +122,18 @@
             ]
         },
         {
+            "name": "Checklist",
+            "type": "checklist",
+            "settings": [
+                {
+                    "id": "text_checklist_text",
+                    "type": "text",
+                    "label": "Checklist Text",
+                    "default": "Accredited certification recognised across the industry"
+                }
+            ]
+        },
+        {
             "name": "Buttons",
             "type": "buttons",
             "settings": [
@@ -121,18 +146,12 @@
                     "id": "text_button_text",
                     "type": "text",
                     "label": "Button Text",
-                    "default": "Learn More"
+                    "default": "View Courses"
                 },
                 {
                     "id": "url_button_link_2",
                     "type": "url",
                     "label": "Button Link 2"
-                },
-                {
-                    "id": "text_button_text_2",
-                    "type": "text",
-                    "label": "Button Text 2",
-                    "default": "Learn More"
                 }
             ]
         },
@@ -183,13 +202,16 @@
             "category": "Liquify",
             "blocks": [
                 {
-                    "type": "headline-small"
-                },
-                {
                     "type": "headline"
                 },
                 {
+                    "type": "headline-small"
+                },
+                {
                     "type": "text"
+                },
+                {
+                    "type": "checklist"
                 },
                 {
                     "type": "buttons"

@@ -9,23 +9,9 @@
  */
 {
   "sections": {
-    "slideshow_v2": {
-      "type": "slideshow_v2",
-      "blocks": {
-        "slide": {
-          "type": "slide",
-          "name": "Slide",
-          "settings": {
-            "text_pre_heading": "More than",
-            "text_heading": "Leather",
-            "url_button_link": "",
-            "text_button_text": "Learn More"
-          }
-        }
-      },
-      "block_order": [
-        "slide"
-      ],
+    "video_hero_2_7QFzFn": {
+      "type": "video_hero_2",
+      "name": "Video Hero 2",
       "settings": {}
     },
     "image_text": {
@@ -152,7 +138,7 @@
   "layout": "theme",
   "wrapper": "main.main-wrapper",
   "order": [
-    "slideshow_v2",
+    "video_hero_2_7QFzFn",
     "image_text",
     "scroll_image"
   ]

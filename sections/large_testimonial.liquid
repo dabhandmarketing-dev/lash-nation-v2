@@ -1,0 +1,128 @@
+<div class="padding-global">
+            <div class="container-large">
+              <div data-w-id="adb45241-c7ed-67e9-487b-a7ac699fe60c" class="testimonial-card">
+                <div class="testimonial-image-small">{% if section.settings.image_image %}
+{{ section.settings.image_image | image_url: width: 1000 | image_tag: class: 'image-cover', sizes: '(max-width: 1080px) 100vw, 1080px', loading: 'lazy' }}
+{% else %}
+<img class="image-cover" src="{{ 'Review-Photo.jpg' | asset_url }}" alt="" sizes="(max-width: 1080px) 100vw, 1080px" loading="lazy" srcset="{{ 'Review-Photo-p-500.jpg' | asset_url }} 500w, {{ 'Review-Photo-p-800.jpg' | asset_url }} 800w, {{ 'Review-Photo.jpg' | asset_url }} 1080w">
+{% endif %}</div>
+                <div li-content-for-blocks="" class="testimonial-content">
+{% for block in section.blocks %}
+{% case block.type %}
+{% when '@app' %}
+{% render block %}
+
+                  {% when 'badge' %}
+            <div li-block="Badge" class="content_block">
+                    
+                    
+                    <div class="row-large row-space-between">
+                      <div class="column-google-review">
+                        <div class="row-2x-small">
+                          <div class="google-review-avatar">
+                            <div>
+{{ block.settings.text_initial }}
+</div>
+                          </div>
+                          <div><strong>
+{{ block.settings.text_name }}
+</strong></div>
+                          <div class="icon-x-small w-embed"><svg width="16" height="16" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M6.67125 1.40267C5.73688 1.1002 4.72112 1.52093 4.27429 2.39553L3.7371 3.44698C3.67328 3.57191 3.57167 3.67352 3.44674 3.73735L2.39529 4.27453C1.52069 4.72137 1.09996 5.73712 1.40243 6.67149L1.76607 7.79483C1.80928 7.9283 1.80928 8.07203 1.76607 8.20549L1.40243 9.32883C1.09996 10.2632 1.52069 11.279 2.39529 11.7258L3.44674 12.263C3.57167 12.3268 3.67328 12.4284 3.7371 12.5534L4.27429 13.6048C4.72112 14.4794 5.73688 14.9002 6.67125 14.5977L7.79458 14.234C7.92805 14.1908 8.07178 14.1908 8.20525 14.234L9.32858 14.5977C10.263 14.9002 11.2787 14.4794 11.7256 13.6048L12.2627 12.5534C12.3266 12.4284 12.4282 12.3268 12.5531 12.263L13.6046 11.7258C14.4792 11.279 14.8999 10.2632 14.5975 9.32883L14.2338 8.20549C14.1906 8.07203 14.1906 7.9283 14.2338 7.79483L14.5975 6.67149C14.8999 5.73712 14.4792 4.72137 13.6046 4.27453L12.5531 3.73735C12.4282 3.67352 12.3266 3.57191 12.2627 3.44698L11.7256 2.39553C11.2787 1.52093 10.263 1.1002 9.32858 1.40267L8.20525 1.76631C8.07178 1.80951 7.92805 1.80952 7.79458 1.76631L6.67125 1.40267ZM4.50643 7.83836L5.44924 6.8955L7.33485 8.78116L11.1061 5.00993L12.0489 5.95273L7.33485 10.6668L4.50643 7.83836Z" fill="#48816B"></path>
+                            </svg></div>
+                        </div>
+                        <div class="_0-5rem-spacer"></div>
+                      </div>
+                    </div>
+                    
+                  
+                </div>
+                  {% when 'review' %}
+            <div li-block="Review" class="content_block">
+                    
+                    
+                    <p class="text-size-medium-13">
+{{ block.settings.text_review }}
+</p>
+                    
+                  
+                </div>
+                  <div class="divider-line"></div>
+                  <div class="footer-rating left-align">
+                    <div class="google-logo left-align-2 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none">
+                        <path d="M7.22694 13.7887L6.63022 16.0163L4.44924 16.0625C3.79744 14.8535 3.42773 13.4704 3.42773 12.0005C3.42773 10.5792 3.7734 9.2388 4.38612 8.05859H4.38659L6.32828 8.41457L7.17886 10.3446C7.00083 10.8636 6.9038 11.4208 6.9038 12.0005C6.90387 12.6297 7.01784 13.2325 7.22694 13.7887Z" fill="#FBBB00"></path>
+                        <path d="M20.4207 10.3994C20.5191 10.9179 20.5705 11.4534 20.5705 12.0007C20.5705 12.6143 20.5059 13.2129 20.383 13.7903C19.9658 15.7551 18.8755 17.4708 17.3652 18.6849L17.3647 18.6845L14.919 18.5597L14.5729 16.3989C15.5751 15.8112 16.3583 14.8914 16.7709 13.7903H12.1875V10.3994H16.8377H20.4207Z" fill="#518EF8"></path>
+                        <path d="M17.3647 18.6846L17.3652 18.6851C15.8963 19.8658 14.0303 20.5722 11.9991 20.5722C8.73491 20.5722 5.89695 18.7477 4.44922 16.0628L7.22692 13.7891C7.95077 15.7209 9.81434 17.0961 11.9991 17.0961C12.9382 17.0961 13.8179 16.8423 14.5729 16.3991L17.3647 18.6846Z" fill="#28B446"></path>
+                        <path d="M17.4689 5.40201L14.6921 7.6753C13.9108 7.18693 12.9872 6.90481 11.9978 6.90481C9.76355 6.90481 7.86512 8.3431 7.17753 10.3442L4.38523 8.0582H4.38477C5.8113 5.30782 8.68506 3.42871 11.9978 3.42871C14.0775 3.42871 15.9844 4.16953 17.4689 5.40201Z" fill="#F14336"></path>
+                      </svg></div>
+                    <div>Google Review</div>
+                    <div class="video-stars"><img loading="lazy" src="https://cdn.prod.website-files.com/68dbcf0fffbc57bf461d2689/68ef8f47d948f24f1217af86_star-fill.svg" alt="" class="video-star"><img loading="lazy" src="https://cdn.prod.website-files.com/68dbcf0fffbc57bf461d2689/68ef8f47d948f24f1217af86_star-fill.svg" alt="" class="video-star"><img loading="lazy" src="https://cdn.prod.website-files.com/68dbcf0fffbc57bf461d2689/68ef8f47d948f24f1217af86_star-fill.svg" alt="" class="video-star"><img loading="lazy" src="https://cdn.prod.website-files.com/68dbcf0fffbc57bf461d2689/68ef8f47d948f24f1217af86_star-fill.svg" alt="" class="video-star"><img loading="lazy" src="https://cdn.prod.website-files.com/68dbcf0fffbc57bf461d2689/68ef8f47d948f24f1217af86_star-fill.svg" alt="" class="video-star"></div>
+                    <div class="google-text left-align-4"></div>
+                  </div>
+                {% endcase %}
+{% endfor %}
+
+    </div>
+              </div>
+            </div>
+          </div> {% schema %} {
+    "tag": "div",
+    "name": "Large Testimonial",
+    "class": "padding-section-small",
+    "blocks": [
+        {
+            "name": "Badge",
+            "type": "badge",
+            "settings": [
+                {
+                    "id": "text_initial",
+                    "type": "text",
+                    "label": "Initial",
+                    "default": "E"
+                },
+                {
+                    "id": "text_name",
+                    "type": "text",
+                    "label": "Name",
+                    "default": "Emily R"
+                }
+            ]
+        },
+        {
+            "name": "Review",
+            "type": "review",
+            "settings": [
+                {
+                    "id": "text_review",
+                    "type": "text",
+                    "label": "Review",
+                    "default": "\"I had zero lash experience before joining Lash Nation, and in just 3 days I felt confident taking my first clients. <br\/><br\/>Shanai was so patient and supportive, and the small class size made all the difference. <br\/><br\/>I'm now running my own lash business!\""
+                }
+            ]
+        },
+        {
+            "type": "@app"
+        }
+    ],
+    "settings": [
+        {
+            "id": "image_image",
+            "type": "image_picker",
+            "label": "Image"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Large Testimonial",
+            "category": "Liquify",
+            "blocks": [
+                {
+                    "type": "badge"
+                },
+                {
+                    "type": "review"
+                }
+            ]
+        }
+    ]
+} {% endschema %}

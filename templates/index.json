@@ -97,6 +97,7 @@
         "buttons"
       ],
       "settings": {
+        "image_image": "shopify://shop_images/Invest_In_Yourself.jpg",
         "grid_position": "right",
         "background_colour": "#ffffff"
       }

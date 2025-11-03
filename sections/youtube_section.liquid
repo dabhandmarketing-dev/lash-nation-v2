@@ -30,8 +30,8 @@
                     
                 
                 </div>
-                {% when 'heading' %}
-            <div li-block="Heading" class="content_block">
+                {% when 'paragraph' %}
+            <div li-block="Paragraph" class="content_block">
                     
                   
                     <div data-w-id="41467ef6-9104-deca-ab5b-84fc8053239c" style="opacity:0" class="text-size-regular-4"> {{ block.settings.richtext_richtext }} </div>
@@ -43,14 +43,24 @@
 
     </div>
             </div>
-            <div class="_2rem-spacer"></div>
-            <div class="container-medium">
-              <div class="column-2x-large">
+            {% for block in section.blocks %}
+    {% if block.type == "video" %}
+                    <div li-block="Video" class="container-medium">
+                                    
+              
+                                    <div class="_2rem-spacer"></div>
+                                    
+              
+                                    <div class="column-2x-large">
                 <div data-w-id="41467ef6-9104-deca-ab5b-84fc805323ab" style="opacity:0" class="video-outline">
                   <div style="padding-top:56.17021276595745%" class="video-embed-2 w-video w-embed"><iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F8S-cmFFKIRs%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D8S-cmFFKIRs&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2F8S-cmFFKIRs%2Fhqdefault.jpg&type=text%2Fhtml&schema=youtube" width="940" height="528" scrolling="no" allowfullscreen="" title="Lash Natio 3 Day Lash Extension Masterclass"></iframe></div>
                 </div>
               </div>
-            </div>
+                                    
+            
+                            </div>
+            {% endif %}
+{% endfor %}
           </div>
         </div> {% schema %} {
     "tag": "div",
@@ -82,6 +92,23 @@
             ]
         },
         {
+            "name": "Paragraph",
+            "type": "paragraph",
+            "settings": [
+                {
+                    "id": "richtext_richtext",
+                    "type": "richtext",
+                    "label": "Richtext",
+                    "default": "<p>Hands-on practice with <strong>real models<\/strong>, <strong>one-on-one mentoring<\/strong>, and a <strong>supportive community<\/strong> to guide you every step.<\/p>"
+                }
+            ]
+        },
+        {
+            "name": "Video",
+            "type": "video",
+            "settings": null
+        },
+        {
             "type": "@app"
         }
     ],
@@ -95,6 +122,12 @@
                 },
                 {
                     "type": "heading"
+                },
+                {
+                    "type": "paragraph"
+                },
+                {
+                    "type": "video"
                 }
             ]
         }

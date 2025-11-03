@@ -1,9 +1,102 @@
 <div class="padding-section-small">
           <div class="padding-global">
             <div class="container-large">
-              <div li-content-for-theme-blocks="" class="layout366_component">
-{% content_for 'blocks' %}
-</div>
+              <div class="layout366_component">
+                <div li-content-for-blocks="" class="margin-bottom">
+{% for block in section.blocks %}
+{% case block.type %}
+{% when '@app' %}
+{% render block %}
+
+                  {% when 'title' %}
+            <div li-block="Title" class="content_block">
+                    
+                    
+                    <div class="text-align-center">
+                      <div class="max-width-large align-center">
+                        <div class="margin-bottom margin-small">
+                          <h2 data-w-id="bed2de1d-fd39-6084-56de-4247f0f2d49a">
+{{ block.settings.text_heading }}
+</h2>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  
+                </div>
+                  {% when 'divider' %}
+            <div li-block="Divider" class="content_block">
+                    
+                    
+                    <div class="divider-wrap is-s">
+                      <div class="divider"></div>
+                      <div>
+                        <div class="divider-caption">
+                          <div class="icon-20 w-embed"><svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M4 4 H16 V16 H4 Z" stroke="currentColor" transform="rotate(45 10 10)"></path>
+                            </svg></div>
+                        </div>
+                      </div>
+                      <div class="divider"></div>
+                    </div>
+                    
+                    
+                    <div class="_1rem-spacer"></div>
+                    
+                  
+                </div>
+                {% endcase %}
+{% endfor %}
+
+    </div>
+                <div li-content-for-blocks="" id="w-node-bed2de1d-fd39-6084-56de-4247f0f2d4dc-f0f2d491" data-w-id="bed2de1d-fd39-6084-56de-4247f0f2d4dc" class="div-block-586">
+{% for block in section.blocks %}
+{% case block.type %}
+{% when '@app' %}
+{% render block %}
+
+                  {% when 'course' %}
+            <div li-block="Course" class="layout366_card-large">
+                    
+                    
+                    <a href="#" id="w-node-bed2de1d-fd39-6084-56de-4247f0f2d4de-f0f2d491" class="layout366_card-large-image-wrapper w-inline-block"><img sizes="(max-width: 1439px) 100vw, 1440.0001220703125px" srcset="{{ 'lashnation.au_1758169646_3724119376317747766_13575537128_1lashnation.au_1758169646_3724119376317747766_13575537128.avif' | asset_url }} 500w, {{ 'lashnation.au_1758169646_3724119376317747766_13575537128_1lashnation.au_1758169646_3724119376317747766_13575537128.avif' | asset_url }} 800w, {{ 'lashnation.au_1758169646_3724119376317747766_13575537128_1lashnation.au_1758169646_3724119376317747766_13575537128.avif' | asset_url }} 1440w" alt="" src="{{ 'lashnation.au_1758169646_3724119376317747766_13575537128_1lashnation.au_1758169646_3724119376317747766_13575537128.avif' | asset_url }}" loading="lazy" class="layout366_card-large-image"></a>
+                    
+                    
+                    <div class="layout366_card-large-content">
+                      <div class="layout366_card-large-content-top">
+                        <div class="margin-bottom margin-xxsmall">
+                          <div class="tag is-text">(Flexible Dates) ($649 Lash Kit included)</div>
+                        </div>
+                        <div class="margin-bottom margin-small">
+                          <h3>3 Day Group Lash Extension Course </h3>
+                        </div>
+                        <div class="margin-bottom margin-xxsmall">
+                          <div class="eyebrow">Hands-On Training with Live Models in a Supportive Group Setting.</div>
+                          <div class="grey-divider"></div>
+                        </div>
+                        <p><strong>Duration: </strong>3 Days (In-Person)<strong><br>Location: </strong>Blacktown Studio<br></p>
+                      </div>
+                      <div class="margin-top margin-medium">
+                        <div class="button-group-3">
+                          <div bind="63674141-9ca1-0af9-59df-f526ad09f5e4" data-w-id="bed2de1d-fd39-6084-56de-4247f0f2d4f7" class="button-wrapper-2">
+                            <a href="#" class="button-34 w-inline-block">
+                              <div class="btn-txt-container">
+                                <div class="btn-txt">Learn More</div>
+                                <div class="btn-txt">Learn More</div>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  
+                </div>
+                {% endcase %}
+{% endfor %}
+
+    </div>
+              </div>
             </div>
           </div>
         </div> {% schema %} {
@@ -12,16 +105,26 @@
     "class": "section",
     "blocks": [
         {
-            "type": "title"
+            "name": "Title",
+            "type": "title",
+            "settings": [
+                {
+                    "id": "text_heading",
+                    "type": "text",
+                    "label": "Heading",
+                    "default": "Start Your Career in Lash Artistry"
+                }
+            ]
         },
         {
-            "type": "divider"
+            "name": "Divider",
+            "type": "divider",
+            "settings": null
         },
         {
-            "type": "course"
-        },
-        {
-            "type": "@app"
+            "name": "Course",
+            "type": "course",
+            "settings": null
         },
         {
             "type": "@app"

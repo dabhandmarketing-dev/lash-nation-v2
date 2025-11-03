@@ -85,20 +85,25 @@
                     
                       
                 </div>
-                      {% if section.settings.text_button_text != blank && section.settings.text_button_text_2 != blank %}    <div li-if="section.settings.text_button_text != blank && section.settings.text_button_text_2 != blank" class="button-group-14">
+                      {% when 'button-group' %}
+            <div li-block="Button Group" class="button-group-15">
+                    
+                        
+                    {% if block.settings.text_button_outline_text != blank %}    <div li-if="block.settings.text_button_outline_text != blank" class="button-block">
     
-                        {% if section.settings.text_button_text != blank %}    <div li-if="section.settings.text_button_text != blank">
-    
-                          <a href="{{ section.settings.url_button_link }}" class="button-29 w-button"> {{ section.settings.text_button_text }} </a>
+                          <a href="{{ block.settings.url_button_outline_link }}" class="button-29 is-secondary w-button"> {{ block.settings.text_button_outline_text }} </a>
                             </div>
 {% endif %}
-                        {% if section.settings.text_button_text_2 != blank %}    <div li-if="section.settings.text_button_text_2 != blank">
+                    
+                        
+                    {% if block.settings.text_button_black_text != blank %}    <div li-if="block.settings.text_button_black_text != blank" class="button-block">
     
-                          <a href="{{ section.settings.url_button_link_2 }}" class="button-29 is-secondary w-button"> {{ section.settings.text_button_text_2 }} </a>
+                          <a href="{{ block.settings.url_button_black_link }}" class="button-29 w-button"> {{ block.settings.text_button_black_text }} </a>
                             </div>
 {% endif %}
-                          </div>
-{% endif %}
+                    
+                      
+                </div>
                     {% endcase %}
 {% endfor %}
 
@@ -150,31 +155,35 @@
             ]
         },
         {
+            "name": "Button Group",
+            "type": "button-group",
+            "settings": [
+                {
+                    "id": "url_button_outline_link",
+                    "type": "url",
+                    "label": "Button Outline Link"
+                },
+                {
+                    "id": "text_button_outline_text",
+                    "type": "text",
+                    "label": "Button Outline Text",
+                    "default": "Button Text"
+                },
+                {
+                    "id": "url_button_black_link",
+                    "type": "url",
+                    "label": "Button Black Link"
+                },
+                {
+                    "id": "text_button_black_text",
+                    "type": "text",
+                    "label": "Button Black Text",
+                    "default": "Button Text"
+                }
+            ]
+        },
+        {
             "type": "@app"
-        }
-    ],
-    "settings": [
-        {
-            "id": "url_button_link",
-            "type": "url",
-            "label": "Button Link"
-        },
-        {
-            "id": "text_button_text",
-            "type": "text",
-            "label": "Button Text",
-            "default": "Button"
-        },
-        {
-            "id": "url_button_link_2",
-            "type": "url",
-            "label": "Button Link 2"
-        },
-        {
-            "id": "text_button_text_2",
-            "type": "text",
-            "label": "Button Text 2",
-            "default": "Button 2"
         }
     ],
     "presets": [
@@ -190,6 +199,9 @@
                 },
                 {
                     "type": "paragraph"
+                },
+                {
+                    "type": "button-group"
                 }
             ]
         }

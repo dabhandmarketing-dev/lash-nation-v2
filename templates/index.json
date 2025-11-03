@@ -148,6 +148,11 @@
         "image_image_8": "shopify://shop_images/Lash-Nation-8.webp"
       }
     },
+    "google_reviews_CATeqb": {
+      "type": "google_reviews",
+      "name": "Google Reviews",
+      "settings": {}
+    },
     "stats_XpBhaW": {
       "type": "stats",
       "blocks": {
@@ -185,11 +190,6 @@
       "settings": {
         "image_image": "shopify://shop_images/Lash.webp"
       }
-    },
-    "google_reviews_CATeqb": {
-      "type": "google_reviews",
-      "name": "Google Reviews",
-      "settings": {}
     }
   },
   "layout": "theme",

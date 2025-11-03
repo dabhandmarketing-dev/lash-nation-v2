@@ -191,41 +191,41 @@
         "image_image": "shopify://shop_images/Lash.webp"
       }
     },
-    "youtube_section_aMqJA8": {
+    "youtube_section_pUxFax": {
       "type": "youtube_section",
       "blocks": {
-        "available_badge_fji4am": {
+        "available_badge_KtjGeQ": {
           "type": "available-badge",
           "settings": {
             "text_text": "Courses Available Now"
           },
           "blocks": {}
         },
-        "title_XqmggQ": {
+        "title_i38KUp": {
           "type": "title",
           "settings": {
             "text_heading": "Educating Lash Artistry That Feels Real, Supportive &amp; Fun"
           },
           "blocks": {}
         },
-        "paragraph_YVJMAR": {
+        "paragraph_rdjViN": {
           "type": "paragraph",
           "settings": {
             "richtext_text": "<p>Hands-on practice with <strong>real models</strong>, <strong>one-on-one mentoring</strong>, and a <strong>supportive community</strong> to guide you every step.</p>"
           },
           "blocks": {}
         },
-        "video_QX4zUr": {
+        "video_QtYdtU": {
           "type": "video",
           "settings": {},
           "blocks": {}
         }
       },
       "block_order": [
-        "available_badge_fji4am",
-        "title_XqmggQ",
-        "paragraph_YVJMAR",
-        "video_QX4zUr"
+        "available_badge_KtjGeQ",
+        "title_i38KUp",
+        "paragraph_rdjViN",
+        "video_QtYdtU"
       ],
       "name": "YouTube Section",
       "settings": {}
@@ -240,6 +240,6 @@
     "marquee_scroll_DiY6MX",
     "google_reviews_CATeqb",
     "stats_XpBhaW",
-    "youtube_section_aMqJA8"
+    "youtube_section_pUxFax"
   ]
 }

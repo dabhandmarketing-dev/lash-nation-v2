@@ -1,0 +1,81 @@
+<div class="padding-section-small">
+          <div class="padding-global">
+            <div li-content-for-blocks="" class="container-large">
+{% for block in section.blocks %}
+{% case block.type %}
+{% when '@app' %}
+{% render block %}
+
+              {% when 'faq' %}
+            <div li-block="FAQ" class="content_block">
+                    
+                
+                    <div bind="a6ac107f-6558-533e-bece-0b14c659b81d" class="faq-question-wrap">
+                  <a href="#" class="faq-question-bar w-inline-block">
+                    <div class="question-title">
+{{ block.settings.text_question }}
+</div>
+                    <div data-is-ix2-target="1" class="animation" data-w-id="10503e3c-57b4-ad79-a709-b4ef7074b85e" data-animation-type="lottie" data-src="https://uploads-ssl.webflow.com/5d5cf17906643e1cff7f5f60/5d7b8f1d3a8c25c5444ec59f_animation-w1024-h1024%20(1).json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="3.036369579362504" data-duration="0" data-ix2-initial-state="12"></div>
+                  </a>
+                  <div class="faq-content">
+                    <div class="faq-paragraph">
+                      <div class="w-richtext"> {{ block.settings.richtext_answer }} </div>
+                      <div class="_10px-spacer-2"></div>
+                      <div bind="63674141-9ca1-0af9-59df-f526ad09f5e4" class="button-wrapper-2">
+                        <a href="#" class="button-33 w-inline-block">
+                          <div class="btn-txt-container">
+                            <div class="btn-txt">View Courses</div>
+                            <div class="btn-txt">View Courses</div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                    
+              
+                </div>
+            {% endcase %}
+{% endfor %}
+
+    </div>
+          </div>
+        </div> {% schema %} {
+    "tag": "div",
+    "name": "FAQs",
+    "class": "section",
+    "blocks": [
+        {
+            "name": "FAQ",
+            "type": "faq",
+            "settings": [
+                {
+                    "id": "text_question",
+                    "type": "text",
+                    "label": "Question",
+                    "default": "Do I need to bring my own model, or will you provide them?"
+                },
+                {
+                    "id": "richtext_answer",
+                    "type": "richtext",
+                    "label": "Answer",
+                    "default": "<p>\n                        You are required to bring your own models on our live model days which is day 2 and day 3. \n                        If you cannot find models - we are able to source the models for you but will need at least one weeks notice.\n                      <\/p>"
+                }
+            ]
+        },
+        {
+            "type": "@app"
+        }
+    ],
+    "presets": [
+        {
+            "name": "FAQs",
+            "category": "Liquify",
+            "blocks": [
+                {
+                    "type": "faq"
+                }
+            ]
+        }
+    ]
+} {% endschema %}

@@ -193,6 +193,29 @@
         "grid_position": "left",
         "background_colour": "#ffffff"
       }
+    },
+    "youtube_section_xnj4t7": {
+      "type": "youtube_section",
+      "blocks": {
+        "available_badge_Baa7BQ": {
+          "type": "available-badge",
+          "settings": {
+            "text_text": "Courses Available Now"
+          }
+        },
+        "heading_DHnLX3": {
+          "type": "heading",
+          "settings": {
+            "text_heading": "Educating Lash Artistry That Feels Real, Supportive &amp; Fun"
+          }
+        }
+      },
+      "block_order": [
+        "available_badge_Baa7BQ",
+        "heading_DHnLX3"
+      ],
+      "name": "YouTube Section",
+      "settings": {}
     }
   },
   "layout": "theme",
@@ -202,6 +225,7 @@
     "image_text",
     "large_testimonial_hfkfRM",
     "marquee_scroll_DiY6MX",
-    "scroll_image"
+    "scroll_image",
+    "youtube_section_xnj4t7"
   ]
 }

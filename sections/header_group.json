@@ -11,17 +11,14 @@
   "type": "header",
   "name": "Header Group",
   "sections": {
-    "header": {
-      "type": "header",
-      "settings": {}
-    },
     "announcement_bar_zFXKUp": {
       "type": "announcement_bar",
       "blocks": {
         "social_icons_cr6KDm": {
           "type": "social-icons",
           "settings": {
-            "url_link": ""
+            "url_link": "https://www.facebook.com/p/Lash-Nation-Supplies-100063464256875/",
+            "image_social_logo": "shopify://shop_images/facebook-fill_1.svg"
           }
         }
       },
@@ -34,6 +31,11 @@
         "text_slide_text": "Free $600 Lash kit included with all course",
         "text_badge_text": "Try Now"
       }
+    },
+    "header": {
+      "type": "header",
+      "disabled": true,
+      "settings": {}
     }
   },
   "order": [

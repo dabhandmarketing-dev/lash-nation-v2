@@ -1,0 +1,47 @@
+<div class="padding-section-small">
+          <div class="padding-global">
+            <div class="container-large">
+              <div li-content-for-theme-blocks="" class="layout366_component">
+{% content_for 'blocks' %}
+</div>
+            </div>
+          </div>
+        </div> {% schema %} {
+    "tag": "section",
+    "name": "Courses",
+    "class": "section",
+    "blocks": [
+        {
+            "type": "title"
+        },
+        {
+            "type": "divider"
+        },
+        {
+            "type": "course"
+        },
+        {
+            "type": "@app"
+        },
+        {
+            "type": "@app"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Courses",
+            "category": "Liquify",
+            "blocks": [
+                {
+                    "type": "title"
+                },
+                {
+                    "type": "divider"
+                },
+                {
+                    "type": "course"
+                }
+            ]
+        }
+    ]
+} {% endschema %}

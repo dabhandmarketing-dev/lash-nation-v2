@@ -194,27 +194,40 @@
         "background_colour": "#ffffff"
       }
     },
-    "youtube_section_xnj4t7": {
-      "type": "youtube_section",
+    "stats_XpBhaW": {
+      "type": "stats",
       "blocks": {
-        "available_badge_Baa7BQ": {
-          "type": "available-badge",
+        "stat_FMG8t4": {
+          "type": "stat",
           "settings": {
-            "text_text": "Courses Available Now"
+            "text_number": "7",
+            "text_symbol": "+",
+            "text_description": "Years Experience"
           }
         },
-        "heading_DHnLX3": {
-          "type": "heading",
+        "stat_hNVTYQ": {
+          "type": "stat",
           "settings": {
-            "text_heading": "Educating Lash Artistry That Feels Real, Supportive &amp; Fun"
+            "text_number": "1000",
+            "text_symbol": "+",
+            "text_description": "Students Trained"
+          }
+        },
+        "stat_XMNmJd": {
+          "type": "stat",
+          "settings": {
+            "text_number": "160",
+            "text_symbol": "+",
+            "text_description": "5 Star Reviews"
           }
         }
       },
       "block_order": [
-        "available_badge_Baa7BQ",
-        "heading_DHnLX3"
+        "stat_FMG8t4",
+        "stat_hNVTYQ",
+        "stat_XMNmJd"
       ],
-      "name": "YouTube Section",
+      "name": "Stats",
       "settings": {}
     }
   },
@@ -226,6 +239,6 @@
     "large_testimonial_hfkfRM",
     "marquee_scroll_DiY6MX",
     "scroll_image",
-    "youtube_section_xnj4t7"
+    "stats_XpBhaW"
   ]
 }

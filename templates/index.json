@@ -9,33 +9,6 @@
  */
 {
   "sections": {
-    "video_hero_FkYyLi": {
-      "type": "video_hero",
-      "blocks": {
-        "headline_TNNYiA": {
-          "type": "headline",
-          "settings": {
-            "text_heading": "Become a Qualified Lash Extension Artist<br>"
-          }
-        },
-        "buttons_RQAd3w": {
-          "type": "buttons",
-          "settings": {
-            "url_button_link": "",
-            "text_button_text": "View Courses",
-            "url_button_link_2": ""
-          }
-        }
-      },
-      "block_order": [
-        "headline_TNNYiA",
-        "buttons_RQAd3w"
-      ],
-      "name": "Video Hero",
-      "settings": {
-        "richtext_text": "<p>Accelerate your Certification &amp; Confidence with an academy dedicated <strong>exclusively to the Lash Extension Industry.</strong></p>"
-      }
-    },
     "image_text": {
       "type": "image_text",
       "blocks": {
@@ -189,16 +162,33 @@
       "settings": {
         "image_image": "shopify://shop_images/Lash.webp"
       }
+    },
+    "faqs_W63dzY": {
+      "type": "faqs",
+      "blocks": {
+        "faq_me7H8V": {
+          "type": "faq",
+          "settings": {
+            "text_question": "Do I need to bring my own model, or will you provide them?",
+            "richtext_answer": "<p>\n                        You are required to bring your own models on our live model days which is day 2 and day 3. \n                        If you cannot find models - we are able to source the models for you but will need at least one weeks notice.\n                      </p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_me7H8V"
+      ],
+      "name": "FAQs",
+      "settings": {}
     }
   },
   "layout": "theme",
   "wrapper": "main.main-wrapper",
   "order": [
-    "video_hero_FkYyLi",
     "image_text",
     "large_testimonial_hfkfRM",
     "marquee_scroll_DiY6MX",
     "google_reviews_CATeqb",
-    "stats_XpBhaW"
+    "stats_XpBhaW",
+    "faqs_W63dzY"
   ]
 }

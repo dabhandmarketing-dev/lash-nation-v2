@@ -1,0 +1,27 @@
+<div li-block="Available Badge" class="content_block">
+                    
+                  
+                    <div class="badge-secondary">
+                    <div class="green-dot"></div>
+                    <div>
+{{ block.settings.text_text }}
+</div>
+                  </div>
+                    
+                
+                </div> {% schema %} {
+    "name": "Available Badge",
+    "settings": [
+        {
+            "id": "text_text",
+            "type": "text",
+            "label": "Text",
+            "default": "Courses Available Now"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Available Badge"
+        }
+    ]
+} {% endschema %}

@@ -27,11 +27,19 @@
             "url_link": "https://www.instagram.com/Lashnation.au/",
             "image_social_logo": "shopify://shop_images/instagram-line_2.svg"
           }
+        },
+        "social_icons_YyzYqJ": {
+          "type": "social-icons",
+          "settings": {
+            "url_link": "https://www.tiktok.com/@lashnationsupplies",
+            "image_social_logo": "shopify://shop_images/tiktok-fill.svg"
+          }
         }
       },
       "block_order": [
         "social_icons_cr6KDm",
-        "social_icons_3Rxftw"
+        "social_icons_3Rxftw",
+        "social_icons_YyzYqJ"
       ],
       "name": "Announcement Bar",
       "settings": {

@@ -9,16 +9,16 @@
  */
 {
   "sections": {
-    "video_hero_dPtib6": {
+    "video_hero_FkYyLi": {
       "type": "video_hero",
       "blocks": {
-        "headline_yLeFPk": {
+        "headline_TNNYiA": {
           "type": "headline",
           "settings": {
             "text_heading": "Become a Qualified Lash Extension Artist<br>"
           }
         },
-        "buttons_7h4UfW": {
+        "buttons_RQAd3w": {
           "type": "buttons",
           "settings": {
             "url_button_link": "",
@@ -28,8 +28,8 @@
         }
       },
       "block_order": [
-        "headline_yLeFPk",
-        "buttons_7h4UfW"
+        "headline_TNNYiA",
+        "buttons_RQAd3w"
       ],
       "name": "Video Hero",
       "settings": {
@@ -194,7 +194,7 @@
   "layout": "theme",
   "wrapper": "main.main-wrapper",
   "order": [
-    "video_hero_dPtib6",
+    "video_hero_FkYyLi",
     "image_text",
     "large_testimonial_hfkfRM",
     "marquee_scroll_DiY6MX",

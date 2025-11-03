@@ -1,47 +1,5 @@
 <div class="padding-global padding-section-small">
           <div class="container-large">
-            {% for block in section.blocks %}
-    {% if block.type == "newsletter" %}
-                    <div li-block="Newsletter" class="footer-block w-form">
-                                    
-              
-                                    <form id="wf-form-Footer-Newsletter" name="wf-form-Footer-Newsletter" data-name="Footer Newsletter" method="get" class="footer-form-grid" data-wf-page-id="690261f614bf7d1f6d43a8d0" data-wf-element-id="56ecd3f0-d926-0471-a6ba-2078a770b17c">
-                <div id="w-node-_56ecd3f0-d926-0471-a6ba-2078a770b17d-a770b17b">
-                  <div class="subheading-large">
-{{ block.settings.text_heading }}
-</div>
-                  <div class="text-size-small">
-{{ block.settings.text_paragraph }}
-</div>
-                </div>
-                <div class="form-space">
-                  <div class="footer-instructor-form">
-                    <div class="form-icon-wrapper">
-                      <div class="form-icon">
-                        <div class="icon-small w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 20 20" fill="none">
-                            <path d="M2.50008 2.5H17.5001C17.9603 2.5 18.3334 2.8731 18.3334 3.33333V16.6667C18.3334 17.1269 17.9603 17.5 17.5001 17.5H2.50008C2.03985 17.5 1.66675 17.1269 1.66675 16.6667V3.33333C1.66675 2.8731 2.03985 2.5 2.50008 2.5ZM16.6667 6.0316L10.0599 11.9483L3.33341 6.01328V15.8333H16.6667V6.0316ZM3.75963 4.16667L10.0517 9.71833L16.2509 4.16667H3.75963Z" fill="#393837"></path>
-                          </svg></div>
-                      </div><input class="form-text-field-large w-input" maxlength="256" name="Footer-Newsletter" data-name="Footer Newsletter" placeholder="Enter your email" type="text" id="Footer-Newsletter">
-                    </div>
-                    <a href="#" class="button-primary-large w-button">Join</a>
-                  </div><label class="w-checkbox checkbox-field"><input type="checkbox" name="checkbox" id="checkbox" data-name="Checkbox" class="w-checkbox-input checkbox-newsletter"><span class="checkbox-label w-form-label" for="checkbox">I have read and agree to the <a href="#" class="privacy-link">Privacy Policy</a>.</span></label>
-                </div>
-              </form>
-                                    
-              
-                                    <div class="form-success-message w-form-done">
-                <div>Thank you! Your submission has been received!</div>
-              </div>
-                                    
-              
-                                    <div class="form-error-message w-form-fail">
-                <div>Oops! Something went wrong while submitting the form.</div>
-              </div>
-                                    
-            
-                            </div>
-            {% endif %}
-{% endfor %}
             <div class="w-layout-grid footer-grid-large">
               <div class="column-x-large">
                 <div class="subheading-large">
@@ -153,7 +111,7 @@
                     <div li-block="Social Icons">
                                     
                     
-                                    <a href="{{ block.settings.url_link }}" target="_blank" class="social-icon-square-2 w-inline-block"> {% if block.settings.image_social_logo %} {{ block.settings.image_social_logo | image_url: width: 1000 | image_tag: loading: 'lazy', class: 'social-logo' }} {% else %} <img loading="lazy" alt="" src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" class="social-logo"> {% endif %} </a>
+                                    <a href="{{ block.settings.url_link }}" target="_blank" class="social-icon-square w-inline-block"> {% if block.settings.image_social_logo %} {{ block.settings.image_social_logo | image_url: width: 1000 | image_tag: loading: 'lazy', class: 'social-logo' }} {% else %} <img loading="lazy" alt="" src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" class="social-logo"> {% endif %} </a>
                                     
                   
                             </div>
@@ -181,24 +139,6 @@
     "name": "Footer",
     "class": "section_footer",
     "blocks": [
-        {
-            "name": "Newsletter",
-            "type": "newsletter",
-            "settings": [
-                {
-                    "id": "text_heading",
-                    "type": "text",
-                    "label": "Heading",
-                    "default": "Join The Muirhead Newsletter"
-                },
-                {
-                    "id": "text_paragraph",
-                    "type": "text",
-                    "label": "Paragraph",
-                    "default": "Industry news, offers and new product launches direct to your inbox."
-                }
-            ]
-        },
         {
             "name": "Social Icons",
             "type": "social-icons",
@@ -274,9 +214,6 @@
             "name": "Footer",
             "category": "Liquify",
             "blocks": [
-                {
-                    "type": "newsletter"
-                },
                 {
                     "type": "social-icons"
                 }

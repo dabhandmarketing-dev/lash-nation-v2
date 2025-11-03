@@ -89,7 +89,7 @@
                       
                 </div>
                       <div headline="Paragraph" class="content_block">
-                        <div class="paragraph-x-large"> {{ section.settings.richtext_text }} </div>
+                        <div class="paragraph-x-large w-richtext"> {{ section.settings.richtext_paragraph }} </div>
                       </div>
                       {% when 'buttons' %}
             <div li-block="Buttons" class="content_block">
@@ -101,9 +101,9 @@
                             <a href="{{ block.settings.url_button_link }}" data-wf--button--variant="base" data-w-id="47ee13e6-1a71-57c3-88e5-9d80ec55d256" class="button w-inline-block"> <div class="btn-txt-container"> <div class="btn-txt">{{ block.settings.text_button_text }}</div> <div class="btn-txt">{{ block.settings.text_button_text }}</div> </div> </a>
                               </div>
 {% endif %}
-                          {% if block.settings.url_button_link_2 %}    <div li-if="block.settings.url_button_link_2" class="content_block">
+                          {% if block.settings.url_button_2_link %}    <div li-if="block.settings.url_button_2_link" class="content_block">
     
-                            <a href="{{ block.settings.url_button_link_2 }}" data-w-id="4ff91505-98c2-5b78-4b62-896907b5c4b0" class="button secondary-white w-inline-block"> <div class="btn-txt-container secondary-white-2"> <div class="btn-txt secondary-white-4">{{ block.settings.text_button_text_2 }}</div> <div class="btn-txt secondary-white-4">{{ block.settings.text_button_text_2 }}</div> </div> </a>
+                            <a href="{{ block.settings.url_button_link_2 }}" data-w-id="4ff91505-98c2-5b78-4b62-896907b5c4b0" class="button secondary-white w-inline-block"> <div class="btn-txt-container secondary-white-2"> <div class="btn-txt secondary-white-4">{{ block.settings.text_button_2_text }}</div> <div class="btn-txt secondary-white-4">{{ block.settings.text_button_2_text }}</div> </div> </a>
                               </div>
 {% endif %}
                         </div>
@@ -167,9 +167,9 @@
                     "label": "Button Link 2"
                 },
                 {
-                    "id": "text_button_text_2",
+                    "id": "text_button_2_text",
                     "type": "text",
-                    "label": "Button Text 2",
+                    "label": "Button 2 Text",
                     "default": "Contact"
                 }
             ]
@@ -180,10 +180,10 @@
     ],
     "settings": [
         {
-            "id": "richtext_text",
+            "id": "richtext_paragraph",
             "type": "richtext",
-            "label": "Text",
-            "default": "<p>Accelerate your Certification &amp; Confidence with an academy dedicated <strong>exclusively to the Lash Extension Industry.<\/strong><\/p>"
+            "label": "Paragraph",
+            "default": "<p>\n                          Accelerate your Certification &amp; Confidence with an academy dedicated <strong>exclusively to the Lash Extension Industry.<\/strong>\n                        <\/p>"
         }
     ],
     "presets": [

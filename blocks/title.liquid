@@ -1,11 +1,18 @@
-<div li-block="Title" class="content_block">
+{% when 'title' %}
+            <div li-block="Title" class="content_block">
                     
-                  
-                    <h2 data-w-id="1f111230-9bf0-35b9-4999-0208cfbf0e97">
+                    
+                    <div class="text-align-center">
+                      <div class="max-width-large align-center">
+                        <div class="margin-bottom margin-small">
+                          <h2 data-w-id="bed2de1d-fd39-6084-56de-4247f0f2d49a">
 {{ block.settings.text_heading }}
 </h2>
+                        </div>
+                      </div>
+                    </div>
                     
-                
+                  
                 </div> {% schema %} {
     "name": "Title",
     "settings": [
@@ -13,7 +20,7 @@
             "id": "text_heading",
             "type": "text",
             "label": "Heading",
-            "default": "Educating Lash Artistry That Feels Real, Supportive &amp; Fun"
+            "default": "Start Your Career in Lash Artistry"
         }
     ],
     "presets": [

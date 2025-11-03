@@ -33,10 +33,10 @@
         "buttons_i7EUjf": {
           "type": "buttons",
           "settings": {
-            "url_button_1_link": "shopify://collections/all",
-            "text_button_1_text": "View Courses",
-            "url_button_2_link": "shopify://collections/all",
-            "text_button_2_text": "Contact"
+            "url_button_link": "shopify://collections/all",
+            "text_button_text": "View Courses",
+            "url_button_link_2": "shopify://collections/all",
+            "text_button_text_2": "Contact"
           }
         }
       },

@@ -9,42 +9,42 @@
  */
 {
   "sections": {
-    "video_hero_rXaRyz": {
+    "video_hero_JemMk8": {
       "type": "video_hero",
       "blocks": {
-        "reviews_Rmm7Dr": {
+        "reviews_WnjAyF": {
           "type": "reviews",
           "settings": {
             "text_text": "Google Review"
           }
         },
-        "headline_mG4p7a": {
+        "headline_7btUCB": {
           "type": "headline",
           "settings": {
             "text_heading": "Become a Qualified Lash Extension Artist<br>"
           }
         },
-        "paragraph_c3gnyn": {
+        "paragraph_DDpVxc": {
           "type": "paragraph",
           "settings": {
             "richtext_paragraph": "<p>\n                          Accelerate your Certification &amp; Confidence with an academy dedicated <strong>exclusively to the Lash Extension Industry.</strong>\n                        </p>"
           }
         },
-        "buttons_HwUYWT": {
+        "buttons_kFibB7": {
           "type": "buttons",
           "settings": {
             "url_button_link": "",
-            "text_button_text": "View Courses",
-            "url_button_link_2": "",
+            "text_button_text": "View Course",
+            "url_button_link_2": "shopify://collections/all",
             "text_button_text_2": "Contact"
           }
         }
       },
       "block_order": [
-        "reviews_Rmm7Dr",
-        "headline_mG4p7a",
-        "paragraph_c3gnyn",
-        "buttons_HwUYWT"
+        "reviews_WnjAyF",
+        "headline_7btUCB",
+        "paragraph_DDpVxc",
+        "buttons_kFibB7"
       ],
       "name": "Video Hero",
       "settings": {}
@@ -203,6 +203,38 @@
         "image_image": "shopify://shop_images/Lash.webp"
       }
     },
+    "usp_grid_nC37UK": {
+      "type": "usp_grid",
+      "blocks": {
+        "heading_M6PtaF": {
+          "type": "heading",
+          "settings": {
+            "text_text": "Everything you need to launch your Lash Career"
+          },
+          "blocks": {}
+        },
+        "buttons_XGt7Lw": {
+          "type": "buttons",
+          "settings": {
+            "url_button_link": "",
+            "text_button_text": "View Courses"
+          },
+          "blocks": {}
+        },
+        "grid_6W3CCf": {
+          "type": "grid",
+          "settings": {},
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading_M6PtaF",
+        "buttons_XGt7Lw",
+        "grid_6W3CCf"
+      ],
+      "name": "USP Grid",
+      "settings": {}
+    },
     "faqs_W63dzY": {
       "type": "faqs",
       "blocks": {
@@ -224,12 +256,13 @@
   "layout": "theme",
   "wrapper": "main.main-wrapper",
   "order": [
-    "video_hero_rXaRyz",
+    "video_hero_JemMk8",
     "image_text",
     "large_testimonial_hfkfRM",
     "marquee_scroll_DiY6MX",
     "google_reviews_CATeqb",
     "stats_XpBhaW",
+    "usp_grid_nC37UK",
     "faqs_W63dzY"
   ]
 }

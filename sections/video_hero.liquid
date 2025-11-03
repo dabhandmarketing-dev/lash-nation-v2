@@ -51,12 +51,14 @@
 {% when '@app' %}
 {% render block %}
 
-                      {% when 'google-badge' %}
-            <div li-block="Google Badge" class="content_block">
+                      {% when 'reviews' %}
+            <div li-block="Reviews" class="content_block">
                     
                         
                     <div class="footer-rating"><img loading="lazy" src="{{ 'GoogleBadge.svg' | asset_url }}" alt="" class="google-icon">
-                          <div>Google Review</div>
+                          <div>
+{{ block.settings.text_text }}
+</div>
                           <div class="video-stars"><img loading="lazy" src="{{ 'star-fill.svg' | asset_url }}" alt="" class="video-star"><img loading="lazy" src="{{ 'star-fill.svg' | asset_url }}" alt="" class="video-star"><img loading="lazy" src="{{ 'star-fill.svg' | asset_url }}" alt="" class="video-star"><img loading="lazy" src="{{ 'star-fill.svg' | asset_url }}" alt="" class="video-star"><img loading="lazy" src="{{ 'star-fill.svg' | asset_url }}" alt="" class="video-star"></div>
                           <div class="google-text">
                             <div class="google-text"><span class="_4-9-5---from-12k-reviews-0">5.0</span><span class="_4-9-5---from-12k-reviews-1">/5 - 160+ Reviews</span></div>
@@ -121,9 +123,16 @@
     "class": "header-slider-section-2",
     "blocks": [
         {
-            "name": "Google Badge",
-            "type": "google-badge",
-            "settings": null
+            "name": "Reviews",
+            "type": "reviews",
+            "settings": [
+                {
+                    "id": "text_text",
+                    "type": "text",
+                    "label": "Text",
+                    "default": "Google Review"
+                }
+            ]
         },
         {
             "name": "Headline",
@@ -187,7 +196,7 @@
             "category": "Liquify",
             "blocks": [
                 {
-                    "type": "google-badge"
+                    "type": "reviews"
                 },
                 {
                     "type": "headline"

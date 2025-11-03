@@ -89,7 +89,8 @@
             <div li-block="Buttons" class="content_block">
                     
                         
-                    <div class="button-group-12">
+                    {% if section.settings.text_button_text != blank || section.settings.text_button_text_2 != blank %}    <div li-if="section.settings.text_button_text != blank || section.settings.text_button_text_2 != blank" class="button-group-12">
+    
                           {% if section.settings.text_button_text != blank %}    <div li-if="section.settings.text_button_text != blank">
     
                             <a href="{{ block.settings.url_button_link }}" data-w-id="dadcfcea-7e71-0beb-d7ee-748ea95eacf4" class="button w-inline-block"> <div class="btn-txt-container"> <div style="-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="btn-txt">{{ block.settings.text_button_text }}</div> <div style="-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="btn-txt">{{ block.settings.text_button_text }}</div> </div> </a>
@@ -100,7 +101,8 @@
                             <a href="{{ block.settings.url_button_link_2 }}" data-w-id="96af114e-0e70-8eab-4de6-4c393b8c367d" class="button secondary-white w-inline-block"> <div class="btn-txt-container secondary-white-2"> <div class="btn-txt secondary-white-4">{{ block.settings.text_button_text_2 }}</div> <div class="btn-txt secondary-white-4">{{ block.settings.text_button_text_2 }}</div> </div> </a>
                               </div>
 {% endif %}
-                        </div>
+                            </div>
+{% endif %}
                     
                       
                 </div>

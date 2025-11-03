@@ -137,7 +137,16 @@
     "marquee_scroll_DiY6MX": {
       "type": "marquee_scroll",
       "name": "Marquee Scroll",
-      "settings": {}
+      "settings": {
+        "image_image_1": "shopify://shop_images/Lash-Nation-1.webp",
+        "image_image_2": "shopify://shop_images/Lash-Nation-2.webp",
+        "image_image_3": "shopify://shop_images/Lash-Nation-3.webp",
+        "image_image_4": "shopify://shop_images/Lash-Nation-4.webp",
+        "image_image_5": "shopify://shop_images/Lash-Nation-5.webp",
+        "image_image_6": "shopify://shop_images/Lash-Nation-6.webp",
+        "image_image_7": "shopify://shop_images/Lash-Nation-7.webp",
+        "image_image_8": "shopify://shop_images/Lash-Nation-8.webp"
+      }
     },
     "scroll_image": {
       "type": "scroll_image",

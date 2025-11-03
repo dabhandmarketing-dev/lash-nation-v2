@@ -1,0 +1,132 @@
+<div class="padding-section-small">
+          <div li-content-for-blocks="" class="padding-global">
+{% for block in section.blocks %}
+{% case block.type %}
+{% when '@app' %}
+{% render block %}
+
+            <div class="container-x-small">
+              <div class="column-regular-2 column-center">
+                {% when 'available-badge' %}
+            <div li-block="Available Badge" class="content_block">
+                    
+                  
+                    <div class="badge-secondary">
+                    <div class="green-dot"></div>
+                    <div>
+{{ block.settings.text_text }}
+</div>
+                  </div>
+                    
+                
+                </div>
+                {% when 'title' %}
+            <div li-block="Title" class="content_block">
+                    
+                  
+                    <h2 data-w-id="1f111230-9bf0-35b9-4999-0208cfbf0e97">
+{{ block.settings.text_heading }}
+</h2>
+                    
+                
+                </div>
+                {% when 'paragraph' %}
+            <div li-block="Paragraph" class="content_block">
+                    
+                  
+                    <div data-w-id="1f111230-9bf0-35b9-4999-0208cfbf0e9a" class="text-size-regular-4"> {{ block.settings.richtext_text }} </div>
+                    
+                
+                </div>
+              </div>
+            </div>
+            {% when 'video' %}
+            <div li-block="Video" class="container-medium">
+                    
+              
+                    <div class="_2rem-spacer"></div>
+                    
+              
+                    <div class="column-2x-large">
+                <div data-w-id="0729d1d3-bd24-480c-6058-b1626c790053" class="video-outline">
+                  <div style="padding-top:56.17021276595745%" class="video-embed-2 w-video w-embed"><iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F8S-cmFFKIRs%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D8S-cmFFKIRs&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2F8S-cmFFKIRs%2Fhqdefault.jpg&type=text%2Fhtml&schema=youtube" width="940" height="528" scrolling="no" allowfullscreen="" title="Lash Natio 3 Day Lash Extension Masterclass"></iframe></div>
+                </div>
+              </div>
+                    
+            
+                </div>
+          {% endcase %}
+{% endfor %}
+
+    </div>
+        </div> {% schema %} {
+    "tag": "div",
+    "name": "YouTube Section",
+    "class": "section",
+    "blocks": [
+        {
+            "name": "Available Badge",
+            "type": "available-badge",
+            "settings": [
+                {
+                    "id": "text_text",
+                    "type": "text",
+                    "label": "Text",
+                    "default": "Courses Available Now"
+                }
+            ]
+        },
+        {
+            "name": "Title",
+            "type": "title",
+            "settings": [
+                {
+                    "id": "text_heading",
+                    "type": "text",
+                    "label": "Heading",
+                    "default": "Educating Lash Artistry That Feels Real, Supportive &amp; Fun"
+                }
+            ]
+        },
+        {
+            "name": "Paragraph",
+            "type": "paragraph",
+            "settings": [
+                {
+                    "id": "richtext_text",
+                    "type": "richtext",
+                    "label": "Text",
+                    "default": "<p>Hands-on practice with <strong>real models<\/strong>, <strong>one-on-one mentoring<\/strong>, and a <strong>supportive community<\/strong> to guide you every step.<\/p>"
+                }
+            ]
+        },
+        {
+            "name": "Video",
+            "type": "video",
+            "settings": null
+        },
+        {
+            "type": "@app"
+        }
+    ],
+    "presets": [
+        {
+            "name": "YouTube Section",
+            "category": "Liquify",
+            "blocks": [
+                {
+                    "type": "available-badge"
+                },
+                {
+                    "type": "title"
+                },
+                {
+                    "type": "paragraph"
+                },
+                {
+                    "type": "video"
+                }
+            ]
+        }
+    ]
+} {% endschema %}

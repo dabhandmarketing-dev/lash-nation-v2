@@ -9,7 +9,7 @@
 {% endif %}
                   {% if block.settings.url_button_link_2 %}    <div li-if="block.settings.url_button_link_2" class="content_block">
     
-                    <a href="{{ block.settings.url_button_link_2 }}" data-wf--button--variant="secondary-white" data-w-id="47ee13e6-1a71-57c3-88e5-9d80ec55d256" class="button w-variant-c2561e7e-4412-0265-95e9-2c9a124ce890 w-inline-block"> <div class="btn-txt-container"> <div class="btn-txt">{{ block.settings.text_button_text }}</div> <div class="btn-txt">{{ block.settings.text_button_text }}</div> </div> </a>
+                    <a href="{{ block.settings.url_button_link }}" data-wf--button--variant="secondary-white" data-w-id="47ee13e6-1a71-57c3-88e5-9d80ec55d256" class="button w-variant-c2561e7e-4412-0265-95e9-2c9a124ce890 w-inline-block"> <div class="btn-txt-container"> <div class="btn-txt">{{ block.settings.text_button_text }}</div> <div class="btn-txt">{{ block.settings.text_button_text }}</div> </div> </a>
                       </div>
 {% endif %}
                 </div>
@@ -28,11 +28,6 @@
             "type": "text",
             "label": "Button Text",
             "default": "View Courses"
-        },
-        {
-            "id": "url_button_link_2",
-            "type": "url",
-            "label": "Button Link 2"
         }
     ],
     "presets": [

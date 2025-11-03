@@ -1,0 +1,98 @@
+<div class="padding-section-small">
+          <div class="padding-global">
+            <div class="container-large">
+              <div class="section-grid-2-columns background-color-alternate">
+                <div data-w-id="913c5083-ea8b-0c68-8d27-7d7f6d3fd532" class="column-vertical-centre">
+                  <div li-content-for-blocks="" class="stats-container">
+{% for block in section.blocks %}
+{% case block.type %}
+{% when '@app' %}
+{% render block %}
+
+                    {% when 'stat' %}
+            <div li-block="Stat" class="content_block">
+                    
+                      
+                    <div class="div-block-767">
+                        <div class="div-block-768">
+                          <div counter-element="number" duration="3000" data-w-id="913c5083-ea8b-0c68-8d27-7d7f6d3fd537" class="smaller-title number">
+{{ block.settings.text_number }}
+</div>
+                          <div data-w-id="913c5083-ea8b-0c68-8d27-7d7f6d3fd53a" class="smaller-title plus">
+{{ block.settings.text_symbol }}
+</div>
+                        </div>
+                        <div class="_0-5rem-spacer"></div>
+                        <div data-w-id="913c5083-ea8b-0c68-8d27-7d7f6d3fd53e" class="eyebrow">
+{{ block.settings.text_description }}
+</div>
+                      </div>
+                    
+                    
+                </div>
+                  {% endcase %}
+{% endfor %}
+
+    </div>
+                  <div data-w-id="913c5083-ea8b-0c68-8d27-7d7f6d3fd540" class="_1rem-spacer"></div>
+                  <div class="_1rem-spacer"></div>
+                </div>{% if section.settings.image_image_3 %}
+{{ section.settings.image_image_3 | image_url: width: 500 | image_tag: id: 'w-node-_913c5083-ea8b-0c68-8d27-7d7f6d3fd542-6d3fd52d', loading: 'eager', class: 'image-cover-5 max-height-450px' }}
+{% else %}
+ {{ 'detailed-apparel-1' | placeholder_svg_tag: 'image-cover-5 max-height-450px' }} 
+{% endif %}
+              </div>
+            </div>
+          </div>
+        </div> {% schema %} {
+    "tag": "div",
+    "name": "Stats",
+    "class": "section",
+    "blocks": [
+        {
+            "name": "Stat",
+            "type": "stat",
+            "settings": [
+                {
+                    "id": "text_number",
+                    "type": "text",
+                    "label": "Number",
+                    "default": "7<br data-w-id=\"913c5083-ea8b-0c68-8d27-7d7f6d3fd539\"\/>"
+                },
+                {
+                    "id": "text_symbol",
+                    "type": "text",
+                    "label": "Symbol",
+                    "default": "+<br data-w-id=\"913c5083-ea8b-0c68-8d27-7d7f6d3fd53c\"\/>"
+                },
+                {
+                    "id": "text_description",
+                    "type": "text",
+                    "label": "Description",
+                    "default": "Years Experience"
+                }
+            ]
+        },
+        {
+            "type": "@app"
+        }
+    ],
+    "settings": [
+        {
+            "id": "image_image_3",
+            "type": "image_picker",
+            "label": "Image-3"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Stats",
+            "category": "Liquify",
+            "blocks": [
+                {
+                    "type": "stat"
+                }
+            ]
+        }
+    ]
+} {% endschema %}

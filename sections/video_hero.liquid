@@ -66,7 +66,9 @@
                                 <path d="M17.3647 18.6846L17.3652 18.6851C15.8963 19.8658 14.0303 20.5722 11.9991 20.5722C8.73491 20.5722 5.89695 18.7477 4.44922 16.0628L7.22692 13.7891C7.95077 15.7209 9.81434 17.0961 11.9991 17.0961C12.9382 17.0961 13.8179 16.8423 14.5729 16.3991L17.3647 18.6846Z" fill="#28B446"></path>
                                 <path d="M17.4689 5.40201L14.6921 7.6753C13.9108 7.18693 12.9872 6.90481 11.9978 6.90481C9.76355 6.90481 7.86512 8.3431 7.17753 10.3442L4.38523 8.0582H4.38477C5.8113 5.30782 8.68506 3.42871 11.9978 3.42871C14.0775 3.42871 15.9844 4.16953 17.4689 5.40201Z" fill="#F14336"></path>
                               </svg></div>
-                            <div>Google Review</div>
+                            <div>
+{{ block.settings.text_text }}
+</div>
                             <div class="video-stars"><img loading="lazy" src="{{ 'star-fill.svg' | asset_url }}" alt="" class="video-star"><img loading="lazy" src="{{ 'star-fill.svg' | asset_url }}" alt="" class="video-star"><img loading="lazy" src="{{ 'star-fill.svg' | asset_url }}" alt="" class="video-star"><img loading="lazy" src="{{ 'star-fill.svg' | asset_url }}" alt="" class="video-star"><img loading="lazy" src="{{ 'star-fill.svg' | asset_url }}" alt="" class="video-star"></div>
                             <div class="google-text">
                               <div class="google-text"><span class="_4-9-5---from-12k-reviews-0">5.0</span><span class="_4-9-5---from-12k-reviews-1">/5 - 160+ Reviews</span></div>
@@ -141,7 +143,14 @@
         {
             "name": "Review Badge",
             "type": "review-badge",
-            "settings": null
+            "settings": [
+                {
+                    "id": "text_text",
+                    "type": "text",
+                    "label": "Text",
+                    "default": "Google Review"
+                }
+            ]
         },
         {
             "name": "Headline",

@@ -29,22 +29,12 @@
           "settings": {
             "richtext_paragraph": "<p>\n                          Accelerate your Certification &amp; Confidence with an academy dedicated <strong>exclusively to the Lash Extension Industry.</strong>\n                        </p>"
           }
-        },
-        "button_group_F3EcUB": {
-          "type": "button-group",
-          "settings": {
-            "url_button_outline_link": "shopify://collections/all",
-            "text_button_outline_text": "Button Text",
-            "url_button_black_link": "shopify://collections/all",
-            "text_button_black_text": "Button Text"
-          }
         }
       },
       "block_order": [
         "reviews_WnjAyF",
         "headline_7btUCB",
-        "paragraph_DDpVxc",
-        "button_group_F3EcUB"
+        "paragraph_DDpVxc"
       ],
       "name": "Video Hero",
       "settings": {}

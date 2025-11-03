@@ -9,42 +9,42 @@
  */
 {
   "sections": {
-    "video_hero_3ihNYW": {
+    "video_hero_Wja8wx": {
       "type": "video_hero",
       "blocks": {
-        "reviews_zT6bG8": {
+        "reviews_DxXnKc": {
           "type": "reviews",
           "settings": {
             "text_text": "Google Review"
           }
         },
-        "headline_meDRiY": {
+        "headline_zMcTdT": {
           "type": "headline",
           "settings": {
             "text_heading": "Become a Qualified Lash Extension Artist<br>"
           }
         },
-        "paragraph_g74wCr": {
+        "paragraph_tFtCPJ": {
           "type": "paragraph",
           "settings": {
             "richtext_paragraph": "<p>\n                          Accelerate your Certification &amp; Confidence with an academy dedicated <strong>exclusively to the Lash Extension Industry.</strong>\n                        </p>"
           }
         },
-        "buttons_i7EUjf": {
+        "buttons_MGXtfh": {
           "type": "buttons",
           "settings": {
             "url_button_link": "shopify://collections/all",
             "text_button_text": "View Courses",
-            "url_button_link_2": "shopify://collections/all",
+            "url_button_link_2": "",
             "text_button_text_2": "Contact"
           }
         }
       },
       "block_order": [
-        "reviews_zT6bG8",
-        "headline_meDRiY",
-        "paragraph_g74wCr",
-        "buttons_i7EUjf"
+        "reviews_DxXnKc",
+        "headline_zMcTdT",
+        "paragraph_tFtCPJ",
+        "buttons_MGXtfh"
       ],
       "name": "Video Hero",
       "settings": {}
@@ -224,7 +224,7 @@
   "layout": "theme",
   "wrapper": "main.main-wrapper",
   "order": [
-    "video_hero_3ihNYW",
+    "video_hero_Wja8wx",
     "image_text",
     "large_testimonial_hfkfRM",
     "marquee_scroll_DiY6MX",

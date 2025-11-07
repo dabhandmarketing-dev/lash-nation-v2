@@ -728,6 +728,22 @@ figcaption {
   border: 2px solid #0000;
 }
 
+.cart.is-white {
+  color: #232e20;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.cart.is-white:hover {
+  color: #fff;
+}
+
+.cart.is-white-outline {
+  color: #fff;
+  background-color: #0000;
+  border-color: #fff;
+}
+
 .li-styleguide_classes {
   grid-column-gap: 1px;
   grid-row-gap: 1px;
@@ -9180,9 +9196,8 @@ figcaption {
 .tag {
   grid-column-gap: .5rem;
   grid-row-gap: .5rem;
-  background-color: ;
-  color: ;
-  border: 1px solid;
+  border-style: solid;
+  border-width: 1px;
   justify-content: center;
   align-items: center;
   padding: .175rem .5rem;
@@ -9194,8 +9209,6 @@ figcaption {
 
 .tag.is-text {
   border-style: none;
-  border-color: ;
-  background-color: ;
   padding: 0;
   display: inline-block;
 }
@@ -9211,6 +9224,77 @@ figcaption {
 
 .button-block {
   flex: auto;
+}
+
+.section_hero1 {
+  position: relative;
+}
+
+.hero_bg-image-wrap {
+  z-index: 2;
+  background-color: #0003;
+  position: absolute;
+  inset: 0%;
+}
+
+.hero1_content {
+  grid-column-gap: 1.25rem;
+  grid-row-gap: 1.25rem;
+  color: #232e20;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 32rem;
+  display: flex;
+}
+
+.stars-block {
+  grid-column-gap: .25rem;
+  grid-row-gap: .25rem;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.stars-row {
+  grid-column-gap: .125rem;
+  grid-row-gap: .125rem;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.heading-star {
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  width: .625rem;
+  height: .625rem;
+  display: flex;
+}
+
+.stars-text {
+  text-transform: uppercase;
+  margin-bottom: -.125rem;
+  font-size: .625rem;
+  font-weight: 500;
+}
+
+.button-group-16 {
+  grid-column-gap: .75rem;
+  grid-row-gap: .75rem;
+  flex-flow: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.icon-1x1-small-12 {
+  flex: none;
+  width: 1rem;
+  height: 1rem;
 }
 
 @media screen and (min-width: 1280px) {
@@ -11371,6 +11455,11 @@ figcaption {
 
   .div-block-586 {
     grid-template-columns: 1fr;
+  }
+
+  .padding-global-13 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
   }
 }
 

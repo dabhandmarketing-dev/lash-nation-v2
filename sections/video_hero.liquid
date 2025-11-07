@@ -85,25 +85,6 @@
                     
                       
                 </div>
-                      {% when 'button-group' %}
-            <div li-block="Button Group" class="button-group-15">
-                    
-                        
-                    {% if block.settings.text_button_outline_text != blank %}    <div li-if="block.settings.text_button_outline_text != blank" class="button-block">
-    
-                          <a href="{{ block.settings.url_button_outline_link }}" class="button-29 is-secondary w-button"> {{ block.settings.text_button_outline_text }} </a>
-                            </div>
-{% endif %}
-                    
-                        
-                    {% if block.settings.text_button_black_text != blank %}    <div li-if="block.settings.text_button_black_text != blank" class="button-block">
-    
-                          <a href="{{ block.settings.url_button_black_link }}" class="button-29 w-button"> {{ block.settings.text_button_black_text }} </a>
-                            </div>
-{% endif %}
-                    
-                      
-                </div>
                     {% endcase %}
 {% endfor %}
 
@@ -155,34 +136,6 @@
             ]
         },
         {
-            "name": "Button Group",
-            "type": "button-group",
-            "settings": [
-                {
-                    "id": "url_button_outline_link",
-                    "type": "url",
-                    "label": "Button Outline Link"
-                },
-                {
-                    "id": "text_button_outline_text",
-                    "type": "text",
-                    "label": "Button Outline Text",
-                    "default": "Button Text"
-                },
-                {
-                    "id": "url_button_black_link",
-                    "type": "url",
-                    "label": "Button Black Link"
-                },
-                {
-                    "id": "text_button_black_text",
-                    "type": "text",
-                    "label": "Button Black Text",
-                    "default": "Button Text"
-                }
-            ]
-        },
-        {
             "type": "@app"
         }
     ],
@@ -199,9 +152,6 @@
                 },
                 {
                     "type": "paragraph"
-                },
-                {
-                    "type": "button-group"
                 }
             ]
         }
